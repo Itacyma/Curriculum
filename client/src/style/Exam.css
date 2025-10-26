@@ -1,14 +1,14 @@
 /* Exam Card Component */
 
 .exam-card {
-    background: linear-gradient(135deg, rgba(23, 55, 83, 0.95) 0%, rgba(161, 166, 180, 0.95) 100%);
-    border: 2px solid rgba(180, 210, 231, 0.4);
+    background: #173753;
+    border: 2px solid #B4D2E7;
     border-radius: 16px;
     padding: 1.5rem;
     margin: 1rem 0;
     box-shadow: 
-        0 0 20px rgba(75, 185, 99, 0.3),
-        inset 0 2px 0 rgba(248, 248, 248, 0.1);
+        0 0 20px #4CB9634d,
+        inset 0 2px 0 #B4D2E744;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     position: relative;
@@ -20,27 +20,15 @@
 }
 
 .exam-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(180, 210, 231, 0.2),
-        transparent
-    );
-    transition: left 0.6s ease;
+    display: none;
 }
 
 .exam-card:hover {
     transform: translateY(-5px);
     box-shadow: 
-        0 0 30px rgba(75, 185, 99, 0.4),
-        0 10px 30px rgba(23, 55, 83, 0.2);
-    border-color: rgba(180, 210, 231, 0.6);
+        0 0 30px #4CB96366,
+        0 10px 30px #17375333;
+    border-color: #B4D2E7;
 }
 
 .exam-card:hover::before {
@@ -66,7 +54,7 @@
     color: #4CB963;
     margin: 0;
     font-family: 'Orbitron', monospace;
-    text-shadow: 0 0 10px rgba(75, 185, 99, 0.5);
+    text-shadow: 0 1px 0 #173753, 0 0 8px #B4D2E744;
     text-align: left;
 }
 
@@ -75,8 +63,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(249, 194, 46, 0.2);
-    border: 2px solid rgba(249, 194, 46, 0.4);
+    background: #B4D2E744;
+    border: 2px solid #B4D2E7;
     border-radius: 12px;
     padding: 0.8rem 1.2rem;
     min-width: 80px;
@@ -88,7 +76,7 @@
     font-weight: 900;
     color: #F9C22E;
     font-family: 'Orbitron', monospace;
-    text-shadow: 0 0 15px rgba(249, 194, 46, 0.6);
+    text-shadow: 0 0 8px #B4D2E744;
     text-align: center;
 }
 
@@ -96,9 +84,9 @@
 .exam-description {
     margin: 1rem 0;
     padding: 1rem;
-    background: rgba(248, 248, 248, 0.1);
+    background: #B4D2E744;
     border-radius: 8px;
-    border: 1px solid rgba(180, 210, 231, 0.2);
+    border: 1px solid #B4D2E7;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -107,7 +95,7 @@
 }
 
 .exam-description p {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 1.2rem 0;
     line-height: 1.6;
     color: #F8F8F8;
     font-size: 0.95rem;
@@ -115,9 +103,9 @@
 
 /* Expand Button */
 .expand-btn {
-    background: transparent;
-    border: 1px solid rgba(180, 210, 231, 0.4);
-    color: #B4D2E7;
+    background: #B4D2E7;
+    border: 1px solid #B4D2E7;
+    color: #173753;
     padding: 0.3rem 0.8rem;
     border-radius: 6px;
     font-size: 0.8rem;
@@ -134,9 +122,9 @@
 }
 
 .expand-btn:hover {
-    background: rgba(180, 210, 231, 0.2);
-    border-color: rgba(180, 210, 231, 0.6);
-    color: #F8F8F8;
+    background: #B4D2E7;
+    border-color: #B4D2E7;
+    color: #173753;
     transform: translateY(-1px);
 }
 
@@ -160,23 +148,23 @@
 }
 
 .exam-tag {
-    background: rgba(23, 55, 83, 0.8);
-    color: #B4D2E7;
+    background: #B4D2E7;
+    color: #173753;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    border: 1px solid rgba(180, 210, 231, 0.3);
+    border: none;
     transition: all 0.3s ease;
     font-family: 'Roboto Mono', monospace;
 }
 
 .exam-tag:hover {
-    background: rgba(75, 185, 99, 0.3);
-    color: #4CB963;
-    border-color: rgba(75, 185, 99, 0.5);
+    background: #4CB963;
+    color: #173753;
+    border: none;
     transform: translateY(-2px);
-    box-shadow: 0 0 10px rgba(75, 185, 99, 0.3);
+    box-shadow: 0 0 10px #4CB9634d;
 }
 
 /* Responsive Design */

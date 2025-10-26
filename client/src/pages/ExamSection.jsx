@@ -229,7 +229,7 @@ function ExamSection(props) {
         <>
           <div className="exams-grid">
             {getDisplayedExams().map((exam, index) => (
-              <ExamCV key={index} exam={exam} />
+              <ExamCV key={index} exam={exam} language={language}/>
             ))}
           </div>
 
