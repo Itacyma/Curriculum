@@ -16,7 +16,7 @@ function Triennale(props) {
     titolo: "Bachelor’s Degree in Computer Engineering",
     anniRange: "2021 - 2024",
     valutazione: "102/110",
-    universita: "Polytechnic University of Turin",
+    universita: "Politecnico di Torino",
   };
 
   return (

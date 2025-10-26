@@ -215,3 +215,10 @@
         padding: 0.6rem 1rem;
     }
 }
+
+@media (max-width: 1400px) {
+  .exam-card {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+}

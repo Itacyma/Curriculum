@@ -14,7 +14,9 @@ function GeoControl(props) {
       'Jest', 'Docker', 'Docker Compose', 'MySQL', 'SQLite'
     ],
     link: '',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const mockData_eng = {
@@ -24,10 +26,12 @@ function GeoControl(props) {
       'Web platform for managing, monitoring, and configuring IoT sensor and gateway networks. The system exposes RESTful APIs documented via OpenAPI/Swagger, featuring a modular architecture and full containerization for both development and production environments.',
     tools: [
       'Node.js', 'Express', 'TypeScript', 'TypeORM', 'Swagger/OpenAPI',
-      'Jest', 'Docker', 'Docker Compose', 'MySQL', 'SQLite'
+      'Jest', 'Docker', 'MySQL', 'SQLite'
     ],
     link: '',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const techSections_it = [

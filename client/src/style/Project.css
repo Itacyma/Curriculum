@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  background: linear-gradient(120deg, #173753 80%, #4CB963 100%);
+  background: #173753;
   border-radius: 18px;
   box-shadow: 0 4px 24px rgba(23, 55, 83, 0.13), 0 1.5px 0 #4CB963;
   overflow: hidden;
@@ -58,14 +58,50 @@
   justify-content: center;
 }
 
+.project-header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  margin-left: 4rem;
+}
+
+.project-header-iconblock {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  background: rgba(180, 210, 231, 0.10);
+  border: 2.5px solid #B4D2E7;
+  border-radius: 14px;
+  padding: 0.7rem 0.7rem 0.5rem 0.7rem;
+  box-shadow: 0 1px 6px #17375322;
+  width: 100%;
+}
+
+.project-header-mainblock {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 4rem;
+}
+
 .project-title {
   font-family: 'Orbitron', monospace;
   font-size: 2rem;
   color: #4CB963;
-  margin: 0 0 0.3rem 0;
+  margin: 1.1rem 0 0.3rem 0;
   letter-spacing: 0.5px;
   text-shadow: 0 1px 0 #173753, 0 0 8px #B4D2E744;
   font-weight: bold;
+  text-align: left;
+  width: 100%;
 }
 
 .project-date {
@@ -80,7 +116,7 @@
   height: 3px;
   background: #4CB963;
   border-radius: 2px;
-  margin: 0.5rem auto 1.1rem auto;
+  margin: 0.5rem 0 1.1rem 0;
   display: block;
 }
 
@@ -91,13 +127,12 @@
   line-height: 1.6;
 }
 
-/* Versione ristretta e font più piccolo per GiocoDellaSfortuna */
 .project-description-narrow {
   width: 70%;
   font-size: 0.98rem;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .project-tools {
@@ -121,7 +156,7 @@
   border-radius: 8px;
   padding: 0.18em 0.7em;
   margin-right: 0.4em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.7em;
   font-weight: 500;
   box-shadow: 0 1px 4px #17375322;
 }
@@ -253,6 +288,56 @@
   font-size: 0.98rem;
   margin-bottom: 0.25em;
   line-height: 1.5;
+}
+
+/* --- HEADER --- */
+.project-header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.project-header-iconblock {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  background: rgba(180, 210, 231, 0.10);
+  border: 2.5px solid #B4D2E7;
+  border-radius: 14px;
+  padding: 0.7rem 0.7rem 0.5rem 0.7rem;
+  box-shadow: 0 1px 6px #17375322;
+  max-width: 150px;
+  min-width: 0;
+}
+
+.project-header-iconblock i {
+  font-size: 2.8rem;
+  color: #4CB963;
+  margin-bottom: 0.3rem;
+}
+
+.project-header-iconblock .project-subtitle {
+  font-size: 1.08rem;
+  color: #B4D2E7;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.project-header-mainblock {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 2rem;
 }
 
 /* --- RESPONSIVE --- */

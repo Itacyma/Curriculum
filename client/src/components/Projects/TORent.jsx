@@ -11,7 +11,9 @@ function TORent(props) {
       'Applicazione web per la gestione di annunci, utenti e immagini, sviluppata come progetto didattico per approfondire la realizzazione di piattaforme CRUD, autenticazione e gestione di contenuti multimediali.',
     tools: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Flask', 'Python', 'SQLite'],
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const mockData_eng = {
@@ -21,7 +23,9 @@ function TORent(props) {
       'Web application for managing listings, users, and images. Developed as an educational project to explore CRUD platforms, user authentication, and multimedia content management.',
     tools: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Flask', 'Python', 'SQLite'],
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const techSections_it = [

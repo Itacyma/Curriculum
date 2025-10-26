@@ -20,7 +20,7 @@ function Magistrale(props) {
     anniRange: "2024 -",
     valutazione: "29.16/30",
     cfu: "60/120 ECTS",
-    universita: "Polytechnic University of Turin",
+    universita: "Politecnico di Torino",
   };
 
   return (

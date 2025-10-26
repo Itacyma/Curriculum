@@ -13,7 +13,9 @@ function GiocoDellaSfortuna(props) {
       'HTML5', 'CSS3', 'JavaScript', 'React', 'Express', 'Node.js', 'Vite', 'SQLite'
     ],
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
-    extra: 'Progetto didattico per approfondire architetture full-stack e comunicazione real-time.'
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const mockData_eng = {
@@ -25,7 +27,9 @@ function GiocoDellaSfortuna(props) {
       'HTML5', 'CSS3', 'JavaScript', 'React', 'Express', 'Node.js', 'Vite', 'SQLite'
     ],
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
-    extra: 'Educational project aimed at deepening full-stack architectures and real-time communication concepts.'
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const techSections_it = [

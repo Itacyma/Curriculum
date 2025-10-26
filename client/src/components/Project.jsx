@@ -8,17 +8,31 @@ function ProjectCV({ mockData, techSections, language }) {
     }
   };
 
+  // Sottotitolo e icona: fallback se non presenti in mockData
+  const subtitle = mockData.subtitle || 'Full-stack application';
+  const iconClass = mockData.iconClass || 'bi bi-pc-display-horizontal';
+
   return (
     <div className="project-card vertical">
       <div className="project-content">
-        <h3 className="project-title">{mockData.title}</h3>
-        <span className="project-date-separator"></span>
-        <p className="project-description project-description-narrow">{mockData.description}</p>
-        <div className="project-tools">
-          {mockData.tools.map((tool, i) => (
-            <span className="project-tool" key={i}>{tool}</span>
-          ))}
+        <div className="project-header-row">
+          <div className="project-header-iconblock">
+            <i className={iconClass}></i>
+            <div className="project-subtitle">{subtitle}</div>
+          </div>
+          <div className="project-header-mainblock">
+            <h3 className="project-title">{mockData.title}</h3>
+            <span className="project-date-separator"></span>
+            <p className="project-description project-description-narrow">{mockData.description}</p>
+            <div className="project-tools">
+              {mockData.tools.map((tool, i) => (
+                <span className="project-tool" key={i}>{tool}</span>
+              ))}
+            </div>
+          </div>
+          
         </div>
+        
 
         <div className="project-sections">
           {techSections.map((section, i) => (

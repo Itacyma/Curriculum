@@ -8,19 +8,23 @@ function AppRuggine(props) {
   const mockData_it = {
     title: 'AppRuggine',
     date: '2025',
-    description: 'Sistema di messaggistica real-time con architettura client-server, che garantisce comunicazione sicura tramite crittografia end-to-end. Il server Rust gestisce connessioni WebSocket, inoltra i messaggi tra utenti e gruppi, e monitora risorse di sistema. Il client React offre un’interfaccia utente moderna per chat e gestione dei gruppi. Il progetto adotta tecnologie moderne per performance, sicurezza e scalabilità, ed è stato documentato e testato secondo le best practice di sviluppo full-stack moderne.',
+    description: 'Sistema di messaggistica real-time con architettura client-server, che garantisce comunicazione sicura tramite crittografia end-to-end. Il server Rust gestisce connessioni WebSocket, inoltra i messaggi tra utenti e gruppi, e monitora risorse di sistema. Il client React offre un’interfaccia utente moderna per chat e gestione dei gruppi.',
     tools: ['HTML5', 'CSS3', 'JavaScript', 'Cargo', 'Rust', 'WebSockets - tokio', 'Vite', 'React'],
     link: 'https://github.com/PdS2425-C2/G46',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const mockData_eng = {
     title: 'AppRuggine',
     date: '2025',
-    description: 'Real-time messaging system with a client-server architecture ensuring secure communication through end-to-end encryption. The Rust server handles WebSocket connections, forwards messages between users and groups, and monitors system resources. The React client provides a modern interface for chats and group management. The project adopts modern technologies for performance, security, and scalability, and was documented and tested following full-stack development best practices.',
+    description: 'Real-time messaging system with a client-server architecture ensuring secure communication through end-to-end encryption. The Rust server handles WebSocket connections, forwards messages between users and groups, and monitors system resources. The React client provides a modern interface for chats and group management.',
     tools: ['HTML5', 'CSS3', 'JavaScript', 'Cargo', 'Rust', 'WebSockets - tokio', 'Vite', 'React'],
     link: 'https://github.com/PdS2425-C2/G46',
-    extra: ''
+    extra: '',
+    subtitle: 'Full-stack application',
+    iconClass: 'bi bi-pc-display-horizontal'
   };
 
   const techSections_it = [
