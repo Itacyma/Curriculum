@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap');
+
+/* Circuit Background Component */
+.circuit-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    
+    /* Dark tech background with subtle grid */
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(75, 185, 99, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(180, 210, 231, 0.08) 0%, transparent 50%),
+        linear-gradient(135deg, #173753 0%, #1a3b58 50%, #1d405c 100%);
+    
+    /* Circuit board pattern overlay */
+    background-image: 
+        linear-gradient(90deg, rgba(161, 166, 180, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(161, 166, 180, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px;
+    
+    /* Assicura che rimanga sempre visibile */
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Circuit Lines Container */
+.circuit-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Base Circuit Line Styles */
+.circuit-line {
+    position: absolute;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    overflow: hidden;
+}
+
+.circuit-line.horizontal {
+    height: 3px;
+    border-radius: 1.5px;
+}
+
+.circuit-line.vertical {
+    width: 3px;
+    border-radius: 1.5px;
+}
+
+/* Current Flow Animation */
+.current-flow {
+    position: absolute;
+    background: linear-gradient(
+        90deg, 
+        transparent, 
+        rgba(180, 210, 231, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(180, 210, 231, 1), 
+        transparent
+    );
+    border-radius: inherit;
+    animation: currentFlow 3s ease-in-out infinite;
+}
+
+.circuit-line.horizontal .current-flow {
+    width: 150px;
+    height: 100%;
+    top: 0;
+    left: -150px;
+}
+
+.circuit-line.vertical .current-flow {
+    width: 100%;
+    height: 150px;
+    left: 0;
+    top: -150px;
+    background: linear-gradient(
+        0deg, 
+        transparent, 
+        rgba(180, 210, 231, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(180, 210, 231, 1), 
+        transparent
+    );
+}
+
+@keyframes currentFlow {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(calc(100vw + 100%));
+        opacity: 0;
+    }
+}
+
+.circuit-line.vertical .current-flow {
+    animation-name: currentFlowVertical;
+}
+
+@keyframes currentFlowVertical {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(calc(100vh + 100%));
+        opacity: 0;
+    }
+}
+
+/* Main Circuit Lines Positioning */
+.main-line-1 {
+    top: 15%;
+    left: 0;
+    width: 70%;
+    animation-delay: 0s;
+}
+
+.main-line-1 .current-flow {
+    animation-delay: 0s;
+}
+
+.main-line-2 {
+    top: 45%;
+    right: 0;
+    width: 80%;
+    animation-delay: 1.5s;
+}
+
+.main-line-2 .current-flow {
+    animation-delay: 1.5s;
+}
+
+.main-line-3 {
+    bottom: 25%;
+    left: 10%;
+    width: 60%;
+    animation-delay: 3s;
+}
+
+.main-line-3 .current-flow {
+    animation-delay: 3s;
+}
+
+.main-line-4 {
+    left: 20%;
+    top: 0;
+    height: 65%;
+    animation-delay: 0.8s;
+}
+
+.main-line-4 .current-flow {
+    animation-delay: 0.8s;
+}
+
+.main-line-5 {
+    right: 25%;
+    top: 20%;
+    height: 70%;
+    animation-delay: 2.3s;
+}
+
+.main-line-5 .current-flow {
+    animation-delay: 2.3s;
+}
+
+.main-line-6 {
+    left: 60%;
+    bottom: 0;
+    height: 50%;
+    animation-delay: 4s;
+}
+
+.main-line-6 .current-flow {
+    animation-delay: 4s;
+}
+
+/* Secondary Lines */
+.secondary-line-1 {
+    top: 30%;
+    left: 30%;
+    width: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1s;
+}
+
+.secondary-line-1 .current-flow {
+    background: linear-gradient(
+        90deg, 
+        transparent, 
+        rgba(75, 185, 99, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(75, 185, 99, 1), 
+        transparent
+    );
+    animation-delay: 1s;
+}
+
+.secondary-line-2 {
+    bottom: 40%;
+    right: 20%;
+    width: 30%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.8s;
+}
+
+.secondary-line-2 .current-flow {
+    background: linear-gradient(
+        90deg, 
+        transparent, 
+        rgba(75, 185, 99, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(75, 185, 99, 1), 
+        transparent
+    );
+    animation-delay: 2.8s;
+}
+
+.secondary-line-3 {
+    left: 45%;
+    top: 10%;
+    height: 40%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.8s;
+}
+
+.secondary-line-3 .current-flow {
+    background: linear-gradient(
+        0deg, 
+        transparent, 
+        rgba(75, 185, 99, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(75, 185, 99, 1), 
+        transparent
+    );
+    animation-delay: 1.8s;
+}
+
+.secondary-line-4 {
+    right: 40%;
+    bottom: 15%;
+    height: 35%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 3.5s;
+}
+
+.secondary-line-4 .current-flow {
+    background: linear-gradient(
+        0deg, 
+        transparent, 
+        rgba(75, 185, 99, 1), 
+        rgba(248, 248, 248, 0.8), 
+        rgba(75, 185, 99, 1), 
+        transparent
+    );
+    animation-delay: 3.5s;
+}
+
+/* Additional Main Lines - Horizontal */
+.main-line-7 {
+    top: 25%;
+    left: 5%;
+    width: 30%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 1.2s;
+}
+
+.main-line-7 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 1.2s;
+}
+
+.main-line-8 {
+    top: 85%;
+    right: 10%;
+    width: 40%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 2.8s;
+}
+
+.main-line-8 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 2.8s;
+}
+
+/* Additional Main Lines - Vertical */
+.main-line-v1 {
+    left: 15%;
+    top: 10%;
+    height: 45%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 0.8s;
+}
+
+.main-line-v1 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 0.8s;
+}
+
+.main-line-v2 {
+    right: 15%;
+    top: 20%;
+    height: 50%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 1.5s;
+}
+
+.main-line-v2 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 1.5s;
+}
+
+.main-line-v3 {
+    left: 45%;
+    bottom: 10%;
+    height: 40%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 2.2s;
+}
+
+.main-line-v3 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 2.2s;
+}
+
+.main-line-v4 {
+    left: 75%;
+    top: 5%;
+    height: 60%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 3.1s;
+}
+
+.main-line-v4 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 3.1s;
+}
+
+.main-line-v5 {
+    left: 5%;
+    bottom: 5%;
+    height: 35%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 0.5s;
+}
+
+.main-line-v5 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 0.5s;
+}
+
+.main-line-v6 {
+    right: 5%;
+    top: 30%;
+    height: 40%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 1.8s;
+}
+
+.main-line-v6 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 1.8s;
+}
+
+.main-line-v7 {
+    left: 30%;
+    top: 15%;
+    height: 70%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 2.5s;
+}
+
+.main-line-v7 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 2.5s;
+}
+
+.main-line-v8 {
+    right: 25%;
+    bottom: 20%;
+    height: 45%;
+    background: rgba(180, 210, 231, 0.4);
+    box-shadow: 0 0 10px rgba(180, 210, 231, 0.6);
+    animation-delay: 3.3s;
+}
+
+.main-line-v8 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(180, 210, 231, 1), rgba(248, 248, 248, 0.8), rgba(180, 210, 231, 1), transparent);
+    animation-delay: 3.3s;
+}
+
+/* Additional Secondary Lines - Horizontal */
+.secondary-line-5 {
+    top: 45%;
+    left: 60%;
+    width: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.3s;
+}
+
+.secondary-line-5 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.3s;
+}
+
+.secondary-line-6 {
+    top: 75%;
+    left: 10%;
+    width: 30%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.7s;
+}
+
+.secondary-line-6 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 2.7s;
+}
+
+.secondary-line-7 {
+    top: 15%;
+    right: 20%;
+    width: 20%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 0.9s;
+}
+
+.secondary-line-7 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 0.9s;
+}
+
+.secondary-line-8 {
+    top: 35%;
+    left: 5%;
+    width: 35%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.9s;
+}
+
+.secondary-line-8 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.9s;
+}
+
+.secondary-line-9 {
+    top: 95%;
+    left: 40%;
+    width: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 3.2s;
+}
+
+.secondary-line-9 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 3.2s;
+}
+
+.secondary-line-10 {
+    top: 55%;
+    right: 10%;
+    width: 28%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.1s;
+}
+
+.secondary-line-10 .current-flow {
+    background: linear-gradient(90deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 2.1s;
+}
+
+/* Additional Secondary Lines - Vertical */
+.secondary-line-v1 {
+    left: 20%;
+    top: 50%;
+    height: 30%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.1s;
+}
+
+.secondary-line-v1 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.1s;
+}
+
+.secondary-line-v2 {
+    right: 30%;
+    top: 10%;
+    height: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.4s;
+}
+
+.secondary-line-v2 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 2.4s;
+}
+
+.secondary-line-v3 {
+    left: 65%;
+    bottom: 30%;
+    height: 35%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 0.7s;
+}
+
+.secondary-line-v3 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 0.7s;
+}
+
+.secondary-line-v4 {
+    left: 85%;
+    top: 25%;
+    height: 40%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.6s;
+}
+
+.secondary-line-v4 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.6s;
+}
+
+.secondary-line-v5 {
+    left: 10%;
+    top: 70%;
+    height: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.9s;
+}
+
+.secondary-line-v5 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 2.9s;
+}
+
+.secondary-line-v6 {
+    right: 15%;
+    bottom: 5%;
+    height: 30%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 0.4s;
+}
+
+.secondary-line-v6 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 0.4s;
+}
+
+.secondary-line-v7 {
+    left: 40%;
+    top: 5%;
+    height: 20%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.7s;
+}
+
+.secondary-line-v7 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.7s;
+}
+
+.secondary-line-v8 {
+    right: 45%;
+    top: 60%;
+    height: 35%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 2.6s;
+}
+
+.secondary-line-v8 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 2.6s;
+}
+
+.secondary-line-v9 {
+    left: 55%;
+    bottom: 15%;
+    height: 25%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 3.4s;
+}
+
+.secondary-line-v9 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 3.4s;
+}
+
+.secondary-line-v10 {
+    left: 90%;
+    top: 45%;
+    height: 30%;
+    background: rgba(75, 185, 99, 0.4);
+    box-shadow: 0 0 8px rgba(75, 185, 99, 0.6);
+    animation-delay: 1.4s;
+}
+
+.secondary-line-v10 .current-flow {
+    background: linear-gradient(0deg, transparent, rgba(75, 185, 99, 1), rgba(248, 248, 248, 0.8), rgba(75, 185, 99, 1), transparent);
+    animation-delay: 1.4s;
+}
+
+/* Circuit Components Container */
+.circuit-components {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Code Particles */
+.code-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.particle {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    animation: floatUp 25s infinite linear;
+    text-shadow: 0 0 10px currentColor;
+    opacity: 0;
+    font-size: 12px;
+}
+
+/* Binary particles */
+.binary-1, .binary-2, .binary-3, .binary-4, .binary-5 {
+    color: rgba(180, 210, 231, 0.6);
+    font-size: 14px;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .circuit-background {
+        /* Mantieni lo z-index per assicurare la visibilità */
+        z-index: 1;
+    }
+    
+    .circuit-line {
+        /* Mantieni dimensioni ragionevoli su tablet */
+        opacity: 0.8;
+    }
+    
+    .circuit-line.horizontal {
+        height: 2px;
+    }
+    
+    .circuit-line.vertical {
+        width: 2px;
+    }
+    
+    /* Rendi le animazioni più lente e visibili */
+    .current-flow {
+        animation-duration: 4s;
+    }
+}
+
+@media (max-width: 480px) {
+    .circuit-line {
+        /* Mantieni visibilità anche su mobile */
+        opacity: 0.7;
+    }
+    
+    .circuit-line.horizontal {
+        height: 2px; /* Non scendere sotto i 2px */
+    }
+    
+    .circuit-line.vertical {
+        width: 2px; /* Non scendere sotto i 2px */
+    }
+    
+    /* Animazioni più evidenti su mobile */
+    .current-flow {
+        animation-duration: 5s;
+        opacity: 0.9;
+    }
+    
+    /* Assicurati che almeno alcune linee siano sempre visibili */
+    .main-line-1, .main-line-2, .main-line-3,
+    .main-line-v1, .main-line-v2, .main-line-v3 {
+        opacity: 1;
+        display: block !important;
+    }
+}

@@ -1,0 +1,567 @@
+.contatti-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #173753, #2a4a5c);
+  border-top: 4px solid #4CB963;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contatti-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.contatto-col {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 350px;
+  background: rgba(248, 248, 248, 0.1);
+  border: 1px solid rgba(75, 185, 99, 0.3);
+ 
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  transition: all 0.3s ease;
+}
+
+.contatto-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #173753, #4CB963);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+}
+.contatto-icon i {
+  font-size: 1.6rem;
+  color: #F8F8F8;
+}
+.contatto-label {
+  color: #B4D2E7;
+  font-size: 1rem;
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.contatto-link {
+  color: #4CB963;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(0.6rem, 2vw, 1.1rem);
+  max-width: 100%;
+  min-width: 0;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: normal;
+  text-align: center;
+  display: block;
+  word-break: break-all;
+}
+
+.contatto-link:hover {
+  color: #B4D2E7;
+}
+
+@media (max-width: 900px) {
+  .contatti-flex-row {
+    gap: 1rem;
+  }
+  .contatto-col {
+    padding: 0.7rem;
+    max-width: 220px;
+  }
+  .contatto-link {
+    font-size: clamp(0.6rem, 2vw, 1rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .contatti-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #173753, #2a4a5c);
+    border-top: 4px solid #4CB963;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .contatti-full-center {
+    padding: 2rem 12vw;
+    min-height: 35vh;
+  }
+  .contatti-icon-row {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    width: 100%;
+  }
+  .contatto-icon-col {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .contatto-icon-col:last-child {
+    margin-bottom: 0;
+  }
+  .contatto-link {
+    font-size: 0.4rem !important;
+  }
+}
+
+/* Titoli e testo */
+.contatti-section-title {
+  font-size: 2.5rem;
+  color: #4CB963;
+  text-align: center;
+  padding-top: 3rem;
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  text-shadow: 
+    0 0 20px rgba(75, 185, 99, 0.5),
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+  -webkit-text-stroke: 0.5px #000;
+}
+
+/* Stili delle card di contatto */
+.contatti-card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  backdrop-filter: none;
+  box-shadow: none;
+  transition: none;
+  overflow: visible;
+}
+
+.contatti-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.contatti-body {
+  padding: 0 3rem 3rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Griglia dei contatti */
+.contatti-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: clamp(1rem, 3vw, 2rem);
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.contatto-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 0;
+  flex: 1 1 220px;
+  max-width: 350px;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  background: rgba(248, 248, 248, 0.1);
+  border: 1px solid rgba(75, 185, 99, 0.3);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.contatto-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(75, 185, 99, 0.2),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.contatto-item:hover {
+  border-color: #4CB963;
+  box-shadow: 0 4px 20px rgba(75, 185, 99, 0.3);
+  transform: translateY(-3px);
+  background: rgba(248, 248, 248, 0.15);
+}
+
+.contatto-item:hover::before {
+  left: 100%;
+}
+
+/* Icone di contatto */
+.contatto-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #173753, #4CB963);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(23, 55, 83, 0.3);
+}
+
+.contatto-icon i {
+  font-size: 1.8rem;
+  color: #F8F8F8;
+}
+
+/* Informazioni di contatto */
+.contatto-info {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 100%;
+}
+
+.contatto-info h4 {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: #F8F8F8;
+  margin: 0 0 0.5rem 0;
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.contatto-info a {
+  color: #4CB963;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  font-size: clamp(0.7rem, 2vw, 1.1rem);
+  width: 100%;
+  min-width: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.contatto-info a:hover {
+  color: #B4D2E7;
+  text-shadow: 0 0 10px rgba(75, 185, 99, 0.5);
+}
+
+.contatto-info span {
+  color: #B4D2E7;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Sezione messaggio */
+.messaggio-section {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(248, 248, 248, 0.05);
+  border-radius: 15px;
+  border-left: 4px solid #4CB963;
+  backdrop-filter: blur(10px);
+}
+
+.messaggio-section h3 {
+  font-size: 1.8rem;
+  color: #F8F8F8;
+  margin: 0 0 1rem 0;
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+}
+
+.messaggio-section p {
+  font-size: 1.1rem;
+  color: #B4D2E7;
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+}
+
+/* Pulsanti CTA */
+.cta-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contatti-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contatti-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.contatti-btn:hover::before {
+  left: 100%;
+}
+
+.contatti-btn.primary {
+  background: linear-gradient(135deg, #173753, #4CB963);
+  color: #F8F8F8;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 15px rgba(23, 55, 83, 0.3);
+}
+
+.contatti-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(23, 55, 83, 0.4);
+  color: #F8F8F8;
+}
+
+.contatti-btn.secondary {
+  background: transparent;
+  color: #4CB963;
+  border: 2px solid #4CB963;
+  box-shadow: 0 4px 15px rgba(75, 185, 99, 0.15);
+}
+
+.contatti-btn.secondary:hover {
+  background: rgba(75, 185, 99, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(75, 185, 99, 0.25);
+  color: #4CB963;
+}
+
+.contatti-btn i {
+  font-size: 1.2rem;
+}
+
+/* Nuove classi CSS */
+.contatti-full-center {
+  width: 100vw;
+  min-height: 35vh;
+  background: linear-gradient(135deg, #173753, #2a4a5c);
+  border-top: 4px solid #4CB963;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contatti-icon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  gap: clamp(1rem, 5vw, 4rem);
+  flex-wrap: nowrap;
+}
+
+.contatto-icon-col {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 300px;
+  padding: 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.contatto-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #173753, #4CB963);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+  border: 3px solid #B4D2E7;
+  box-sizing: border-box;
+}
+.contatto-icon i {
+  font-size: 1.5rem;
+  color: #F8F8F8;
+}
+
+.contatto-label, .contatto-link {
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .contatti-icon-row {
+    gap: clamp(0.5rem, 3vw, 2rem);
+  }
+  .contatto-icon-col {
+    max-width: 180px;
+    padding: 0.7rem 0.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contatti-full-center {
+    padding: 2rem 2vw;
+    min-height: 35vh;
+  }
+  .contatti-icon-row {
+    gap: clamp(0.2rem, 2vw, 1rem);
+  }
+  .contatto-icon-col {
+    max-width: 100px;
+    padding: 0.5rem 0.2rem;
+  }
+  .contatto-icon {
+    width: 28px;
+    height: 28px;
+    border-width: 2px;
+  }
+  .contatto-icon i {
+    font-size: 1rem;
+  }
+  .contatto-label, .contatto-link {
+    font-size: 0.7rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contatti-container {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+  
+  .contatti-section-title {
+    font-size: 2rem;
+  }
+  
+  .contatto-item {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .contatto-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contatto-icon i {
+    font-size: 1.5rem;
+  }
+  
+  .messaggio-section {
+    padding: 1.5rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contatti-btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contatti-section-title {
+    font-size: 1.8rem;
+  }
+  
+  .contatti-body {
+    padding: 1rem;
+  }
+  
+  .contatti-grid {
+    gap: 1rem;
+  }
+  
+  .contatto-item {
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+  
+  .contatto-info h4 {
+    font-size: 1rem;
+  }
+  
+  .messaggio-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .messaggio-section p {
+    font-size: 1rem;
+  }
+  
+  .contatti-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}

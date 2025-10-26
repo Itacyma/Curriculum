@@ -1,0 +1,316 @@
+.project-card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: linear-gradient(120deg, #173753 80%, #4CB963 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(23, 55, 83, 0.13), 0 1.5px 0 #4CB963;
+  overflow: hidden;
+  margin: 2rem 3rem; /* spazio laterale dai bordi */
+  color: #F8F8F8;
+  border: 2.5px solid #B4D2E7;
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.project-card:hover {
+  transform: translateY(-4px) scale(1.012);
+  box-shadow: 0 8px 32px rgba(76, 185, 99, 0.18), 0 2px 0 #4CB963;
+}
+
+/* --- IMMAGINE --- */
+.project-img-wrapper {
+  flex: 0 0 460px; /* 👈 immagine molto più larga */
+  background: #A1A6B4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px; /* 👈 immagine più alta */
+  max-width: 460px;
+  border-right: 2px solid #B4D2E7;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-right: 1rem; /* 👈 pochissimo spazio tra immagine e contenuto */
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(23, 55, 83, 0.13);
+}
+
+.project-img-placeholder {
+  color: #173753;
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+/* --- CONTENUTO --- */
+.project-content {
+  flex: 1 1 0;
+  padding: 1.2rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title {
+  font-family: 'Orbitron', monospace;
+  font-size: 2rem;
+  color: #4CB963;
+  margin: 0 0 0.3rem 0;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 0 #173753, 0 0 8px #B4D2E744;
+  font-weight: bold;
+}
+
+.project-date {
+  font-size: 1rem;
+  color: #B4D2E7;
+  margin-bottom: 0.7rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.project-date-separator {
+  width: 45%;
+  height: 3px;
+  background: #4CB963;
+  border-radius: 2px;
+  margin: 0.5rem auto 1.1rem auto;
+  display: block;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  color: #F8F8F8;
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Versione ristretta e font più piccolo per GiocoDellaSfortuna */
+.project-description-narrow {
+  width: 70%;
+  font-size: 0.98rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.project-tools {
+  margin-top: 0.7rem !important;
+  margin-bottom: 1rem;
+}
+
+.project-tools-label {
+  color: #B4D2E7;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.project-tool {
+  display: inline-block;
+  background: #B4D2E7;
+  color: #173753;
+  font-size: 0.95rem;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 8px;
+  padding: 0.18em 0.7em;
+  margin-right: 0.4em;
+  margin-bottom: 0.2em;
+  font-weight: 500;
+  box-shadow: 0 1px 4px #17375322;
+}
+
+
+.project-link {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  color: #F9C22E;
+  background: #173753;
+  border-radius: 6px;
+  padding: 0.4em 1.1em;
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 1px 4px #17375322;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Versione ristretta e distanziata per GiocoDellaSfortuna */
+.project-link-narrow {
+  width: 70%;
+  display: block;
+  margin: 2.2rem auto 0.7rem auto;
+  text-align: center;
+  padding: 0.4em 0;
+  border: 2px solid #4CB963;
+}
+
+.project-link:hover {
+  background: #4CB963;
+  color: #173753;
+}
+
+.project-extra {
+  margin-top: 0.7rem;
+  font-size: 0.98rem;
+  color: #B4D2E7;
+  font-style: italic;
+}
+
+/* --- STACK DETTAGLI --- */
+.project-stack-details {
+  margin: 1.2rem 0 0.5rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.project-stack-block {
+  background: rgba(180, 210, 231, 0.10);
+  border-left: 4px solid #4CB963;
+  border-radius: 8px;
+  padding: 0.7rem 1rem 0.7rem 1.2rem;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 1px 6px #17375322;
+}
+
+.project-stack-title {
+  font-family: 'Orbitron', monospace;
+  color: #4CB963;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.5px;
+}
+
+.project-stack-tech {
+  margin-bottom: 0.2rem;
+}
+
+.project-stack-desc {
+  color: #B4D2E7;
+  font-size: 0.98rem;
+  font-style: italic;
+  margin-bottom: 0.1rem;
+}
+
+/* --- SEZIONI TECNOLOGIA --- */
+.project-sections {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 1.2rem 0 0.5rem 0;
+  width: 100%;
+}
+
+.project-tech-section {
+  flex: 1 1 0;
+  min-width: 0;
+  background: rgba(180, 210, 231, 0.08);
+  border-left: 4px solid #4CB963;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0;
+  box-shadow: 0 1px 6px #17375322;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.project-tech-title {
+  font-size: 1.1rem;
+  color: #4CB963;
+  font-family: 'Orbitron', monospace;
+  margin-bottom: 0.7rem;
+  margin-top: 0;
+}
+
+.project-tech-desc {
+  color: #B4D2E7;
+  font-size: 0.98rem;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.project-tech-list {
+  margin: 0.2rem 0 0.5rem 0;
+  padding-left: 1.1em;
+  text-align: left;
+}
+
+.project-tech-list-item {
+  color: #B4D2E7;
+  font-size: 0.98rem;
+  margin-bottom: 0.25em;
+  line-height: 1.5;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1200px) {
+  .project-sections {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .project-img-wrapper {
+    max-width: 320px;
+    min-height: 160px;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+  }
+
+  .project-img-wrapper {
+    max-width: 100%;
+    min-height: 200px;
+    border-right: none;
+    border-bottom: 2px solid #B4D2E7;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .project-content {
+    padding: 1.2rem 1.2rem;
+  }
+
+  .project-sections {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .project-tech-section {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    margin: 1.2rem;
+  }
+
+  .project-content {
+    padding: 1rem 0.5rem;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .project-img-wrapper {
+    min-height: 150px;
+  }
+}

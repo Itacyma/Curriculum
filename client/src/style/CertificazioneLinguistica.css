@@ -1,0 +1,366 @@
+.certificazione-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 3rem;
+}
+
+.certificazione-section-title {
+  font-size: 2.5rem;
+  color: #4CB963;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  text-shadow: 
+    0 0 20px rgba(75, 185, 99, 0.5),
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+  -webkit-text-stroke: 0.5px #000;
+}
+
+.certificazione-card {
+  background: rgba(248, 248, 248, 0.9);
+  border: 2px solid #4CB963;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(23, 55, 83, 0.15);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.certificazione-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(23, 55, 83, 0.25);
+}
+
+.certificazione-header {
+  background: linear-gradient(135deg, #173753, #4CB963);
+  color: #F8F8F8;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.certificazione-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Orbitron', monospace;
+}
+
+.certificazione-body {
+  padding: 2rem;
+}
+
+/* TABELLA SEMPLICE E RESPONSIVE */
+.competenze-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #F8F8F8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(23, 55, 83, 0.1);
+  font-size: 1rem;
+  border-spacing: 0;
+}
+
+.competenze-table th,
+.competenze-table td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(75, 185, 99, 0.2);
+  padding: 0.8rem 0.2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Header principale */
+.main-header {
+  background: linear-gradient(135deg, #173753, #4CB963);
+}
+
+.main-header th {
+  background: none !important;
+  color: #F8F8F8;
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  font-size: 0.9rem;
+}
+
+.main-header th:first-child {
+  width: 15%;
+}
+
+.main-header th:nth-child(2) {
+  width: 30%; /* COMPRENSIONE */
+}
+
+.main-header th:nth-child(3) {
+  width: 30%; /* ESPRESSIONE - ridotta */
+}
+
+.main-header th:nth-child(4) {
+  width: 25%; /* SCRITTURA - aumentata */
+}
+
+/* Allineamento colonne sub-header con main-header */
+.sub-header th:first-child {
+  width: 15%; /* Lingua */
+}
+
+.sub-header th:nth-child(2) {
+  width: 15%; /* Ascolto - prima metà di COMPRENSIONE */
+}
+
+.sub-header th:nth-child(3) {
+  width: 15%; /* Lettura - seconda metà di COMPRENSIONE */
+}
+
+.sub-header th:nth-child(4) {
+  width: 15%; /* Interaz. - prima metà di ESPRESSIONE */
+}
+
+.sub-header th:nth-child(5) {
+  width: 15%; /* Produz. - seconda metà di ESPRESSIONE */
+}
+
+.sub-header th:nth-child(6) {
+  width: 25%; /* Scrittura - deve coincidere esattamente */
+}
+
+/* Forza l'allineamento perfetto dei bordi */
+.competenze-table th {
+  box-sizing: border-box;
+}
+
+.competenze-table {
+  border-spacing: 0;
+}
+
+/* Sub-header */
+.sub-header {
+  background: rgba(23, 55, 83, 0.8);
+}
+
+.sub-header th {
+  background: none !important;
+  color: #F8F8F8;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+}
+
+/* Celle del contenuto */
+.lingua-cell {
+  background: rgba(75, 185, 99, 0.1) !important;
+  color: #173753 !important;
+  font-weight: 700 !important;
+  font-family: 'Orbitron', monospace !important;
+  font-size: 0.9rem !important;
+}
+
+.livello-cell {
+  background: rgba(247, 23, 53, 0.05) !important;
+  color: #f71735 !important;
+  font-weight: 700 !important;
+  font-family: 'Orbitron', monospace !important;
+  font-size: 1.1rem !important;
+}
+
+/* Data di conseguimento */
+.data-conseguimento {
+  background: rgba(180, 210, 231, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-left: 4px solid #4CB963;
+  text-align: center;
+}
+
+.data-conseguimento h4 {
+  font-size: 1.2rem;
+  color: #173753;
+  margin: 0 0 1rem 0;
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+}
+
+.data-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: linear-gradient(135deg, #173753, #4CB963);
+  color: #F8F8F8;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+  box-shadow: 0 4px 15px rgba(23, 55, 83, 0.2);
+  transition: all 0.3s ease;
+}
+
+.data-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(23, 55, 83, 0.3);
+}
+
+.data-badge i {
+  font-size: 1.2rem;
+}
+
+/* RESPONSIVE DESIGN SEMPLICE */
+@media (max-width: 768px) {
+  .certificazione-container {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+  
+  .certificazione-section-title {
+    font-size: 2rem;
+  }
+  
+  .competenze-table {
+    font-size: 0.65rem;
+  }
+  
+  .competenze-table th,
+  .competenze-table td {
+    padding: 0.5rem 0.1rem;
+  }
+  
+  .main-header th {
+    font-size: 0.6rem;
+  }
+  
+  .sub-header th {
+    font-size: 0.55rem;
+  }
+  
+  .lingua-cell {
+    font-size: 0.6rem !important;
+  }
+  
+  .livello-cell {
+    font-size: 0.8rem !important;
+  }
+  
+  /* Data di conseguimento responsive */
+  .data-conseguimento {
+    padding: 1rem;
+  }
+  
+  .data-conseguimento h4 {
+    font-size: 1rem;
+    margin: 0 0 0.8rem 0;
+  }
+  
+  .data-badge {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificazione-container {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .certificazione-section-title {
+    font-size: 1.8rem;
+  }
+  
+  .certificazione-body {
+    padding: 1rem;
+  }
+  
+  .competenze-table {
+    font-size: 0.5rem;
+  }
+  
+  .competenze-table th,
+  .competenze-table td {
+    padding: 0.4rem 0.05rem;
+  }
+  
+  .main-header th {
+    font-size: 0.45rem;
+  }
+  
+  .sub-header th {
+    font-size: 0.4rem;
+  }
+  
+  .lingua-cell {
+    font-size: 0.45rem !important;
+  }
+  
+  .livello-cell {
+    font-size: 0.6rem !important;
+  }
+  
+  /* Data di conseguimento ancora più compatta per mobile */
+  .data-conseguimento {
+    padding: 0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .data-conseguimento h4 {
+    font-size: 0.9rem;
+    margin: 0 0 0.6rem 0;
+  }
+
+  .data-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}@media (max-width: 375px) {
+  .competenze-table {
+    font-size: 0.4rem;
+  }
+  
+  .competenze-table th,
+  .competenze-table td {
+    padding: 0.3rem 0.02rem;
+  }
+  
+  .main-header th {
+    font-size: 0.35rem;
+  }
+  
+  .sub-header th {
+    font-size: 0.32rem;
+  }
+  
+  .lingua-cell {
+    font-size: 0.35rem !important;
+  }
+  
+  .livello-cell {
+    font-size: 0.5rem !important;
+  }
+  
+  /* Data di conseguimento minima per schermi molto piccoli */
+  .data-conseguimento {
+    padding: 0.6rem;
+    margin-top: 0.8rem;
+  }
+  
+  .data-conseguimento h4 {
+    font-size: 0.8rem;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .data-badge {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+  
+  .data-badge i {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap');
+
+/* Tech CV Theme - Circuit Board Design */
+.presentation-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', 'Consolas', monospace;
+    line-height: 1.6;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    
+    /* Circuit Board Background */
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 107, 53, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(88, 166, 255, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #0d1117 0%, #161b22 50%, #21262d 100%);
+    
+    /* Circuit pattern overlay */
+    background-image: 
+        linear-gradient(90deg, rgba(255, 107, 53, 0.1) 1px, transparent 1px),
+        linear-gradient(rgba(255, 107, 53, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-attachment: fixed;
+}
+
+/* Animated Particles */
+.particles-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.particle {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    animation: floatUp 20s infinite linear;
+    text-shadow: 0 0 10px currentColor;
+    opacity: 0;
+}
+
+/* Binary particles */
+.binary-1, .binary-2, .binary-3, .binary-4, .binary-5 {
+    color: rgba(88, 166, 255, 0.7);
+    font-size: 14px;
+}
+
+.binary-1 { top: 110%; left: 10%; animation-delay: 0s; }
+.binary-2 { top: 110%; left: 30%; animation-delay: 4s; }
+.binary-3 { top: 110%; left: 50%; animation-delay: 8s; }
+.binary-4 { top: 110%; left: 70%; animation-delay: 12s; }
+.binary-5 { top: 110%; left: 90%; animation-delay: 16s; }
+
+/* Code particles */
+.code-1, .code-2, .code-3, .code-4, .code-5 {
+    color: rgba(247, 147, 30, 0.8);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.code-1 { top: 110%; left: 15%; animation-delay: 2s; }
+.code-2 { top: 110%; left: 35%; animation-delay: 6s; }
+.code-3 { top: 110%; left: 55%; animation-delay: 10s; }
+.code-4 { top: 110%; left: 75%; animation-delay: 14s; }
+.code-5 { top: 110%; left: 85%; animation-delay: 18s; }
+
+/* Symbol particles */
+.symbol-1, .symbol-2, .symbol-3, .symbol-4 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.symbol-1 { top: 110%; left: 20%; animation-delay: 1s; }
+.symbol-2 { top: 110%; left: 40%; animation-delay: 5s; }
+.symbol-3 { top: 110%; left: 60%; animation-delay: 9s; }
+.symbol-4 { top: 110%; left: 80%; animation-delay: 13s; }
+
+/* Tech particles */
+.tech-1, .tech-2, .tech-3 {
+    color: rgba(255, 107, 53, 0.9);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Orbitron', monospace;
+}
+
+.tech-1 { top: 110%; left: 25%; animation-delay: 3s; }
+.tech-2 { top: 110%; left: 65%; animation-delay: 7s; }
+.tech-3 { top: 110%; left: 95%; animation-delay: 11s; }
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Circuit Connection Lines */
+.circuit-lines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.line {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, rgba(88, 166, 255, 0.5), transparent);
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.vertical-1 {
+    width: 2px;
+    height: 80vh;
+    left: 20%;
+    top: 10%;
+    background: linear-gradient(0deg, transparent, rgba(88, 166, 255, 0.5), transparent);
+    animation-delay: 0s;
+}
+
+.vertical-2 {
+    width: 2px;
+    height: 70vh;
+    right: 25%;
+    top: 15%;
+    background: linear-gradient(0deg, transparent, rgba(247, 147, 30, 0.5), transparent);
+    animation-delay: 1.5s;
+}
+
+.horizontal-1 {
+    width: 60vw;
+    height: 2px;
+    left: 20%;
+    top: 40%;
+    animation-delay: 0.5s;
+}
+
+.horizontal-2 {
+    width: 50vw;
+    height: 2px;
+    right: 15%;
+    bottom: 30%;
+    background: linear-gradient(90deg, transparent, rgba(247, 147, 30, 0.5), transparent);
+    animation-delay: 2s;
+}
+
+.connection-node {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.9), rgba(88, 166, 255, 0.6));
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.8);
+    animation: nodeGlow 2s ease-in-out infinite;
+}
+
+.node-1 { left: 20%; top: 25%; animation-delay: 0s; }
+.node-2 { right: 25%; top: 30%; animation-delay: 0.5s; }
+.node-3 { left: 35%; bottom: 35%; animation-delay: 1s; }
+.node-4 { right: 30%; bottom: 25%; animation-delay: 1.5s; }
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}
+
+@keyframes nodeGlow {
+    0%, 100% { 
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(88, 166, 255, 0.8);
+    }
+    50% { 
+        transform: scale(1.2);
+        box-shadow: 0 0 30px rgba(88, 166, 255, 1);
+    }
+}
+
+/* Header Section */
+.presentation-header {
+    background: 
+        linear-gradient(135deg, rgba(255, 107, 53, 0.95) 0%, rgba(247, 147, 30, 0.95) 100%);
+    color: white;
+    padding: 4rem 2rem;
+    margin: 2rem;
+    border-radius: 20px;
+    border: 2px solid rgba(88, 166, 255, 0.4);
+    box-shadow: 
+        0 0 40px rgba(255, 107, 53, 0.4),
+        inset 0 2px 0 rgba(255, 255, 255, 0.2);
+    position: relative;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    
+    /* Circuit board texture */
+    background-image: 
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+        radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.1) 2px, transparent 2px);
+    background-size: 30px 30px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    position: relative;
+}
+
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(88, 166, 255, 0.8);
+    box-shadow: 
+        0 0 30px rgba(88, 166, 255, 0.6),
+        inset 0 0 30px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 50px rgba(88, 166, 255, 0.8),
+        0 0 80px rgba(255, 107, 53, 0.4);
+}
+
+/* Rotating circuit ring around profile */
+.profile-image::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        transparent,
+        rgba(88, 166, 255, 0.8),
+        transparent,
+        rgba(247, 147, 30, 0.8),
+        transparent
+    );
+    animation: rotate 6s linear infinite;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.profile-info .name {
+    font-size: 3rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 900;
+    font-family: 'Orbitron', monospace;
+    background: linear-gradient(135deg, #ffffff, #58a6ff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 40px rgba(88, 166, 255, 0.6);
+    animation: textGlow 3s ease-in-out infinite;
+}
+
+@keyframes textGlow {
+    0%, 100% { filter: brightness(1); }
+    50% { filter: brightness(1.2); }
+}
+
+.profile-info .job-title {
+    font-size: 1.4rem;
+    margin: 0 0 2rem 0;
+    font-weight: 500;
+    color: #f7931e;
+    text-shadow: 0 0 15px rgba(247, 147, 30, 0.6);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: rgba(13, 17, 23, 0.8);
+    border: 1px solid rgba(88, 166, 255, 0.4);
+    border-radius: 12px;
+    backdrop-filter: blur(15px);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(88, 166, 255, 0.3),
+        transparent
+    );
+    transition: left 0.6s ease;
+}
+
+.contact-item:hover {
+    border-color: rgba(88, 166, 255, 0.8);
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.4);
+    transform: translateY(-3px);
+}
+
+.contact-item:hover::before {
+    left: 100%;
+}
+
+.contact-item .icon {
+    font-size: 1.4rem;
+}
+
+.contact-item a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #f7931e;
+    text-shadow: 0 0 10px rgba(247, 147, 30, 0.5);
+}
+
+/* Tech Sections */
+.tech-section {
+    margin: 4rem 2rem;
+    padding: 3rem;
+    background: 
+        linear-gradient(135deg, rgba(22, 27, 34, 0.95) 0%, rgba(33, 38, 45, 0.9) 100%);
+    border: 2px solid rgba(88, 166, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 
+        0 0 30px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    position: relative;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    
+    /* Circuit texture */
+    background-image: 
+        linear-gradient(45deg, rgba(255, 107, 53, 0.05) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(88, 166, 255, 0.05) 25%, transparent 25%);
+    background-size: 20px 20px;
+}
+
+.tech-section:hover {
+    border-color: rgba(88, 166, 255, 0.6);
+    box-shadow: 
+        0 0 40px rgba(88, 166, 255, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.section-connector {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(88, 166, 255, 0.8), rgba(247, 147, 30, 0.8));
+    border-radius: 2px;
+    animation: connectorPulse 2s ease-in-out infinite;
+}
+
+.section-connector.top {
+    top: -30px;
+}
+
+.section-connector.bottom {
+    bottom: -30px;
+    background: linear-gradient(to top, rgba(88, 166, 255, 0.8), rgba(247, 147, 30, 0.8));
+}
+
+@keyframes connectorPulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+.tech-section h3 {
+    color: #58a6ff;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(88, 166, 255, 0.5);
+    position: relative;
+}
+
+.tech-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #f7931e, transparent);
+    border-radius: 2px;
+}
+
+.intro-text, .tech-section p {
+    font-size: 1.1rem;
+    color: #e6edf3;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skill-category {
+    background: rgba(13, 17, 23, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid rgba(247, 147, 30, 0.3);
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    border-color: rgba(247, 147, 30, 0.6);
+    box-shadow: 0 0 25px rgba(247, 147, 30, 0.2);
+    transform: translateY(-5px);
+}
+
+.skill-category h4 {
+    color: #f7931e;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Orbitron', monospace;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(247, 147, 30, 0.5);
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(88, 166, 255, 0.2);
+    position: relative;
+    padding-left: 2rem;
+    color: #e6edf3;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.skill-category li:hover {
+    color: #58a6ff;
+    text-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+    padding-left: 2.5rem;
+}
+
+.skill-category li:before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    color: #58a6ff;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.skill-category li:hover:before {
+    color: #f7931e;
+    transform: scale(1.2);
+}
+
+.skill-category li:last-child {
+    border-bottom: none;
+}
+
+/* Stats Section */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.9) 0%, rgba(247, 147, 30, 0.9) 100%);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 25px rgba(247, 147, 30, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-item::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: rotate(45deg);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+.stat-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 40px rgba(247, 147, 30, 0.6);
+}
+
+.stat-number {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    font-family: 'Orbitron', monospace;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.stat-label {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(33, 38, 45, 0.95) 0%, rgba(13, 17, 23, 0.95) 100%);
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.cta-primary, .cta-secondary {
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Orbitron', monospace;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-primary {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    color: white;
+    box-shadow: 0 0 30px rgba(247, 147, 30, 0.4);
+}
+
+.cta-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 40px rgba(247, 147, 30, 0.6);
+}
+
+.cta-secondary {
+    background: transparent;
+    color: #58a6ff;
+    border: 2px solid #58a6ff;
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+}
+
+.cta-secondary:hover {
+    background: rgba(88, 166, 255, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 0 30px rgba(88, 166, 255, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .presentation-container {
+        padding: 0;
+    }
+    
+    .presentation-header {
+        margin: 1rem;
+        padding: 2rem 1rem;
+    }
+    
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .profile-info .name {
+        font-size: 2.2rem;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .tech-section {
+        margin: 2rem 1rem;
+        padding: 2rem 1rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-primary, .cta-secondary {
+        width: 250px;
+    }
+    
+    .circuit-lines .line {
+        display: none;
+    }
+    
+    .connection-node {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-info .name {
+        font-size: 1.8rem;
+    }
+    
+    .tech-section h3 {
+        font-size: 1.8rem;
+    }
+}

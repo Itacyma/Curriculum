@@ -1,0 +1,174 @@
+/* Triennale Component Styles */
+
+.triennale-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.triennale-card {
+  background: linear-gradient(135deg, #F8F8F8 0%, rgba(248, 248, 248, 0.95) 100%);
+  border: 2px solid #4CB963;
+  border-radius: 16px;
+  box-shadow: 
+    0 10px 30px rgba(23, 55, 83, 0.15),
+    0 0 20px rgba(75, 185, 99, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.triennale-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 15px 40px rgba(23, 55, 83, 0.2),
+    0 0 30px rgba(75, 185, 99, 0.15);
+}
+
+.triennale-header {
+  background: linear-gradient(135deg, #173753 0%, #4CB963 100%);
+  color: #F8F8F8;
+  border-bottom: none;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.triennale-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Orbitron', monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.triennale-period {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: #B4D2E7;
+  font-weight: 500;
+}
+
+.triennale-body {
+  padding: 2rem;
+}
+
+.university-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.university-name {
+  font-size: 1.4rem;
+  color: #173753;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Orbitron', monospace;
+}
+
+.grade-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(75, 185, 99, 0.1), rgba(180, 210, 231, 0.1));
+  border-radius: 12px;
+  border: 1px solid rgba(75, 185, 99, 0.3);
+}
+
+.grade-label {
+  font-size: 1.1rem;
+  color: #173753;
+  font-weight: 500;
+}
+
+.grade-value {
+  font-size: 1.3rem;
+  color: #f71735;
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.description-container {
+  margin-top: 1rem;
+}
+
+.degree-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #173753;
+  text-align: justify;
+  margin: 0;
+  padding: 1rem;
+  background: rgba(180, 210, 231, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #4CB963;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .triennale-container {
+    margin: 1rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .triennale-header {
+    padding: 1rem;
+  }
+  
+  .triennale-title {
+    font-size: 1.5rem;
+  }
+  
+  .triennale-period {
+    font-size: 1rem;
+  }
+  
+  .triennale-body {
+    padding: 1.5rem;
+  }
+  
+  .university-name {
+    font-size: 1.2rem;
+  }
+  
+  .grade-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .grade-label {
+    font-size: 1rem;
+  }
+  
+  .grade-value {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .triennale-container {
+    padding: 0 2rem;
+  }
+  
+  .triennale-title {
+    font-size: 1.3rem;
+  }
+  
+  .university-name {
+    font-size: 1.1rem;
+  }
+  
+  .degree-description {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .triennale-container {
+    padding: 0 2.5rem;
+  }
+}
