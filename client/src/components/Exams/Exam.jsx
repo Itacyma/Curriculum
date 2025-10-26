@@ -1,16 +1,15 @@
 import { useState } from 'react';
 import '../style/Exam.css';
 
-function ExamCV({ exam, language }) {
+function ExamCV ({ exam }) {
     const { name, date, grade, description, tags } = exam;
     const [isExpanded, setIsExpanded] = useState(false);
     
     // Estrae solo l'anno dalla data
     const yearFromDate = new Date(date).getFullYear();
     
-    // Testi dei pulsanti in base alla lingua
-    const expandText = language === 'en' ? 'Description' : 'Descrizione';
-    const hideText = language === 'en' ? 'Hide description' : 'Nascondi descrizione';
+    // Formatta il voto (31 -> "30L")
+    const formattedGrade = exam.getFormattedGrade();
 
     return (
         <div className="exam-card">
@@ -31,7 +30,7 @@ function ExamCV({ exam, language }) {
                             className="expand-btn expanded"
                             onClick={() => setIsExpanded(false)}
                         >
-                            {hideText}
+                            Nascondi descrizione
                             <i className="bi bi-chevron-up"></i>
                         </button>
                     </>
@@ -40,7 +39,7 @@ function ExamCV({ exam, language }) {
                         className="expand-btn"
                         onClick={() => setIsExpanded(true)}
                     >
-                        {expandText}
+                        Descrizione
                         <i className="bi bi-chevron-down"></i>
                     </button>
                 )}

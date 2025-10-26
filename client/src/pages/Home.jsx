@@ -6,16 +6,30 @@ import { Magistrale } from "../components/Lauree/Magistrale";
 import { CertificazioneLinguistica } from "../components/Certificati/CertificazioneLinguistica";
 import { Contatti } from "../components/Contatti";
 import { ExamSection } from "./ExamSection";
-import { ProjectSection } from "./ProjectSection"
+import { ProjectSection } from "./ProjectSection";
 import { ProjectCV } from "../components/Project";
-
+import { LanguageSwitcher } from '../components/LanguageSwitcher';
 
 import '../style/Home.css';
 import '../style/EducationSection.css';
 
+function HomePageCV(props) {
+  const { language, setLanguage } = props;
 
-function HomePageCV() {
-
+  const labels = {
+    scrollText: {
+      it: "Scorri per scoprire il curriculum",
+      en: "Scroll to explore the curriculum"
+    },
+    educationTitle: {
+      it: "Percorso Formativo",
+      en: "Educational Path"
+    },
+    currentCourseTitle: {
+      it: "Corso Attuale",
+      en: "Current Course"
+    }
+  };
 
   return (
     <div className="home-container">
@@ -24,38 +38,38 @@ function HomePageCV() {
       
       {/* Main Content */}
       <div className="content-wrapper">
-        <PresentationCV />
+        <PresentationCV language={language} setLanguage={setLanguage} />
         
         {/* Sezione Formazione - Diploma e Triennale */}
         <div id="percorso-formativo" className="education-section">
           <div className="scroll-arrow">
-            <div className="scroll-text">Scorri per scoprire il curriculum</div>
+            <div className="scroll-text">{language==='it'?labels.scrollText.it:labels.scrollText.en}</div>
             <div className="arrow-down">↓</div>
           </div>
-          <h2 className="education-title">Percorso Formativo</h2>
+          <h2 className="education-title">{language==='it'?labels.educationTitle.it:labels.educationTitle.en}</h2>
           <div className="education-grid">
-            <Diploma />
-            <Triennale />
+            <Diploma language={language} />
+            <Triennale language={language} />
           </div>
         </div>
         
         {/* Sezione Corso Attuale */}
         <div className="current-course-section">
-          <h2 className="current-course-title">Corso Attuale</h2>
-          <Magistrale />
+          <h2 className="current-course-title">{language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}</h2>
+          <Magistrale language={language}/>
         </div>
         
         {/* Sezione Certificazione Linguistica */}
-        <CertificazioneLinguistica />
+        {language==='it' ? <CertificazioneLinguistica language={language}/> : <></>}
         
         {/* Sezione Esami */}
-        <ExamSection />
+        <ExamSection language={language} />
 
         {/* Sezione Progetti */}
-        <ProjectSection /> 
+        <ProjectSection language={language} /> 
 
         {/* Sezione Contatti */}
-        <Contatti />
+        <Contatti language={language} />
 
       </div>
     </div>

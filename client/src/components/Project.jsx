@@ -1,6 +1,13 @@
 import '../style/Project.css';
 
-function ProjectCV({mockData, techSections}) {
+function ProjectCV({ mockData, techSections, language }) {
+  const labels = {
+    viewProject: {
+      it: "Vedi il progetto completo",
+      en: "View full project"
+    }
+  };
+
   return (
     <div className="project-card vertical">
       <div className="project-content">
@@ -26,7 +33,14 @@ function ProjectCV({mockData, techSections}) {
           ))}
         </div>
         {mockData.link && (
-          <a className="project-link project-link-narrow" href={mockData.link} target="_blank" rel="noopener noreferrer">Vedi il progetto completo</a>
+          <a
+            className="project-link project-link-narrow"
+            href={mockData.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {language === 'it' ? labels.viewProject.it : labels.viewProject.en}
+          </a>
         )}
       </div>
     </div>
