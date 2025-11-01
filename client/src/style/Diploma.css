@@ -1,3 +1,20 @@
+.diploma-title-line {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #B4D2E7;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-shadow: none;
+}
+
+.diploma-subtitle-line {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 /* Diploma Component Styles */
 
 .diploma-container {
@@ -7,8 +24,8 @@
 }
 
 .diploma-card {
-  background: linear-gradient(135deg, #F8F8F8 0%, rgba(248, 248, 248, 0.95) 100%);
-  border: 2px solid #4CB963;
+  background: #fff;
+  border: 2px solid #173753;
   border-radius: 16px;
   box-shadow: 
     0 10px 30px rgba(23, 55, 83, 0.15),
@@ -25,7 +42,7 @@
 }
 
 .diploma-header {
-  background: linear-gradient(135deg, #173753 0%, #4CB963 100%);
+  background: #173753;
   color: #F8F8F8;
   border-bottom: none;
   padding: 1.5rem;
@@ -33,18 +50,41 @@
 }
 
 .diploma-title {
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin: 0;
   font-family: 'Orbitron', monospace;
+  color: #B4D2E7;
+  letter-spacing: 0.5px;
+  text-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.diploma-subtitle {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0.3rem 0 0.2rem 0;
+  color: #fff;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 1px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .diploma-period {
+  display: inline-block;
   font-size: 1.1rem;
-  margin-top: 0.5rem;
-  color: #B4D2E7;
-  font-weight: 500;
+  margin-top: 1.1rem;
+  color: #F9C22E;
+  font-weight: 700;
+  border: 2.5px solid #F9C22E;
+  border-radius: 16px;
+  padding: 0.12em 0.7em;
+  background: transparent;
+  min-width: 36px;
+  box-sizing: border-box;
 }
 
 .diploma-body {
@@ -71,9 +111,9 @@
   gap: 1rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: linear-gradient(135deg, rgba(75, 185, 99, 0.1), rgba(180, 210, 231, 0.1));
+  background: rgba(180, 210, 231, 0.3) !important;
   border-radius: 12px;
-  border: 1px solid rgba(75, 185, 99, 0.3);
+  border: 2px solid #B4D2E7 !important;
 }
 
 .grade-label {
@@ -110,7 +150,7 @@
 @media (max-width: 768px) {
   .diploma-container {
     margin: 1rem auto;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
   
   .diploma-header {
@@ -119,6 +159,14 @@
   
   .diploma-title {
     font-size: 1.5rem;
+  }
+  
+  .diploma-title-line {
+    font-size: 1.5rem;
+  }
+  
+  .diploma-subtitle-line {
+    font-size: 1.6rem;
   }
   
   .diploma-period {
@@ -150,11 +198,19 @@
 
 @media (max-width: 480px) {
   .diploma-container {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   
   .diploma-title {
     font-size: 1.3rem;
+  }
+  
+  .diploma-title-line {
+    font-size: 1.3rem;
+  }
+  
+  .diploma-subtitle-line {
+    font-size: 1.4rem;
   }
   
   .institute-name {
@@ -169,6 +225,6 @@
 
 @media (max-width: 320px) {
   .diploma-container {
-    padding: 0 2.5rem;
+    padding: 0 1rem;
   }
 }

@@ -7,21 +7,6 @@
   padding: 0 1rem;
 }
 
-.section-title {
-  font-size: 2.5rem;
-  color: #4CB963;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-family: 'Orbitron', monospace;
-  font-weight: 700;
-  text-shadow: 
-    0 0 20px rgba(75, 185, 99, 0.5),
-    -0.5px -0.5px 0 #000,
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000;
-  -webkit-text-stroke: 0.5px #000;
-}
 
 .exams-grid {
   display: grid;
@@ -40,7 +25,6 @@
 .show-more-btn {
   background: linear-gradient(135deg, #4CB963 0%, #173753 100%);
   color: #F8F8F8;
-  border: 2px solid #B4D2E7;
   border-radius: 25px;
   padding: 0.8rem 2rem;
   font-size: 1rem;

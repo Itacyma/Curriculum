@@ -6,14 +6,16 @@ function Diploma(props) {
   const { language } = props;
 
   const diploma = {
-    titolo: "Diploma di Liceo Scientifico",
+    titolo: "Diploma di",
+    sottotitolo: "Liceo Scientifico",
     anniRange: "2016 - 2021",
     valutazione: "100/100",
     istituto: "L.S.S \"Carlo Cattaneo\" di Torino",
   };
   
   const diploma_eng = {
-    titolo: "High School Diploma in Scientific Studies",
+    titolo: "High School Diploma in",
+    sottotitolo: "Scientific Studies",
     anniRange: "2016 - 2021",
     valutazione: "100/100",
     istituto: "L.S.S. \"Carlo Cattaneo\" of Turin",
@@ -24,7 +26,10 @@ function Diploma(props) {
     <div className="diploma-container">
       <Card className="diploma-card">
         <Card.Header className="diploma-header">
-          <h2 className="diploma-title">{language==='it' ? diploma.titolo : diploma_eng.titolo} </h2>
+          <h2 className="diploma-title">
+            <span className="diploma-title-line">{language==='it' ? diploma.titolo : diploma_eng.titolo}</span>
+            <span className="diploma-subtitle-line">{language==='it' ? diploma.sottotitolo : diploma_eng.sottotitolo}</span>
+          </h2>
           <div className="diploma-period">{diploma.anniRange}</div>
         </Card.Header>
         

@@ -1,3 +1,23 @@
+.section-main-title {
+  font-size: 2.5rem;
+  color: #B4D2E7;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  text-shadow: 
+    0 0 20px rgba(180, 210, 231, 0.5),
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+  -webkit-text-stroke: 0.5px #000;
+}
+
+/* Riduci spazio solo per il titolo degli esami di indirizzo */
+.section-main-title + .exams-section {
+  margin-top: 0.5rem;
+}
 * {
   box-sizing: border-box;
 }
@@ -45,6 +65,9 @@ body {
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   color: #B4D2E7;
+}
+.current-course-title {
+  color: #B4D2E7 !important;
 }
 
 .page-title h1 {

@@ -6,17 +6,19 @@ function Triennale(props) {
   const { language } = props;
 
   const laurea = {
-    titolo: "Laurea in Ingegneria Informatica",
+    titolo: "Laurea in",
+    sottotitolo: "Ingegneria Informatica",
     anniRange: "2021 - 2024",
     valutazione: "102/110",
-    universita: "Politecnico di Torino",
+    universita: "\"Politecnico\" di Torino",
   };
 
   const laurea_eng = {
-    titolo: "Bachelor’s Degree in Computer Engineering",
+    titolo: "Bachelor’s Degree in",
+    sottotitolo: "Computer Engineering",
     anniRange: "2021 - 2024",
     valutazione: "102/110",
-    universita: "Politecnico di Torino",
+    universita: "\"Politecnico\" di Torino",
   };
 
   return (
@@ -24,7 +26,12 @@ function Triennale(props) {
       <Card className="triennale-card">
         <Card.Header className="triennale-header">
           <h2 className="triennale-title">
-            {language === 'it' ? laurea.titolo : laurea_eng.titolo}
+            <span className="triennale-title-line">
+              {language === 'it' ? laurea.titolo : laurea_eng.titolo}
+            </span>
+            <span className="triennale-subtitle-line">
+              {language === 'it' ? laurea.sottotitolo : laurea_eng.sottotitolo}
+            </span>
           </h2>
           <div className="triennale-period">
             {language === 'it' ? laurea.anniRange : laurea_eng.anniRange}

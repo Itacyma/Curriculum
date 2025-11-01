@@ -7,8 +7,8 @@
 }
 
 .magistrale-card {
-  background: linear-gradient(135deg, #F8F8F8 0%, rgba(248, 248, 248, 0.95) 100%);
-  border: 2px solid #4CB963;
+  background: #fff;
+  border: 2px solid #173753;
   border-radius: 16px;
   box-shadow: 
     0 10px 30px rgba(23, 55, 83, 0.15),
@@ -25,7 +25,7 @@
 }
 
 .magistrale-header {
-  background: linear-gradient(135deg, #173753 0%, #4CB963 100%);
+  background: #173753;
   color: #F8F8F8;
   border-bottom: none;
   padding: 1.5rem;
@@ -45,22 +45,35 @@
 }
 
 .magistrale-title-line {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #B4D2E7;
+  letter-spacing: 0.5px;
   line-height: 1.2;
+  text-shadow: none;
 }
 
 .magistrale-subtitle-line {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 800;
-  color: #F8F8F8;
+  color: #fff;
+  letter-spacing: 1px;
   line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .magistrale-period {
+  display: inline-block;
   font-size: 1.1rem;
-  margin-top: 0.5rem;
-  color: #B4D2E7;
-  font-weight: 500;
+  margin-top: 1.1rem;
+  color: #F9C22E;
+  font-weight: 700;
+  border: 2.5px solid #F9C22E;
+  border-radius: 16px;
+  padding: 0.12em 0.7em;
+  background: transparent;
+  min-width: 36px;
+  box-sizing: border-box;
 }
 
 .magistrale-body {

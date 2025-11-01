@@ -7,18 +7,9 @@ import { GeoControl } from '../components/Projects/GeoControl';
 import { RaspberryPi } from '../components/Projects/RaspberryPi';
 
 function ProjectSection({ language }) {
-  const labels = {
-    sectionTitle: {
-      it: "I miei progetti",
-      en: "My Projects"
-    }
-  };
 
   return (
     <section className="project-section" id="progetti-web">
-      <h2 className="project-section-title">
-        {language === 'it' ? labels.sectionTitle.it : labels.sectionTitle.en}
-      </h2>
       
       <GeoControl />
       <div style={{ height: '3.5rem' }}></div>

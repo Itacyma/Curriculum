@@ -208,7 +208,6 @@ function ExamSection(props) {
 
   return (
     <div className="exams-section">
-      <h2 className="section-title">{language === "it" ? "Esami di indirizzo" : "Major Exams"}</h2>
 
       {error && (
         <Alert variant="warning" className="mx-auto" style={{ maxWidth: '800px' }}>

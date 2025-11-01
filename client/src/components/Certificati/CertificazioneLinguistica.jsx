@@ -18,7 +18,6 @@ function CertificazioneLinguistica() {
 
   return (
     <div className="certificazione-container">
-      <h2 className="certificazione-section-title">Certificazione Linguistica</h2>
       <Card className="certificazione-card">
         <Card.Body className="certificazione-body">
           <table className="competenze-table">

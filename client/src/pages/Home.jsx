@@ -46,26 +46,29 @@ function HomePageCV(props) {
             <div className="scroll-text">{language==='it'?labels.scrollText.it:labels.scrollText.en}</div>
             <div className="arrow-down">↓</div>
           </div>
-          <h2 className="education-title">{language==='it'?labels.educationTitle.it:labels.educationTitle.en}</h2>
-          <div className="education-grid">
-            <Diploma language={language} />
-            <Triennale language={language} />
-          </div>
+        </div>
+        <h2 className="section-main-title">{language==='it'?labels.educationTitle.it:labels.educationTitle.en}</h2>
+        <div className="education-grid">
+          <Diploma language={language} />
+          <Triennale language={language} />
         </div>
         
         {/* Sezione Corso Attuale */}
         <div className="current-course-section">
-          <h2 className="current-course-title">{language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}</h2>
-          <Magistrale language={language}/>
         </div>
+        <h2 className="section-main-title">{language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}</h2>
+        <Magistrale language={language}/>
         
         {/* Sezione Certificazione Linguistica */}
+        {language==='it' ? <h2 className="section-main-title">Certificazione Linguistica</h2> : <></>}
         {language==='it' ? <CertificazioneLinguistica language={language}/> : <></>}
-        
-        {/* Sezione Esami */}
+              
+              {/* Sezione Esami */}
+        <h2 className="section-main-title">{language === "it" ? "Esami di indirizzo" : "Major Exams"}</h2>
         <ExamSection language={language} />
 
-        {/* Sezione Progetti */}
+              {/* Sezione Progetti */}
+        <h2 className="section-main-title">{language === 'it' ? 'I miei progetti' : 'My Projects'}</h2>
         <ProjectSection language={language} /> 
 
         {/* Sezione Contatti */}

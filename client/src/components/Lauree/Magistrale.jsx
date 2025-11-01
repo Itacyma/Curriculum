@@ -8,19 +8,19 @@ function Magistrale(props) {
   const laurea = {
     titolo: "Laurea Magistrale in",
     sottotitolo: "Software Engineering",
-    anniRange: "2024 -",
+    anniRange: "2024 - ?",
     valutazione: "29.16/30",
     cfu: "60/120 CFU",
-    universita: "Politecnico di Torino",
+    universita: "\"Politecnico\" di Torino",
   };
 
   const laurea_eng = {
     titolo: "Master’s Degree in",
     sottotitolo: "Software Engineering",
-    anniRange: "2024 -",
+    anniRange: "2024 - ?",
     valutazione: "29.16/30",
     cfu: "60/120 ECTS",
-    universita: "Politecnico di Torino",
+    universita: "\"Politecnico\" di Torino",
   };
 
   return (

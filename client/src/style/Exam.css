@@ -63,9 +63,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #B4D2E744;
-    border: 2px solid #B4D2E7;
-    border-radius: 12px;
+    background: #173753;
+    border: none;
+    box-shadow: 0 0 0 2px #F9C22E;
+    border-radius: 2px;
     padding: 0.8rem 1.2rem;
     min-width: 80px;
     height: fit-content;
