@@ -1,17 +1,56 @@
 .section-main-title {
   font-size: 2.5rem;
-  color: #B4D2E7;
+  color: #4CB963;
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 2.5rem;
+  padding-top: 3rem;
   font-family: 'Orbitron', monospace;
   font-weight: 700;
   text-shadow: 
-    0 0 20px rgba(180, 210, 231, 0.5),
+    0 0 20px rgba(75, 185, 99, 0.5),
     -0.5px -0.5px 0 #000,
     0.5px -0.5px 0 #000,
     -0.5px 0.5px 0 #000,
     0.5px 0.5px 0 #000;
   -webkit-text-stroke: 0.5px #000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.section-main-title::before,
+.section-main-title::after {
+  content: '';
+  flex: 1;
+  height: 3px;
+  background: #173753;
+  max-width: 300px;
+}
+
+.section-main-title::before {
+  margin-right: 1.5rem;
+}
+
+.section-main-title::after {
+  margin-left: 1.5rem;
+}
+
+/* Icona centrale del separatore */
+.section-main-title .separator-icon {
+  font-size: 1.5rem;
+  color: #173753;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #B4D2E7;
+  border: 2px solid #173753;
+  box-shadow: 0 0 15px rgba(23, 55, 83, 0.3);
 }
 
 /* Riduci spazio solo per il titolo degli esami di indirizzo */

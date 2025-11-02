@@ -55,7 +55,7 @@ function PresentationCV(props) {
         <header className="presentation-header">
             <div className="profile-section">
                 <div className="profile-image">
-                    <img src="../public/profile-photo.jpg" alt="" />
+                    <img src="../profile-photo.jpg" alt="" />
                 </div>
                 <div className="profile-info">
                     <h1 className="name">Claudio Martini</h1>

@@ -53,6 +53,7 @@ function ProjectCV({ mockData, techSections, language }) {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <i className="bi bi-github"></i>
             {language === 'it' ? labels.viewProject.it : labels.viewProject.en}
           </a>
         )}

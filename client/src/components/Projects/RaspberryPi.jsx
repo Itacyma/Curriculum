@@ -10,7 +10,7 @@ function RaspberryPi(props) {
     description:
       'Webserver realizzato in Flask e installato su una scheda Raspberry Pi per il controllo remoto di LED tramite interfaccia web. L’applicazione consente di accendere, spegnere e gestire più LED fisici con semplici pulsanti HTML, fornendo feedback in tempo reale sullo stato dei dispositivi.',
     tools: ['HTML5', 'CSS3', 'Flask', 'Python', 'C', 'Bootstrap', 'Raspberry Pi GPIO'],
-    link: '/',
+    link: '',
     extra: '',
     subtitle: 'IoT web application',
     iconClass: 'bi bi-cpu'
@@ -22,7 +22,7 @@ function RaspberryPi(props) {
     description:
       'Web server built with Flask and deployed on a Raspberry Pi board for remote LED control via a web interface. The application allows turning on, off, and managing multiple physical LEDs using simple HTML buttons, providing real-time feedback on device status.',
     tools: ['HTML5', 'CSS3', 'Flask', 'Python', 'C', 'Bootstrap', 'Raspberry Pi GPIO'],
-    link: '/',
+    link: '',
     extra: '',
     subtitle: 'IoT web application',
     iconClass: 'bi bi-cpu'

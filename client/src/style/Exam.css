@@ -104,9 +104,9 @@
 
 /* Expand Button */
 .expand-btn {
-    background: #B4D2E7;
+    background: transparent;
     border: 1px solid #B4D2E7;
-    color: #173753;
+    color: #B4D2E7;
     padding: 0.3rem 0.8rem;
     border-radius: 6px;
     font-size: 0.8rem;
@@ -114,12 +114,12 @@
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: 'Roboto Mono', monospace;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    font-style: italic;
 }
 
 .expand-btn:hover {

@@ -41,13 +41,18 @@ function HomePageCV(props) {
         <PresentationCV language={language} setLanguage={setLanguage} />
         
         {/* Sezione Formazione - Diploma e Triennale */}
-        <div id="percorso-formativo" className="education-section">
+        <div className="education-section">
           <div className="scroll-arrow">
             <div className="scroll-text">{language==='it'?labels.scrollText.it:labels.scrollText.en}</div>
             <div className="arrow-down">↓</div>
           </div>
         </div>
-        <h2 className="section-main-title">{language==='it'?labels.educationTitle.it:labels.educationTitle.en}</h2>
+        <h2 id="percorso-formativo" className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language==='it'?labels.educationTitle.it:labels.educationTitle.en}
+        </h2>
         <div className="education-grid">
           <Diploma language={language} />
           <Triennale language={language} />
@@ -56,19 +61,39 @@ function HomePageCV(props) {
         {/* Sezione Corso Attuale */}
         <div className="current-course-section">
         </div>
-        <h2 className="section-main-title">{language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}</h2>
+        <h2 className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}
+        </h2>
         <Magistrale language={language}/>
         
         {/* Sezione Certificazione Linguistica */}
-        {language==='it' ? <h2 className="section-main-title">Certificazione Linguistica</h2> : <></>}
+        {language==='it' ? <h2 className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          Certificazione Linguistica
+        </h2> : <></>}
         {language==='it' ? <CertificazioneLinguistica language={language}/> : <></>}
               
-              {/* Sezione Esami */}
-        <h2 className="section-main-title">{language === "it" ? "Esami di indirizzo" : "Major Exams"}</h2>
+        {/* Sezione Esami */}
+        <h2 className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language === "it" ? "Esami di indirizzo" : "Major Exams"}
+        </h2>
         <ExamSection language={language} />
 
-              {/* Sezione Progetti */}
-        <h2 className="section-main-title">{language === 'it' ? 'I miei progetti' : 'My Projects'}</h2>
+        {/* Sezione Progetti */}
+        <h2 id="progetti-web" className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language === 'it' ? 'I miei progetti' : 'My Projects'}
+        </h2>
         <ProjectSection language={language} /> 
 
         {/* Sezione Contatti */}

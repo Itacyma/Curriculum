@@ -163,12 +163,14 @@
 
 
 .project-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   margin-bottom: 0.7rem;
   color: #F9C22E;
   background: #173753;
   border-radius: 6px;
-  padding: 0.4em 1.1em;
+  padding: 0.5em 1.2em;
   font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
@@ -177,13 +179,17 @@
   transition: background 0.2s, color 0.2s;
 }
 
+.project-link i {
+  font-size: 1.2rem;
+}
+
 /* Versione ristretta e distanziata per GiocoDellaSfortuna */
 .project-link-narrow {
-  width: 70%;
-  display: block;
+  max-width: 320px;
+  display: inline-flex;
+  justify-content: center;
   margin: 2.2rem auto 0.7rem auto;
-  text-align: center;
-  padding: 0.4em 0;
+  padding: 0.5em 1.2em;
   border: 2px solid #4CB963;
 }
 
@@ -341,7 +347,7 @@
 }
 
 /* --- RESPONSIVE --- */
-@media (max-width: 1200px) {
+@media (max-width: 1258px) {
   .project-sections {
     flex-direction: column;
     gap: 1.1rem;
@@ -352,7 +358,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1258px) {
   .project-card {
     flex-direction: column;
     align-items: stretch;
@@ -380,6 +386,72 @@
   .project-tech-section {
     min-width: 0;
   }
+  
+  .project-header-row {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 1.5rem;
+  }
+  
+  .project-header-iconblock {
+    max-width: 140px;
+    margin-right: 0;
+  }
+  
+  .project-header-iconblock i {
+    font-size: 3rem;
+  }
+  
+  .project-header-iconblock .project-subtitle {
+    font-size: 1rem;
+  }
+  
+  .project-header-mainblock {
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .project-title {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .project-date-separator {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-description-narrow {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-description-narrow {
+    width: 80%;
+  }
+  
+  .project-tools {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -397,5 +469,25 @@
 
   .project-img-wrapper {
     min-height: 150px;
+  }
+  
+  .project-header-iconblock {
+    max-width: 120px;
+  }
+  
+  .project-header-iconblock i {
+    font-size: 2.5rem;
+  }
+  
+  .project-header-iconblock .project-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .project-description-narrow {
+    width: 100%;
+  }
+  
+  .project-link-narrow {
+    max-width: 100%;
   }
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Alert, Spinner } from "react-bootstrap";
 
 import { ExamCV } from "../components/Exam.jsx";
@@ -165,6 +165,7 @@ function ExamSection(props) {
   const [error, setError] = useState(null);
   const [showAllExams, setShowAllExams] = useState(false);
   const [exams, setExams] = useState([]);
+  const showMoreButtonRef = useRef(null);
 
   // Lista degli esami principali
   const mainExams_it = [
@@ -206,6 +207,17 @@ function ExamSection(props) {
     return exams.filter(exam => mainExams.includes(exam.name));
   };
 
+  const handleToggleExams = () => {
+    setShowAllExams(!showAllExams);
+    
+    // Quando si nascondono gli esami, scrolla al pulsante
+    if (showAllExams && showMoreButtonRef.current) {
+      setTimeout(() => {
+        showMoreButtonRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      }, 50);
+    }
+  };
+
   return (
     <div className="exams-section">
 
@@ -233,8 +245,8 @@ function ExamSection(props) {
           </div>
 
           {exams.length > mainExams.length && (
-            <div className="show-more-container">
-              <button className="show-more-btn" onClick={() => setShowAllExams(!showAllExams)}>
+            <div className="show-more-container" ref={showMoreButtonRef}>
+              <button className="show-more-btn" onClick={handleToggleExams}>
                 {showAllExams ? (
                   <>
                     <i className="bi bi-chevron-up"></i>
