@@ -2,7 +2,7 @@
 
 /* Sezione Esami */
 .exams-section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 6rem auto;
   padding: 0 1rem;
 }
@@ -10,9 +10,22 @@
 
 .exams-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 2.75rem;
   width: 100%;
+  align-items: stretch;
+}
+
+/* Grid items spacing overrides */
+.exams-grid .exam-card {
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .exams-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Pulsante Mostra Tutti gli Esami */
@@ -59,6 +72,10 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
     padding: 0 1rem;
+  }
+
+  .exams-grid .exam-card {
+    margin-top: 0;
   }
   
   .section-title {

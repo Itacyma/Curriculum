@@ -4,7 +4,7 @@
     background: #173753;
     border: 2px solid #B4D2E7;
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1.25rem;
     margin: 1rem 0;
     box-shadow: 
         0 0 20px #4CB9634d,
@@ -16,7 +16,8 @@
     color: #F8F8F8;
     display: flex;
     flex-direction: column;
-    min-height: 280px;
+    min-height: 250px;
+    height: 100%;
 }
 
 .exam-card::before {
@@ -56,6 +57,10 @@
     font-family: 'Orbitron', monospace;
     text-shadow: 0 1px 0 #173753, 0 0 8px #B4D2E744;
     text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 /* Year Section - Compatto */
@@ -95,11 +100,17 @@
     flex: 1;
 }
 
+.exam-description-text {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+}
+
 .exam-description p {
-    margin: 0 0 1.2rem 0;
+    margin: 0;
     line-height: 1.6;
     color: #F8F8F8;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 /* Expand Button */
@@ -120,6 +131,8 @@
     justify-content: center;
     gap: 0.5rem;
     font-style: italic;
+    margin-top: 0.9rem;
+    flex: 0 0 auto;
 }
 
 .expand-btn:hover {
@@ -146,6 +159,49 @@
     margin-top: auto;
     padding-top: 1rem;
     justify-content: center;
+}
+
+/* Fixed section heights (keeps rows aligned on multi-column layouts) */
+@media (min-width: 769px) {
+    .exam-header {
+        height: 100px;
+        margin-bottom: 0.75rem;
+    }
+
+    .exam-description {
+        flex: 0 0 auto;
+        height: 80px;
+        margin: 0.75rem 0;
+    }
+
+    .exam-card.is-expanded .exam-description {
+        height: auto;
+    }
+
+    .exam-card.is-expanded .exam-description-text {
+        overflow: visible;
+    }
+
+    .exam-card:not(.is-expanded) .exam-description {
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .exam-card:not(.is-expanded) .expand-btn {
+        margin-top: 0;
+    }
+
+    .exam-tags {
+        flex: 0 0 auto;
+        margin-top: 0;
+        padding-top: 0.5rem;
+        height: 104px;
+        overflow-y: auto;
+        align-content: center;
+        align-items: center;
+    }
 }
 
 .exam-tag {

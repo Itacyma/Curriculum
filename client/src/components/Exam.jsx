@@ -13,7 +13,7 @@ function ExamCV({ exam, language }) {
     const hideText = language === 'en' ? 'Hide description' : 'Nascondi descrizione';
 
     return (
-        <div className="exam-card">
+        <div className={isExpanded ? 'exam-card is-expanded' : 'exam-card'}>
             <div className="exam-header">
                 <div className="exam-title-section">
                     <h3 className="exam-title">{name}</h3>
@@ -24,17 +24,18 @@ function ExamCV({ exam, language }) {
             </div>
 
             <div className="exam-description">
+                <div className="exam-description-text">
+                    {isExpanded ? <p>{description}</p> : null}
+                </div>
+
                 {isExpanded ? (
-                    <>
-                        <p>{description}</p>
-                        <button 
-                            className="expand-btn expanded"
-                            onClick={() => setIsExpanded(false)}
-                        >
-                            {hideText}
-                            <i className="bi bi-chevron-up"></i>
-                        </button>
-                    </>
+                    <button 
+                        className="expand-btn expanded"
+                        onClick={() => setIsExpanded(false)}
+                    >
+                        {hideText}
+                        <i className="bi bi-chevron-up"></i>
+                    </button>
                 ) : (
                     <button 
                         className="expand-btn"
