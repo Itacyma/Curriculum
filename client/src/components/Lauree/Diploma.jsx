@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import '../../style/Diploma.css';
+import '../../style/EducationCards.css';
 
 function Diploma(props) {
   const { language } = props;

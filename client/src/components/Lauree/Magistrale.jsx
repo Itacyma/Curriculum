@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import '../../style/Magistrale.css';
+import '../../style/EducationCards.css';
 
 function Magistrale(props) {
   const { language } = props;

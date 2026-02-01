@@ -24,10 +24,6 @@ function HomePageCV(props) {
     educationTitle: {
       it: "Percorso Formativo",
       en: "Educational Path"
-    },
-    currentCourseTitle: {
-      it: "Corso Attuale",
-      en: "Current Course"
     }
   };
 
@@ -56,18 +52,8 @@ function HomePageCV(props) {
         <div className="education-grid">
           <Diploma language={language} />
           <Triennale language={language} />
+          <Magistrale language={language} />
         </div>
-        
-        {/* Sezione Corso Attuale */}
-        <div className="current-course-section">
-        </div>
-        <h2 className="section-main-title">
-          <span className="separator-icon">
-            <i className="bi bi-diamond-fill"></i>
-          </span>
-          {language==='it'?labels.currentCourseTitle.it:labels.currentCourseTitle.en}
-        </h2>
-        <Magistrale language={language}/>
         
         {/* Sezione Certificazione Linguistica */}
         {language==='it' ? <h2 className="section-main-title">

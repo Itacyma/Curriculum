@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import '../../style/Triennale.css';
+import '../../style/EducationCards.css';
 
 function Triennale(props) {
   const { language } = props;
