@@ -9,7 +9,7 @@ export const mockExamsIt = [
   {
     name: "Software Engineering II",
     date: "2026-01-22",
-    description: "",
+    description: "Studio dei principi, delle metodologie e degli strumenti per lo sviluppo e la gestione di progetti software complessi. Il corso si concentra sull’analisi e la formalizzazione dei requisiti, la progettazione tramite UML, la gestione di progetto (WBS, Gantt, PERT) e le tecniche di testing (white-box, black-box, unit, integration, system). Particolare attenzione è dedicata al lavoro di squadra e alle metodologie agili per lo sviluppo collaborativo di sistemi software di grandi dimensioni.",
     tags: ["Scrum", "DevOps", "Docker", "SonarQube"],
   },
   {

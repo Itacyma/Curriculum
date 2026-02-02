@@ -151,18 +151,13 @@
   border-radius: 12px;
 }
 
-/* Diploma keeps its “blue” grade box */
-.diploma-card .grade-container {
+.diploma-card .grade-container,
+.triennale-card .grade-container,
+.magistrale-card .grade-container {
   background: rgba(180, 210, 231, 0.3) !important;
   border: 2px solid #B4D2E7 !important;
 }
 
-/* Lauree keep the green/blue gradient grade box */
-.triennale-card .grade-container,
-.magistrale-card .grade-container {
-  background: linear-gradient(135deg, rgba(75, 185, 99, 0.1), rgba(180, 210, 231, 0.1));
-  border: 1px solid rgba(75, 185, 99, 0.3);
-}
 
 .grade-label {
   font-size: 1rem;
