@@ -76,7 +76,7 @@
 }
 
 .profile-info .job-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 0 0 2rem 0;
     font-weight: 500;
     color: #327857;
@@ -324,12 +324,16 @@
     .description {
         text-align: center;
     }
+
+    .download-cv-btn {
+        padding: 0.5rem 1.4rem;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .profile-info .job-title {
-        font-size: 1.05rem;
-        letter-spacing: 1.5px;
+        font-size: 0.95rem;
+        letter-spacing: 1.4px;
     }
 
     .profile-image img {
@@ -346,12 +350,27 @@
         font-size: 0.92rem;
         line-height: 1.45;
     }
+
+    .download-cv-btn {
+        font-size: 0.95rem;
+        padding: 0.4rem 1.7rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 1.05rem;
+    }
 }
 
 
 @media (max-width: 500px) {
+    .profile-info .job-title {
+        font-size: 0.85rem;
+        letter-spacing: 1.4px;
+    }
+
     .download-cv-btn {
         font-size: 0.95rem;
+        padding: 0.4rem 1.5rem;
     }
 
     .download-cv-btn i {
@@ -368,16 +387,25 @@
     .profile-info .name {
         font-size: 1.8rem;
     }
+
+    .download-cv-btn {
+        font-size: 0.9rem;
+        padding: 0.3rem 1.4rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 450px) {
     .profile-info .job-title {
-        font-size: 0.90rem;
+        font-size: 0.75rem;
         letter-spacing: 1.2px;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .download-cv-btn {
         font-size: 0.85rem;
     }
@@ -387,7 +415,7 @@
     }
 
     .profile-info .job-title {
-        font-size: 0.80rem;
+        font-size: 0.70rem;
         letter-spacing: 1px;
     }
 
@@ -400,9 +428,21 @@
 @media (max-width: 385px) {
     .download-cv-btn {
         font-size: 0.75rem;
+        padding: 0.3rem 1rem;
     }
 
     .download-cv-btn i {
         font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 355px) {
+    .download-cv-btn {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 0.75rem;
     }
 }

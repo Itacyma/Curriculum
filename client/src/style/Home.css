@@ -178,6 +178,18 @@ body {
   background: linear-gradient(135deg, #eb8b25, #eb8b25);
 }
 
+@media (max-width: 725px) {
+  .section-main-title {
+    font-size: 2rem;
+  }
+
+  .section-main-title .separator-icon {
+    width: 46px;
+    height: 46px;
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .home-role-buttons {
     grid-template-columns: 1fr;
@@ -207,7 +219,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
   .section-main-title {
     font-size: 1.8rem;
   }
@@ -219,7 +231,7 @@ body {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 525px) {
   .section-main-title {
     font-size: 1.5rem;
   }
@@ -231,7 +243,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 475px) {
   .section-main-title {
     font-size: 1.4rem;
   }
@@ -240,5 +252,17 @@ body {
     width: 30px;
     height: 30px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .section-main-title {
+    font-size: 1.2rem;
+  }
+
+  .section-main-title .separator-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
   }
 }

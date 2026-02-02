@@ -6,7 +6,7 @@ function Triennale(props) {
   const { language } = props;
 
   const laurea = {
-    titolo: "Laurea in",
+    titolo: "Laurea Triennale in",
     sottotitolo: "Ingegneria Informatica",
     anniRange: "2021 - 2024",
     valutazione: "102/110",

@@ -71,7 +71,7 @@ function HomePageCV(props) {
           <span className="separator-icon">
             <i className="bi bi-diamond-fill"></i>
           </span>
-          Certificazione Linguistica
+          Certificazioni
         </h2> : <></>}
         {language==='it' ? <CertificazioneLinguistica language={language}/> : <></>}
               
