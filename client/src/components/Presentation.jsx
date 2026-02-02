@@ -45,10 +45,13 @@ function PresentationCV(props) {
     };
 
     const downloadCV = () => {
+        const fileName = language === 'it' ? 'Curriculum-ita.pdf' : 'Curriculum-eng.pdf';
         const link = document.createElement('a');
-        link.href = language === 'it' ? '/cv/Claudio-Martini-CV-ita.pdf' : '/cv/Claudio-Martini-CV-eng.pdf';
-        link.download = language === 'it' ? '/cv/Claudio-Martini-CV-ita.pdf' : '/cv/Claudio-Martini-CV-eng.pdf';
+        link.href = `/cv/${fileName}`;
+        link.download = fileName;
+        document.body.appendChild(link);
         link.click();
+        link.remove();
     };
 
     return (
