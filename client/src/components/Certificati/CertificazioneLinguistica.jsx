@@ -20,6 +20,9 @@ function CertificazioneLinguistica() {
     <div className="certificazione-container">
       <Card className="certificazione-card">
         <Card.Body className="certificazione-body">
+          <h3 className="certificazione-section-title">
+            Certificazione di Inglese – Cambridge First (FCE)
+          </h3>
           <table className="competenze-table">
             <thead>
               <tr className="main-header">
