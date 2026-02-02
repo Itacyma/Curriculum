@@ -1,6 +1,6 @@
 .skills-section {
   width: 100%;
-  padding: 0 clamp(1.4rem, 3vw, 2rem);
+  padding: 0 clamp(1.4rem, 4vw, 3.25rem);
 }
 
 .skills-grid {
@@ -21,6 +21,37 @@
     width: 100%;
     max-width: 560px;
     min-width: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .skills-card-header {
+    padding: 0.75rem 0.9rem;
+  }
+
+  .skills-card-title {
+    font-size: 0.95rem;
+  }
+
+  .skills-icon {
+    font-size: 1rem;
+  }
+
+  .skills-card-body {
+    padding: 0.85rem;
+    gap: 0.65rem;
+  }
+
+  .skill-name {
+    font-size: 0.95rem;
+  }
+
+  .skill-detail {
+    font-size: 0.84rem;
+  }
+
+  .skill-score {
+    font-size: 0.9rem;
   }
 }
 
@@ -143,4 +174,10 @@
   color: #173753;
   white-space: nowrap;
   text-align: right;
+}
+
+@media (max-width: 450px) {
+  .skill-detail {
+    font-size: 0.78rem;
+  }
 }

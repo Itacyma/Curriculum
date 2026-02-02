@@ -326,6 +326,39 @@
     }
 }
 
+@media (max-width: 550px) {
+    .profile-info .job-title {
+        font-size: 1.05rem;
+        letter-spacing: 1.5px;
+    }
+
+    .profile-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .description h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .description p {
+        font-size: 0.92rem;
+        line-height: 1.45;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .download-cv-btn {
+        font-size: 0.95rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 1.05rem;
+    }
+}
+
 @media (max-width: 480px) {
     .profile-image img {
         width: 150px;
@@ -334,5 +367,42 @@
     
     .profile-info .name {
         font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .profile-info .job-title {
+        font-size: 0.90rem;
+        letter-spacing: 1.2px;
+    }
+}
+
+@media (max-width: 400px) {
+    .download-cv-btn {
+        font-size: 0.85rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 0.95rem;
+    }
+
+    .profile-info .job-title {
+        font-size: 0.80rem;
+        letter-spacing: 1px;
+    }
+
+    .description p {
+        font-size: 0.87rem;
+        line-height: 1.40;
+    }
+}
+
+@media (max-width: 385px) {
+    .download-cv-btn {
+        font-size: 0.75rem;
+    }
+
+    .download-cv-btn i {
+        font-size: 0.85rem;
     }
 }

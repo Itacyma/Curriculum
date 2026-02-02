@@ -70,11 +70,12 @@ function ExamSection(props) {
     return displayedMainExams;
   };
 
-  const hiddenExamsCount = Math.max(
-    0,
-    mainExamsFiltered.length + otherExams.length - getDisplayedExams().length
-  );
-  const canExpandExams = hiddenExamsCount > 0;
+  const totalExamsCount = mainExamsFiltered.length + otherExams.length;
+  // Calcola quanti esami sarebbero nascosti nella vista "compattata".
+  // Se lo calcoliamo in base alla vista corrente, quando si espande diventerebbe 0
+  // e il pulsante sparirebbe, impedendo di ricompattare.
+  const hiddenExamsCount = Math.max(0, totalExamsCount - displayedMainExams.length);
+  const canToggleExams = totalExamsCount > displayedMainExams.length;
 
   const handleToggleExams = () => {
     setShowAllExams(!showAllExams);
@@ -113,7 +114,7 @@ function ExamSection(props) {
             ))}
           </div>
 
-          {canExpandExams && (
+          {canToggleExams && (
             <div className="show-more-container" ref={showMoreButtonRef}>
               <button className="show-more-btn" onClick={handleToggleExams}>
                 {showAllExams ? (
