@@ -29,13 +29,13 @@
 }
 
 /* Pulsante Mostra Tutti gli Esami */
-.show-more-container {
+.exams-section .show-more-container {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  padding-top: 2.75rem;
 }
 
-.show-more-btn {
+.exams-section .show-more-btn {
   background: linear-gradient(135deg, #4CB963 0%, #173753 100%);
   color: #F8F8F8;
   border-radius: 25px;
@@ -51,18 +51,18 @@
   box-shadow: 0 4px 15px rgba(75, 185, 99, 0.3);
 }
 
-.show-more-btn:hover {
+.exams-section .show-more-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(75, 185, 99, 0.4);
   background: linear-gradient(135deg, #5fc976 0%, #1e4a61 100%);
   border-color: #B4D2E7;
 }
 
-.show-more-btn:active {
+.exams-section .show-more-btn:active {
   transform: translateY(0);
 }
 
-.show-more-btn i {
+.exams-section .show-more-btn i {
   font-size: 1.1rem;
 }
 
@@ -71,11 +71,14 @@
   .exams-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    padding: 0 1rem;
+    padding: 0;
+    justify-items: center;
   }
 
   .exams-grid .exam-card {
     margin-top: 0;
+    width: 100%;
+    max-width: 420px;
   }
   
   .section-title {
@@ -87,17 +90,27 @@
     padding: 0 1rem;
   }
   
-  .show-more-btn {
+  .exams-section .show-more-btn {
     padding: 0.7rem 1.5rem;
     font-size: 0.9rem;
+  }
+
+  .exams-section .show-more-container {
+    padding-top: 3rem;
   }
 }
 
 @media (max-width: 480px) {
   .exams-grid {
     grid-template-columns: 1fr;
-    padding: 0 1rem;
+    padding: 0;
     gap: 1.2rem;
+    justify-items: center;
+  }
+
+  .exams-grid .exam-card {
+    width: 100%;
+    max-width: 390px;
   }
   
   .section-title {
@@ -108,7 +121,7 @@
     padding: 0 1rem;
   }
   
-  .show-more-btn {
+  .exams-section .show-more-btn {
     padding: 0.6rem 1.2rem;
     font-size: 0.85rem;
   }

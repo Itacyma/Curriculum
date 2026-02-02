@@ -43,7 +43,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
-  align-items: start;
+  align-items: stretch;
   justify-items: center;
   padding-left: 3vw;
   padding-right: 3vw;
@@ -56,11 +56,15 @@
   margin: 0;
   width: 100%;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .education-grid .diploma-card,
 .education-grid .triennale-card,
 .education-grid .magistrale-card {
+  width: 100%;
+  max-width: 400px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -83,38 +87,40 @@
 /* Responsive Design */
 @media (max-width: 1200px) {
   .education-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.75rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }
 
 @media (max-width: 1024px) {
   .education-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
   }
   
   .education-grid .diploma-container,
   .education-grid .triennale-container,
   .education-grid .magistrale-container {
-    margin: 1rem auto;
-    padding: 0 1.5rem;
+    margin: 0;
+    padding: 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .education-section {
     margin: 4rem auto 5rem auto;
     padding: 0 1rem;
   }
   
   .education-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .education-grid {
-    gap: 1rem;
-    padding: 0;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
   
   .education-title {
@@ -136,13 +142,25 @@
   }
 }
 
+@media (max-width: 758px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 @media (max-width: 480px) {
   .education-section {
     padding: 0 1rem;
   }
   
   .education-grid {
-    padding: 0;
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   
   .education-title {
@@ -170,7 +188,10 @@
   }
   
   .education-grid {
-    padding: 0;
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -198,7 +219,7 @@
 }
 
 /* Responsive per Current Course Section */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .current-course-section {
     margin: 0 auto;
     padding: 0 1rem;

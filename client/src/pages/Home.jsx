@@ -6,6 +6,7 @@ import { Magistrale } from "../components/Lauree/Magistrale";
 import { CertificazioneLinguistica } from "../components/Certificati/CertificazioneLinguistica";
 import { Contatti } from "../components/Contatti";
 import { ExamSection } from "./ExamSection";
+import { SkillsSection } from "./SkillsSection";
 import { ProjectSection } from "./ProjectSection";
 import { ProjectCV } from "../components/Project";
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
@@ -43,6 +44,7 @@ function HomePageCV(props) {
             <div className="arrow-down">↓</div>
           </div>
         </div>
+
         <h2 id="percorso-formativo" className="section-main-title">
           <span className="separator-icon">
             <i className="bi bi-diamond-fill"></i>
@@ -54,6 +56,15 @@ function HomePageCV(props) {
           <Triennale language={language} />
           <Magistrale language={language} />
         </div>
+
+        {/* Sezione Skills */}
+        <h2 id="competenze-tecniche" className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language === 'it' ? 'Competenze tecniche' : 'Technical Skills'}
+        </h2>
+        <SkillsSection language={language} />
         
         {/* Sezione Certificazione Linguistica */}
         {language==='it' ? <h2 className="section-main-title">

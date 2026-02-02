@@ -12,7 +12,7 @@ function PresentationCV(props) {
             progetti: 'I miei progetti',
             contattami: 'Contattami',
             downloadCV: 'Scarica il CV',
-            descrizione1: 'Ciao, sono uno studente di 22 anni nato e cresciuto a Torino, dove ho conseguito la laurea triennale in Ingegneria Informatica.',
+            descrizione1: 'Ciao, sono uno studente di 23 anni nato e cresciuto a Torino, dove ho conseguito la laurea triennale in Ingegneria Informatica.',
             descrizione2: 'Attualmente frequento il secondo (e ultimo) anno della magistrale di Software Engineering, presso il "Politecnico di Torino".'
         },
         en: {
@@ -22,7 +22,7 @@ function PresentationCV(props) {
             progetti: 'My Projects',
             contattami: 'Contact Me',
             downloadCV: 'Download CV',
-            descrizione1: "Hi, I'm a 22-year-old student born and raised in Turin, where I earned my Bachelor's degree in Computer Engineering.",
+            descrizione1: "Hi, I'm a 23-year-old student born and raised in Turin, where I earned my Bachelor's degree in Computer Engineering.",
             descrizione2: "Currently, I am attending the second (and final) year of the Master's in Software Engineering at \"Politecnico di Torino\"."
         }
     };

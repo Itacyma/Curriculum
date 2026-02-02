@@ -5,6 +5,8 @@
   margin-top: 5rem;
   margin-bottom: 2.5rem;
   padding-top: 3rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   font-family: 'Orbitron', monospace;
   font-weight: 700;
   text-shadow: 
@@ -56,6 +58,12 @@
 /* Riduci spazio solo per il titolo degli esami di indirizzo */
 .section-main-title + .exams-section {
   margin-top: 0.5rem;
+}
+
+/* Riduci spazio tra freccia rossa e titolo Educational Path */
+#percorso-formativo.section-main-title {
+  margin-top: 2.25rem;
+  padding-top: 1rem;
 }
 * {
   box-sizing: border-box;
@@ -173,6 +181,29 @@ body {
 @media (max-width: 600px) {
   .home-role-buttons {
     grid-template-columns: 1fr;
+  }
+
+  .section-main-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 0.9rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 2.25rem;
+  }
+
+  .section-main-title::before,
+  .section-main-title::after {
+    max-width: 140px;
+  }
+
+  .section-main-title::before {
+    margin-right: 0.9rem;
+  }
+
+  .section-main-title::after {
+    margin-left: 0.9rem;
   }
 }
 

@@ -10,7 +10,7 @@ function Diploma(props) {
     sottotitolo: "Liceo Scientifico",
     anniRange: "2016 - 2021",
     valutazione: "100/100",
-    istituto: "L.S.S \"Carlo Cattaneo\" di Torino",
+    istituto: "L.S.S. \"Carlo Cattaneo\" di Torino",
   };
   
   const diploma_eng = {

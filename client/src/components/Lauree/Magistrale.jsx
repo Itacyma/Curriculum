@@ -54,9 +54,6 @@ function Magistrale(props) {
             <span className="grade-value">
               {language === 'it' ? laurea.valutazione : laurea_eng.valutazione}
             </span>
-            <span className="cfu-value">
-              ({language === 'it' ? laurea.cfu : laurea_eng.cfu})
-            </span>
           </div>
         </Card.Body>
       </Card>
