@@ -198,7 +198,7 @@
         margin-top: auto;
         padding-top: 0.5rem;
         height: auto;
-        max-height: 104px;
+        max-height: 125px;
         overflow-y: auto;
         align-content: flex-start;
         align-items: center;
@@ -232,13 +232,23 @@
         align-items: flex-start;
         gap: 1rem;
     }
-    
+
+    .exam-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+ 
     .exam-credits-display {
         align-self: flex-start;
+        box-shadow: 0 0 0 2px #F9C22E;
+        border-radius: 2px;
+        padding: 0.6rem 0.8rem;
+        min-width: 70px;
     }
-    
-    .exam-title {
-        font-size: 1.2rem;
+
+    .credits-value {
+        font-size: 1rem;
+        font-weight: 900;
     }
 }
 
@@ -249,17 +259,18 @@
     }
     
     .exam-title {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+        font-weight: 700;
     }
     
     .credits-value {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
-    
+ 
     .exam-credits-display {
+        padding: 0.6rem 0.8rem;
         min-width: 70px;
-        padding: 0.6rem 1rem;
-    }
+    } 
 }
 
 @media (max-width: 1400px) {
