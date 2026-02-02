@@ -46,8 +46,8 @@ function PresentationCV(props) {
 
     const downloadCV = () => {
         const link = document.createElement('a');
-        link.href = language === 'it' ? '/Claudio-Martini-CV-ita.pdf' : '/Claudio-Martini-CV-eng.pdf';
-        link.download = language === 'it' ? 'Claudio-Martini-CV-ita.pdf' : 'Claudio-Martini-CV-eng.pdf';
+        link.href = language === 'it' ? '/cv/Claudio-Martini-CV-ita.pdf' : '/cv/Claudio-Martini-CV-eng.pdf';
+        link.download = language === 'it' ? '/cv/Claudio-Martini-CV-ita.pdf' : '/cv/Claudio-Martini-CV-eng.pdf';
         link.click();
     };
 
@@ -55,7 +55,7 @@ function PresentationCV(props) {
         <header className="presentation-header">
             <div className="profile-section">
                 <div className="profile-image">
-                    <img src="../public/ProfilePhoto.png" alt="" />
+                    <img src="/ProfilePhoto.png" alt="" />
                 </div>
                 <div className="profile-info">
                     <h1 className="name">Claudio Martini</h1>
