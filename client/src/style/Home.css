@@ -180,29 +180,19 @@ body {
 
 @media (max-width: 725px) {
   .section-main-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   .section-main-title .separator-icon {
-    width: 46px;
-    height: 46px;
-    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
+    font-size: 1.4rem;
   }
 }
 
 @media (max-width: 600px) {
   .home-role-buttons {
     grid-template-columns: 1fr;
-  }
-
-  .section-main-title {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    gap: 0.9rem;
-    font-size: 2rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    padding-top: 2.25rem;
   }
 
   .section-main-title::before,
