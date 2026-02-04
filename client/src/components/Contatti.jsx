@@ -5,12 +5,12 @@ function Contatti({ language }) {
   const labels = {
     it: {
       email: 'Email',
-      telefono: 'Telefono',
+      linkedIn: 'LinkedIn',
       github: 'GitHub'
     },
     en: {
       email: 'Email',
-      telefono: 'Phone',
+      linkedIn: 'LinkedIn',
       github: 'GitHub'
     }
   };
@@ -29,18 +29,18 @@ function Contatti({ language }) {
             <i className="bi bi-envelope-fill" aria-hidden="true"></i>
           </a>
           <div className="contatto-label">{l.email}</div>
-          <a className="contatto-link" href="mailto:marclaudio03@gmail.com">marclaudio03@gmail.com</a>
+          <a className="contatto-link" href="mailto:marclaudio03@gmail.com">marclaudio03</a>
         </div>
         <div className="contatto-icon-col">
           <a
             className="contatto-icon contatto-icon-link"
-            href="tel:+393669589060"
-            aria-label={l.telefono}
+            href="https://www.linkedin.com/in/claudio-martini-7593863a9/"
+            aria-label={l.linkedIn}
           >
-            <i className="bi bi-telephone-fill" aria-hidden="true"></i>
+            <i className="bi bi-linkedin" aria-hidden="true"></i>
           </a>
-          <div className="contatto-label">{l.telefono}</div>
-          <a className="contatto-link" href="tel:+393669589060">+39&#8239;366&#8239;958&#8239;9060</a>        
+          <div className="contatto-label">{l.linkedIn}</div>
+          <a className="contatto-link" href="https://www.linkedin.com/in/claudio-martini-7593863a9/">Claudio Martini</a>        
         </div>
         <div className="contatto-icon-col">
           <a
@@ -53,7 +53,7 @@ function Contatti({ language }) {
             <i className="bi bi-github" aria-hidden="true"></i>
           </a>
           <div className="contatto-label">{l.github}</div>
-          <a className="contatto-link" href="https://github.com/Itacyma" target="_blank" rel="noopener noreferrer">github.com/Itacyma</a>
+          <a className="contatto-link" href="https://github.com/Itacyma" target="_blank" rel="noopener noreferrer">Itacyma</a>
         </div>
       </div>
     </section>
