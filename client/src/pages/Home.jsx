@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { PresentationCV } from "../components/Presentation";
 import { CircuitBackground } from "../components/CircuitBackground";
 import { Diploma } from "../components/Lauree/Diploma";
@@ -17,6 +18,26 @@ import '../style/EducationSection.css';
 function HomePageCV(props) {
   const { language, setLanguage } = props;
 
+  const topAnchorRef = useRef(null);
+
+  const handleGoUp = (event) => {
+    event?.preventDefault?.();
+
+    if (topAnchorRef.current && typeof topAnchorRef.current.scrollIntoView === "function") {
+      topAnchorRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    const scrollingElement = document.scrollingElement || document.documentElement || document.body;
+
+    if (scrollingElement && typeof scrollingElement.scrollTo === 'function') {
+      scrollingElement.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    window.scrollTo(0, 0);
+  };
+
   const labels = {
     scrollText: {
       it: "Scorri per scoprire il curriculum",
@@ -25,6 +46,10 @@ function HomePageCV(props) {
     educationTitle: {
       it: "Percorso Formativo",
       en: "Educational Path"
+    },
+    goUpText: {
+      it: "Premi per tornare all'inizio del curriculum",
+      en: "Press to return to the top of the curriculum"
     }
   };
 
@@ -35,6 +60,7 @@ function HomePageCV(props) {
       
       {/* Main Content */}
       <div className="content-wrapper">
+        <div ref={topAnchorRef} />
         <PresentationCV language={language} setLanguage={setLanguage} />
         
         {/* Sezione Formazione - Diploma e Triennale */}
@@ -92,6 +118,19 @@ function HomePageCV(props) {
           {language === 'it' ? 'I miei progetti' : 'My Projects'}
         </h2>
         <ProjectSection language={language} /> 
+
+        <div className="go-up-section">
+          <button
+            type="button"
+            className="scroll-arrow scroll-arrow-button"
+            onClick={handleGoUp}
+            onTouchEnd={handleGoUp}
+            aria-label={language === 'it' ? labels.goUpText.it : labels.goUpText.en}
+          >
+            <div className="arrow-up">↑</div>
+            <div className="scroll-text">{language === 'it' ? labels.goUpText.it : labels.goUpText.en}</div>
+          </button>
+        </div>
 
         {/* Sezione Contatti */}
         <Contatti language={language} />
