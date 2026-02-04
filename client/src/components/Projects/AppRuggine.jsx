@@ -97,6 +97,7 @@ function AppRuggine(props) {
     <ProjectCV
       mockData={language === 'it' ? mockData_it : mockData_eng}
       techSections={language === 'it' ? techSections_it : techSections_eng}
+      language = {language}
     />
   );
 }

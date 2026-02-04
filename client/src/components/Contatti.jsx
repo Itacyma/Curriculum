@@ -21,17 +21,37 @@ function Contatti({ language }) {
     <section id="contatti" className="contatti-full-center">
       <div className="contatti-icon-row">
         <div className="contatto-icon-col">
-          <div className="contatto-icon"><i className="bi bi-envelope-fill"></i></div>
+          <a
+            className="contatto-icon contatto-icon-link"
+            href="mailto:marclaudio03@gmail.com"
+            aria-label={l.email}
+          >
+            <i className="bi bi-envelope-fill" aria-hidden="true"></i>
+          </a>
           <div className="contatto-label">{l.email}</div>
           <a className="contatto-link" href="mailto:marclaudio03@gmail.com">marclaudio03@gmail.com</a>
         </div>
         <div className="contatto-icon-col">
-          <div className="contatto-icon"><i className="bi bi-telephone-fill"></i></div>
+          <a
+            className="contatto-icon contatto-icon-link"
+            href="tel:+393669589060"
+            aria-label={l.telefono}
+          >
+            <i className="bi bi-telephone-fill" aria-hidden="true"></i>
+          </a>
           <div className="contatto-label">{l.telefono}</div>
           <a className="contatto-link" href="tel:+393669589060">+39&#8239;366&#8239;958&#8239;9060</a>        
         </div>
         <div className="contatto-icon-col">
-          <div className="contatto-icon"><i className="bi bi-github"></i></div>
+          <a
+            className="contatto-icon contatto-icon-link"
+            href="https://github.com/Itacyma"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={l.github}
+          >
+            <i className="bi bi-github" aria-hidden="true"></i>
+          </a>
           <div className="contatto-label">{l.github}</div>
           <a className="contatto-link" href="https://github.com/Itacyma" target="_blank" rel="noopener noreferrer">github.com/Itacyma</a>
         </div>

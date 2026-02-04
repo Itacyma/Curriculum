@@ -10,7 +10,7 @@ function Triennale(props) {
     sottotitolo: "Ingegneria Informatica",
     anniRange: "2021 - 2024",
     valutazione: "102/110",
-    universita: "\"Politecnico\" di Torino",
+    universita: "\"Politecnico di Torino\""
   };
 
   const laurea_eng = {
@@ -18,7 +18,7 @@ function Triennale(props) {
     sottotitolo: "Computer Engineering",
     anniRange: "2021 - 2024",
     valutazione: "102/110",
-    universita: "\"Politecnico\" di Torino",
+    universita: "\"Politecnico di Torino\"",
   };
 
   return (

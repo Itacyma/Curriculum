@@ -11,7 +11,7 @@ function Magistrale(props) {
     anniRange: "2024 - ?",
     valutazione: "29.16/30",
     cfu: "60/120 CFU",
-    universita: "\"Politecnico\" di Torino",
+    universita: "\"Politecnico di Torino\"",
   };
 
   const laurea_eng = {
@@ -20,7 +20,7 @@ function Magistrale(props) {
     anniRange: "2024 - ?",
     valutazione: "29.16/30",
     cfu: "60/120 ECTS",
-    universita: "\"Politecnico\" di Torino",
+    universita: "\"Politecnico di Torino\"",
   };
 
   return (

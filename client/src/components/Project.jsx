@@ -4,7 +4,7 @@ import { NoTranslate } from './NoTranslate.jsx';
 function ProjectCV({ mockData, techSections, language }) {
   const labels = {
     viewProject: {
-      it: "Vedi il progetto completo",
+      it: "Visualizza il progetto",
       en: "View full project"
     }
   };

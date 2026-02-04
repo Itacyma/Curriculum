@@ -48,6 +48,16 @@
   justify-content: center;
   margin-bottom: 0.3rem;
 }
+
+.contatto-icon-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contatto-icon-link:focus-visible {
+  outline: 3px solid rgba(180, 210, 231, 0.95);
+  outline-offset: 4px;
+}
 .contatto-icon i {
   font-size: 1.6rem;
   color: #F8F8F8;
