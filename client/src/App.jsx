@@ -7,6 +7,7 @@ import { Route, Routes, useNavigate } from 'react-router';
 
 import { HomePageCV } from './pages/Home.jsx';
 import { PageNotFoundCV } from './pages/NotFound.jsx';
+import { applyDocumentLanguage, getInitialLanguage, persistLanguage } from './utils/language.mjs';
 
 
 function App() {
@@ -14,9 +15,14 @@ function App() {
   
   const [loading, setLoading] = useState(false);
   const [onError, setError] = useState(null);
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState(() => getInitialLanguage());
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    applyDocumentLanguage(language);
+    persistLanguage(language);
+  }, [language]);
 
   return (
     <div className="App">

@@ -2,6 +2,7 @@ import "../style/SkillsSection.css";
 
 import { useMemo } from "react";
 import { skillGroups } from "../data/skills.mjs";
+import { NoTranslate } from "../components/NoTranslate.jsx";
 
 const clampScore = (score) => {
   const n = Number(score);
@@ -47,7 +48,7 @@ function SkillsSection({ language = "it" }) {
                 {group.iconClass ? (
                   <i className={`skills-icon ${group.iconClass}`} aria-hidden="true" />
                 ) : null}
-                <span>{group.title}</span>
+                <span><NoTranslate>{group.title}</NoTranslate></span>
               </div>
             </div>
 
@@ -55,9 +56,9 @@ function SkillsSection({ language = "it" }) {
               {group.skills.map((skill) => (
                 <div className="skill-row" key={skill.name}>
                   <div className="skill-left">
-                    <div className="skill-name">{skill.name}</div>
+                    <div className="skill-name"><NoTranslate>{skill.name}</NoTranslate></div>
                     {skill.detail ? (
-                      <div className="skill-detail">({skill.detail})</div>
+                      <div className="skill-detail">(<NoTranslate>{skill.detail}</NoTranslate>)</div>
                     ) : null}
                   </div>
                   <SkillMeter score={skill.score} />

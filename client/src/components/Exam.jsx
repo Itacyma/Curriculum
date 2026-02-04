@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../style/Exam.css';
+import { NoTranslate } from './NoTranslate.jsx';
 
 function ExamCV({ exam, language }) {
     const { name, date, grade, description, tags } = exam;
@@ -16,7 +17,7 @@ function ExamCV({ exam, language }) {
         <div className={isExpanded ? 'exam-card is-expanded' : 'exam-card'}>
             <div className="exam-header">
                 <div className="exam-title-section">
-                    <h3 className="exam-title">{name}</h3>
+                    <h3 className="exam-title"><NoTranslate>{name}</NoTranslate></h3>
                 </div>
                 <div className="exam-credits-display">
                     <span className="credits-value">{yearFromDate}</span>
@@ -50,7 +51,7 @@ function ExamCV({ exam, language }) {
             <div className="exam-tags">
                 {tags && tags.map((tag, index) => (
                     <span key={index} className="exam-tag">
-                        {tag}
+                        <NoTranslate>{tag}</NoTranslate>
                     </span>
                 ))}
             </div>
