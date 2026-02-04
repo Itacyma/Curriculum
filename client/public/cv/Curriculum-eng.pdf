@@ -3,11 +3,11 @@
 <</Type /Page
 /Parent 1 0 R
 /Resources 2 0 R
-/Annots [<</Type /Annot /Subtype /Link /Rect [164.40 318.64 377.38 310.64] /Border [0 0 0] /A <</S /URI /URI (http://europass.cedefop.europa.eu/it/resources/european-language-levels-cefr)>>>><</Type /Annot /Subtype /Link /Rect [31.18 36.09 172.02 29.09] /Border [0 0 0] /A <</S /URI /URI (https://didattica.polito.it/privacy/index_en.html)>>>>]
+/Annots [<</Type /Annot /Subtype /Link /Rect [164.40 321.48 352.93 313.48] /Border [0 0 0] /A <</S /URI /URI (http://europass.cedefop.europa.eu/it/resources/european-language-levels-cefr)>>>><</Type /Annot /Subtype /Link /Rect [31.18 36.09 128.45 29.09] /Border [0 0 0] /A <</S /URI /URI (https://didattica.polito.it/privacy/)>>>>]
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 5211>>
+<</Length 7700>>
 stream
 2 J
 0.56 w
@@ -20,113 +20,148 @@ BT /F2 14.0 Tf ET
 q 0.0 0.309 0.615 rg BT 164.40 763.98 Td (Claudio MARTINI) Tj ET Q
 0.0 G
 BT /F1 10.0 Tf ET
-q 0.0 g BT 164.40 736.84 Td (01/07/2003) Tj ET Q
-q 0.0 g BT 235.27 736.84 Td (TORINO \(TO\) ITALY) Tj ET Q
-q 0.0 g BT 164.40 722.66 Td (Nationality: Italian) Tj ET Q
+q 0.0 g BT 164.40 736.84 Td (07/01/2003) Tj ET Q
+q 0.0 g BT 235.27 736.84 Td (TORINO \(TO\) ITALIA) Tj ET Q
+q 0.0 g BT 164.40 722.66 Td (Nazionalità: Italiana) Tj ET Q
 q 11.33 0 0 13.12 161.57 701.20 cm /I2 Do Q
-q 0.0 g BT 178.58 705.66 Td (Via Garizio 18  10139 - TORINO \(TO\) ITALY) Tj ET Q
+q 0.0 g BT 178.58 705.66 Td (Via Garizio 18  10139 - TORINO \(TO\) ITALIA) Tj ET Q
 q 11.33 0 0 11.33 161.57 688.81 cm /I3 Do Q
 q 0.0 g BT 178.58 691.48 Td (+393669589060) Tj ET Q
 q 11.33 0 0 12.95 161.57 670.19 cm /I4 Do Q
 q 0.0 g BT 178.58 674.48 Td (s343608@studenti.polito.it) Tj ET Q
 q 0.0 g BT 178.58 657.47 Td (marclaudio03@gmail.com) Tj ET Q
+q 11.33 0 0 11.59 161.57 637.54 cm /I5 Do Q
+q 0.0 g BT 178.58 640.46 Td (https://claudio-martini.com/) Tj ET Q
+q 11.33 0 0 11.60 161.57 620.51 cm /I6 Do Q
+q 0.0 g BT 178.58 623.45 Td (www.linkedin.com/in/claudio-martini-7593863a9) Tj ET Q
 0.0 0.309 0.615 RG
 BT /F2 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 85.12 603.61 Td (EDUCATION) Tj ET Q
-150.23 600.94 m 552.75 600.94 l S
+q 0.0 0.309 0.615 rg BT 84.00 606.44 Td (ISTRUZIONE) Tj ET Q
+150.23 603.77 m 552.75 603.77 l S
 BT /F1 10.0 Tf ET
 0.0 G
-q 0.0 g BT 27.26 580.93 Td (09/14/2024 - up to present) Tj ET Q
+q 0.0 g BT 33.38 583.77 Td (14/09/2024 - attualmente) Tj ET Q
 BT /F1 24.0 Tf ET
-q 0.862 0.039 0.039 rg BT 150.23 576.73 Td (*) Tj ET Q
+q 0.862 0.039 0.039 rg BT 150.23 579.57 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 164.40 580.93 Td (Master's Degree in Computer Engineering) Tj ET Q
-q 0.0 g BT 164.40 563.92 Td (Politecnico di Torino) Tj ET Q
-q 0.0 g BT 164.40 546.92 Td (average mark 29.2 - Credits 42 %) Tj ET Q
-q 0.0 g BT 35.59 524.24 Td (09/10/2021 - 09/11/2024) Tj ET Q
+q 0.0 0.309 0.615 rg BT 164.40 583.77 Td (Laurea magistrale in Ingegneria Informatica \\\\(Computer Engineering\\\\)) Tj ET Q
+q 0.0 g BT 164.40 566.76 Td (Politecnico di Torino) Tj ET Q
+q 0.0 g BT 164.40 549.75 Td (Media esami 29.1 - Crediti 47 %) Tj ET Q
+q 0.0 g BT 35.59 527.07 Td (10/09/2021 - 11/09/2024) Tj ET Q
 BT /F1 24.0 Tf ET
-q 0.862 0.039 0.039 rg BT 150.23 520.04 Td (*) Tj ET Q
+q 0.862 0.039 0.039 rg BT 150.23 522.87 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 164.40 524.24 Td (Bachelor's Degree in Computer Engineering) Tj ET Q
-q 0.0 g BT 164.40 507.23 Td (Politecnico di Torino) Tj ET Q
-q 0.0 g BT 164.40 490.22 Td (Final grade 102/110) Tj ET Q
-q 0.0 g BT 122.32 467.55 Td (2021) Tj ET Q
-q 0.0 0.309 0.615 rg BT 164.40 467.55 Td (high school diploma MATURITA' SCIENTIFICA) Tj ET Q
-q 0.0 g BT 164.40 450.54 Td (Final grade 100/100) Tj ET Q
+q 0.0 0.309 0.615 rg BT 164.40 527.07 Td (Laurea in Ingegneria Informatica) Tj ET Q
+q 0.0 g BT 164.40 510.07 Td (Politecnico di Torino) Tj ET Q
+q 0.0 g BT 164.40 493.06 Td (Voto 102/110) Tj ET Q
+q 0.0 g BT 122.32 470.38 Td (2021) Tj ET Q
+q 0.0 0.309 0.615 rg BT 164.40 470.38 Td (Diploma MATURITA' SCIENTIFICA) Tj ET Q
+q 0.0 g BT 164.40 453.37 Td (Voto 100/100) Tj ET Q
 0.0 0.309 0.615 RG
 BT /F2 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 49.00 422.19 Td (LANGUAGE SKILLS) Tj ET Q
-150.23 419.52 m 552.75 419.52 l S
+q 0.0 0.309 0.615 rg BT 106.78 425.03 Td (LINGUE) Tj ET Q
+150.23 422.36 m 552.75 422.36 l S
 BT /F1 10.0 Tf ET
 0.0 G
-q 0.0 0.309 0.615 rg BT 80.08 399.51 Td (Mother tongue) Tj ET Q
-q 0.0 g BT 164.40 399.51 Td (Italian) Tj ET Q
-q 0.0 0.309 0.615 rg BT 70.63 374.00 Td (Other languages) Tj ET Q
+q 0.0 0.309 0.615 rg BT 88.99 402.35 Td (Prima lingua) Tj ET Q
+q 0.0 g BT 164.40 402.35 Td (Italiano) Tj ET Q
+q 0.0 0.309 0.615 rg BT 94.54 376.84 Td (Altre lingue) Tj ET Q
 0.56 w
 0.250 0.250 0.250 RG
-161.57 385.51 m 547.08 385.51 l S
-q 0.0 g BT 177.49 374.00 Td (UNDERSTANDING) Tj ET Q
-q 0.0 g BT 348.60 374.00 Td (SPEAKING) Tj ET Q
-q 0.0 g BT 482.90 374.00 Td (WRITING) Tj ET Q
-161.57 368.50 m 547.08 368.50 l S
-280.62 385.51 m 280.62 351.49 l S
-223.93 368.50 m 223.93 351.49 l S
-374.17 368.50 m 374.17 351.49 l S
-467.71 385.51 m 467.71 351.49 l S
-q 0.0 g BT 172.74 357.00 Td (Listening) Tj ET Q
-q 0.0 g BT 233.66 357.00 Td (Reading) Tj ET Q
-q 0.0 g BT 285.99 357.00 Td (Spoken interaction) Tj ET Q
-q 0.0 g BT 379.25 357.00 Td (Spoken production) Tj ET Q
-161.57 351.49 m 547.08 351.49 l S
-q 0.0 g BT 111.77 339.99 Td (English) Tj ET Q
-q 0.0 g BT 186.64 339.99 Td (B2) Tj ET Q
-q 0.0 g BT 246.16 339.99 Td (B2) Tj ET Q
-q 0.0 g BT 324.12 339.99 Td (B2) Tj ET Q
-q 0.0 g BT 414.82 339.99 Td (B2) Tj ET Q
-q 0.0 g BT 498.45 339.99 Td (B2) Tj ET Q
-161.57 334.48 m 547.08 334.48 l S
+161.57 388.34 m 547.08 388.34 l S
+q 0.0 g BT 179.98 376.84 Td (COMPRENSIONE) Tj ET Q
+q 0.0 g BT 338.32 376.84 Td (ESPRESSIONE) Tj ET Q
+q 0.0 g BT 478.79 376.84 Td (SCRITTURA) Tj ET Q
+161.57 371.33 m 547.08 371.33 l S
+280.62 388.34 m 280.62 354.33 l S
+223.93 371.33 m 223.93 354.33 l S
+374.17 371.33 m 374.17 354.33 l S
+467.71 388.34 m 467.71 354.33 l S
+q 0.0 g BT 176.36 359.83 Td (Ascolto) Tj ET Q
+q 0.0 g BT 236.71 359.83 Td (Lettura) Tj ET Q
+q 0.0 g BT 298.22 359.83 Td (Interaz. orale) Tj ET Q
+q 0.0 g BT 391.20 359.83 Td (Produz. orale) Tj ET Q
+161.57 354.33 m 547.08 354.33 l S
+q 0.0 g BT 112.32 342.82 Td (Inglese) Tj ET Q
+q 0.0 g BT 186.64 342.82 Td (B2) Tj ET Q
+q 0.0 g BT 246.16 342.82 Td (B2) Tj ET Q
+q 0.0 g BT 324.12 342.82 Td (B2) Tj ET Q
+q 0.0 g BT 414.82 342.82 Td (B2) Tj ET Q
+q 0.0 g BT 498.45 342.82 Td (B2) Tj ET Q
+161.57 337.32 m 547.08 337.32 l S
 0.85 w
 0.0 G
 BT /F1 8.0 Tf ET
-q 0.0 0.309 0.615 rg BT 164.40 325.00 Td (Levels: A1/2: Basic user - B1/2: Independent user - C1/2 Proficient user) Tj ET Q
+q 0.0 0.309 0.615 rg BT 164.40 327.83 Td (Livelli: A1/A2: Utente base  -  B1/B2: Utente intermedio  -  C1/C2: Utente avanzato) Tj ET Q
 BT /F1 8.0 Tf ET
-q 0.0 0.309 0.615 rg BT 164.40 312.24 Td (Common European Framework of Reference for Languages) Tj ET 164.40 311.44 212.97 -.4 re f Q
+q 0.0 0.309 0.615 rg BT 164.40 315.08 Td (Quadro Comune Europeo di Riferimento delle Lingue) Tj ET 164.40 314.28 188.52 -.4 re f Q
 BT /F1 10.0 Tf ET
 0.0 0.309 0.615 RG
 BT /F2 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 49.00 283.29 Td (COMPUTER SKILLS) Tj ET Q
-150.23 280.63 m 552.75 280.63 l S
+q 0.0 0.309 0.615 rg BT 59.52 269.12 Td (ESAMI) Tj ET Q
+BT /F1 24.0 Tf ET
+q 0.862 0.039 0.039 rg BT 99.21 264.92 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
-0.0 G
-q 0.0 g BT 41.76 260.62 Td (OPERATING SYSTEM) Tj ET Q
-q 0.0 g BT 164.40 249.28 Td (intermediate level) Tj ET Q
-q 0.0 g BT 66.78 226.60 Td (PROGRAMMING) Tj ET Q
-q 0.0 g BT 57.32 215.26 Td (LANGUAGE/CODE) Tj ET Q
-q 0.0 g BT 164.40 215.26 Td (good level) Tj ET Q
-q 0.0 g BT 33.44 192.59 Td (PROGRAMS/SOFTWAR) Tj ET Q
-q 0.0 g BT 137.89 181.25 Td (E) Tj ET Q
-q 0.0 g BT 164.40 181.25 Td (advanced level) Tj ET Q
-q 0.0 g BT 84.54 158.57 Td (DATABASES) Tj ET Q
-q 0.0 g BT 164.40 147.23 Td (good level) Tj ET Q
-0.0 0.309 0.615 RG
-BT /F2 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 36.23 118.89 Td (OTHER INFORMATION) Tj ET Q
-150.23 116.22 m 552.75 116.22 l S
+39.68 263.62 m 552.75 263.62 l S
 BT /F1 10.0 Tf ET
 0.0 G
 BT /F1 10.0 Tf ET
-q 0.0 g BT 164.40 96.21 Td (Driving license, own car) Tj ET Q
+q 0.0 0.309 0.615 rg BT 59.52 246.44 Td (Laurea magistrale in Ingegneria Informatica \(Computer Engineering\)) Tj ET Q
+0.588 G
+0.941 g
+0.42 w
+BT /F2 7.0 Tf ET
+56.69 243.77 56.69 -14.17 re B q 0.0 g BT 77.45 234.59 Td (Data) Tj ET Q
+113.38 243.77 391.18 -14.17 re B q 0.0 g BT 116.22 234.59 Td (Esame) Tj ET Q
+504.56 243.77 34.01 -14.17 re B q 0.0 g BT 510.49 234.59 Td (Crediti) Tj ET Q
+BT /F1 7.0 Tf ET
+1.0 g
+56.69 229.60 56.69 -14.17 re B q 0.0 g BT 67.52 220.41 Td (20/01/2025) Tj ET Q
+113.38 229.60 391.18 -14.17 re B q 0.0 g BT 116.22 220.41 Td (Data Science e Tecnologie per le Basi di Dati) Tj ET Q
+504.56 229.60 34.01 -14.17 re B q 0.0 g BT 519.62 220.41 Td (8) Tj ET Q
+56.69 215.43 56.69 -14.17 re B q 0.0 g BT 67.52 206.24 Td (24/01/2025) Tj ET Q
+113.38 215.43 391.18 -14.17 re B q 0.0 g BT 116.22 206.24 Td (Tecnologie e servizi di rete) Tj ET Q
+504.56 215.43 34.01 -14.17 re B q 0.0 g BT 519.62 206.24 Td (6) Tj ET Q
+56.69 201.26 56.69 -14.17 re B q 0.0 g BT 67.52 192.07 Td (28/01/2025) Tj ET Q
+113.38 201.26 391.18 -14.17 re B q 0.0 g BT 116.22 192.07 Td (Architetture dei sistemi di elaborazione) Tj ET Q
+504.56 201.26 34.01 -14.17 re B q 0.0 g BT 517.68 192.07 Td (10) Tj ET Q
+56.69 187.08 56.69 -14.17 re B q 0.0 g BT 67.52 177.90 Td (20/02/2025) Tj ET Q
+113.38 187.08 391.18 -14.17 re B q 0.0 g BT 116.22 177.90 Td (Information systems) Tj ET Q
+504.56 187.08 34.01 -14.17 re B q 0.0 g BT 519.62 177.90 Td (6) Tj ET Q
+56.69 172.91 56.69 -14.17 re B q 0.0 g BT 67.52 163.72 Td (20/06/2025) Tj ET Q
+113.38 172.91 391.18 -14.17 re B q 0.0 g BT 116.22 163.72 Td (Applicazioni Web I) Tj ET Q
+504.56 172.91 34.01 -14.17 re B q 0.0 g BT 519.62 163.72 Td (6) Tj ET Q
+56.69 158.74 56.69 -14.17 re B q 0.0 g BT 67.52 149.55 Td (14/07/2025) Tj ET Q
+113.38 158.74 391.18 -14.17 re B q 0.0 g BT 116.22 149.55 Td (Formal languages and compilers) Tj ET Q
+504.56 158.74 34.01 -14.17 re B q 0.0 g BT 519.62 149.55 Td (6) Tj ET Q
+56.69 144.56 56.69 -14.17 re B q 0.0 g BT 67.52 135.38 Td (05/09/2025) Tj ET Q
+113.38 144.56 391.18 -14.17 re B q 0.0 g BT 116.22 135.38 Td (Software engineering) Tj ET Q
+504.56 144.56 34.01 -14.17 re B q 0.0 g BT 519.62 135.38 Td (8) Tj ET Q
+56.69 130.39 56.69 -14.17 re B q 0.0 g BT 67.52 121.20 Td (19/01/2026) Tj ET Q
+113.38 130.39 391.18 -14.17 re B q 0.0 g BT 116.22 121.20 Td (Distributed systems programming) Tj ET Q
+504.56 130.39 34.01 -14.17 re B q 0.0 g BT 519.62 121.20 Td (6) Tj ET Q
 BT /F1 10.0 Tf ET
-q 0.0 g BT 164.40 79.20 Td (Available to travel on business in Italy, abroad) Tj ET Q
-BT /F1 10.0 Tf ET
+q 0.0 0.309 0.615 rg BT 59.52 96.21 Td (Laurea in Ingegneria Informatica) Tj ET Q
+0.588 G
+0.941 g
+0.42 w
+BT /F2 7.0 Tf ET
+56.69 93.54 56.69 -14.17 re B q 0.0 g BT 77.45 84.35 Td (Data) Tj ET Q
+113.38 93.54 391.18 -14.17 re B q 0.0 g BT 116.22 84.35 Td (Esame) Tj ET Q
+504.56 93.54 34.01 -14.17 re B q 0.0 g BT 510.49 84.35 Td (Crediti) Tj ET Q
+BT /F1 7.0 Tf ET
+1.0 g
+56.69 79.37 56.69 -14.17 re B q 0.0 g BT 67.52 70.18 Td (01/12/2021) Tj ET Q
+113.38 79.37 391.18 -14.17 re B q 0.0 g BT 116.22 70.18 Td (Lingua inglese I livello) Tj ET Q
+504.56 79.37 34.01 -14.17 re B q 0.0 g BT 519.62 70.18 Td (3) Tj ET Q
 0.0 G
 BT /F1 7.0 Tf ET
-q 0.0 g BT 31.18 47.50 Td (I declare that I read the privacy statement on the processing of my personal data and my rights within the meaning of the General Data Protection) Tj ET Q
-q 0.0 g BT 31.18 39.00 Td (Regulation \(EU Regulation 2016/679\) and Legislative decree no.196 of 30th June 2003 (Code regarding the protection of personal data): ) Tj ET Q
+q 0.0 g BT 31.18 47.50 Td (Ho preso visione dell’informativa completa riguardante la modalità di trattamento dei dati da me forniti e i diritti a me spettanti ai sensi del GDPR) Tj ET Q
+q 0.0 g BT 31.18 39.00 Td (\(Regolamento UE 2016/679\) e del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” presente) Tj ET Q
 BT /F1 7.0 Tf ET
-q 0.0 g BT 31.18 30.49 Td (https://didattica.polito.it/privacy/index_en.html) Tj ET 31.18 29.79 140.84 -.35 re f Q
+q 0.0 g BT 31.18 30.49 Td (https://didattica.polito.it/privacy/) Tj ET 31.18 29.79 97.26 -.35 re f Q
 BT /F1 7.0 Tf ET
-q 0.0 g BT 172.03 30.49 Td (. I hereby give my consent to the processing of my personal data included in my CV.) Tj ET Q
+q 0.0 g BT 128.46 30.49 Td ( e autorizzo il trattamento dei miei dati personali presenti nel cv.) Tj ET Q
 BT /F1 8.0 Tf ET
 q 0.0 g BT 523.16 42.95 Td (pag. 1/ 2) Tj ET Q
 BT /F1 10.0 Tf ET
@@ -137,184 +172,97 @@ endobj
 <</Type /Page
 /Parent 1 0 R
 /Resources 2 0 R
-/Annots [<</Type /Annot /Subtype /Link /Rect [31.18 36.09 172.02 29.09] /Border [0 0 0] /A <</S /URI /URI (https://didattica.polito.it/privacy/index_en.html)>>>>]
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.18 36.09 128.45 29.09] /Border [0 0 0] /A <</S /URI /URI (https://didattica.polito.it/privacy/)>>>>]
 /Contents 6 0 R>>
 endobj
 6 0 obj
-<</Length 12023>>
+<</Length 6484>>
 stream
 2 J
-0.85 w
-BT /F1 10.0 Tf ET
-0.0 G
-q 0.0 g BT 164.40 776.52 Td (Available to relocate abroad) Tj ET Q
-0.0 0.309 0.615 RG
-BT /F2 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 59.52 731.17 Td (EXAMS) Tj ET Q
-BT /F1 24.0 Tf ET
-q 0.862 0.039 0.039 rg BT 99.21 726.97 Td (*) Tj ET Q
-BT /F1 10.0 Tf ET
-39.68 725.66 m 552.75 725.66 l S
-BT /F1 10.0 Tf ET
-0.0 G
-BT /F1 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 59.52 708.49 Td (Master's Degree in Computer Engineering) Tj ET Q
-0.588 G
-0.941 g
 0.42 w
-BT /F2 7.0 Tf ET
-56.69 705.82 56.69 -14.17 re B q 0.0 g BT 58.19 696.64 Td (conference date) Tj ET Q
-113.38 705.82 340.15 -14.17 re B q 0.0 g BT 116.22 696.64 Td (Exam) Tj ET Q
-453.54 705.82 34.01 -14.17 re B q 0.0 g BT 458.49 696.64 Td (Credits) Tj ET Q
-487.55 705.82 51.02 -14.17 re B q 0.0 g BT 494.39 696.64 Td (Final grade) Tj ET Q
 BT /F1 7.0 Tf ET
-1.0 g
-56.69 691.65 56.69 -14.17 re B q 0.0 g BT 67.52 682.46 Td (01/20/2025) Tj ET Q
-113.38 691.65 340.15 -14.17 re B q 0.0 g BT 116.22 682.46 Td (Data Science and Database Technology) Tj ET Q
-453.54 691.65 34.01 -14.17 re B q 0.0 g BT 468.60 682.46 Td (8) Tj ET Q
-487.55 691.65 51.02 -14.17 re B q 0.0 g BT 492.06 682.46 Td (30 cum laude) Tj ET Q
-56.69 677.48 56.69 -14.17 re B q 0.0 g BT 67.52 668.29 Td (01/24/2025) Tj ET Q
-113.38 677.48 340.15 -14.17 re B q 0.0 g BT 116.22 668.29 Td (Networks services and technologies) Tj ET Q
-453.54 677.48 34.01 -14.17 re B q 0.0 g BT 468.60 668.29 Td (6) Tj ET Q
-487.55 677.48 51.02 -14.17 re B q 0.0 g BT 509.17 668.29 Td (27) Tj ET Q
-56.69 663.30 56.69 -14.17 re B q 0.0 g BT 67.52 654.12 Td (01/28/2025) Tj ET Q
-113.38 663.30 340.15 -14.17 re B q 0.0 g BT 116.22 654.12 Td (Computer architectures) Tj ET Q
-453.54 663.30 34.01 -14.17 re B q 0.0 g BT 466.65 654.12 Td (10) Tj ET Q
-487.55 663.30 51.02 -14.17 re B q 0.0 g BT 509.17 654.12 Td (30) Tj ET Q
-56.69 649.13 56.69 -14.17 re B q 0.0 g BT 67.52 639.94 Td (02/20/2025) Tj ET Q
-113.38 649.13 340.15 -14.17 re B q 0.0 g BT 116.22 639.94 Td (Information systems) Tj ET Q
-453.54 649.13 34.01 -14.17 re B q 0.0 g BT 468.60 639.94 Td (6) Tj ET Q
-487.55 649.13 51.02 -14.17 re B q 0.0 g BT 509.17 639.94 Td (28) Tj ET Q
-56.69 634.96 56.69 -14.17 re B q 0.0 g BT 67.52 625.77 Td (06/20/2025) Tj ET Q
-113.38 634.96 340.15 -14.17 re B q 0.0 g BT 116.22 625.77 Td (Web Applications I) Tj ET Q
-453.54 634.96 34.01 -14.17 re B q 0.0 g BT 468.60 625.77 Td (6) Tj ET Q
-487.55 634.96 51.02 -14.17 re B q 0.0 g BT 509.17 625.77 Td (28) Tj ET Q
-56.69 620.78 56.69 -14.17 re B q 0.0 g BT 67.52 611.60 Td (07/14/2025) Tj ET Q
-113.38 620.78 340.15 -14.17 re B q 0.0 g BT 116.22 611.60 Td (Formal languages and compilers) Tj ET Q
-453.54 620.78 34.01 -14.17 re B q 0.0 g BT 468.60 611.60 Td (6) Tj ET Q
-487.55 620.78 51.02 -14.17 re B q 0.0 g BT 509.17 611.60 Td (30) Tj ET Q
-56.69 606.61 56.69 -14.17 re B q 0.0 g BT 67.52 597.42 Td (09/05/2025) Tj ET Q
-113.38 606.61 340.15 -14.17 re B q 0.0 g BT 116.22 597.42 Td (Software engineering) Tj ET Q
-453.54 606.61 34.01 -14.17 re B q 0.0 g BT 468.60 597.42 Td (8) Tj ET Q
-487.55 606.61 51.02 -14.17 re B q 0.0 g BT 509.17 597.42 Td (30) Tj ET Q
-BT /F1 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 59.52 572.43 Td (Bachelor's Degree in Computer Engineering) Tj ET Q
 0.588 G
-0.941 g
-0.42 w
-BT /F2 7.0 Tf ET
-56.69 569.76 56.69 -14.17 re B q 0.0 g BT 58.19 560.57 Td (conference date) Tj ET Q
-113.38 569.76 340.15 -14.17 re B q 0.0 g BT 116.22 560.57 Td (Exam) Tj ET Q
-453.54 569.76 34.01 -14.17 re B q 0.0 g BT 458.49 560.57 Td (Credits) Tj ET Q
-487.55 569.76 51.02 -14.17 re B q 0.0 g BT 494.39 560.57 Td (Final grade) Tj ET Q
-BT /F1 7.0 Tf ET
 1.0 g
-56.69 555.59 56.69 -14.17 re B q 0.0 g BT 67.52 546.40 Td (12/01/2021) Tj ET Q
-113.38 555.59 340.15 -14.17 re B q 0.0 g BT 116.22 546.40 Td (English Language 1st level) Tj ET Q
-453.54 555.59 34.01 -14.17 re B q 0.0 g BT 468.60 546.40 Td (3) Tj ET Q
-487.55 555.59 51.02 -14.17 re B q 0.0 g BT 501.78 546.40 Td (passed) Tj ET Q
-56.69 541.41 56.69 -14.17 re B q 0.0 g BT 67.52 532.23 Td (01/25/2022) Tj ET Q
-113.38 541.41 340.15 -14.17 re B q 0.0 g BT 116.22 532.23 Td (Mathematical analysis I) Tj ET Q
-453.54 541.41 34.01 -14.17 re B q 0.0 g BT 466.65 532.23 Td (10) Tj ET Q
-487.55 541.41 51.02 -14.17 re B q 0.0 g BT 509.17 532.23 Td (24) Tj ET Q
-56.69 527.24 56.69 -14.17 re B q 0.0 g BT 67.52 518.05 Td (02/01/2022) Tj ET Q
-113.38 527.24 340.15 -14.17 re B q 0.0 g BT 116.22 518.05 Td (Computer science) Tj ET Q
-453.54 527.24 34.01 -14.17 re B q 0.0 g BT 468.60 518.05 Td (8) Tj ET Q
-487.55 527.24 51.02 -14.17 re B q 0.0 g BT 509.17 518.05 Td (26) Tj ET Q
-56.69 513.07 56.69 -14.17 re B q 0.0 g BT 67.52 503.88 Td (02/04/2022) Tj ET Q
-113.38 513.07 340.15 -14.17 re B q 0.0 g BT 116.22 503.88 Td (Chemistry) Tj ET Q
-453.54 513.07 34.01 -14.17 re B q 0.0 g BT 468.60 503.88 Td (8) Tj ET Q
-487.55 513.07 51.02 -14.17 re B q 0.0 g BT 509.17 503.88 Td (19) Tj ET Q
-56.69 498.89 56.69 -14.17 re B q 0.0 g BT 67.52 489.71 Td (06/21/2022) Tj ET Q
-113.38 498.89 340.15 -14.17 re B q 0.0 g BT 116.22 489.71 Td (Physics I) Tj ET Q
-453.54 498.89 34.01 -14.17 re B q 0.0 g BT 466.65 489.71 Td (10) Tj ET Q
-487.55 498.89 51.02 -14.17 re B q 0.0 g BT 509.17 489.71 Td (27) Tj ET Q
-56.69 484.72 56.69 -14.17 re B q 0.0 g BT 67.52 475.53 Td (07/14/2022) Tj ET Q
-113.38 484.72 340.15 -14.17 re B q 0.0 g BT 116.22 475.53 Td (Linear Algebra and Geometry) Tj ET Q
-453.54 484.72 34.01 -14.17 re B q 0.0 g BT 466.65 475.53 Td (10) Tj ET Q
-487.55 484.72 51.02 -14.17 re B q 0.0 g BT 509.17 475.53 Td (29) Tj ET Q
-56.69 470.55 56.69 -14.17 re B q 0.0 g BT 67.52 461.36 Td (01/23/2023) Tj ET Q
-113.38 470.55 340.15 -14.17 re B q 0.0 g BT 116.22 461.36 Td (Electromagnetism and Circuits theory) Tj ET Q
-453.54 470.55 34.01 -14.17 re B q 0.0 g BT 466.65 461.36 Td (12) Tj ET Q
-487.55 470.55 51.02 -14.17 re B q 0.0 g BT 509.17 461.36 Td (27) Tj ET Q
-56.69 456.37 56.69 -14.17 re B q 0.0 g BT 67.52 447.19 Td (02/02/2023) Tj ET Q
-113.38 456.37 340.15 -14.17 re B q 0.0 g BT 116.22 447.19 Td (Mathematical analysis II) Tj ET Q
-453.54 456.37 34.01 -14.17 re B q 0.0 g BT 466.65 447.19 Td (10) Tj ET Q
-487.55 456.37 51.02 -14.17 re B q 0.0 g BT 509.17 447.19 Td (21) Tj ET Q
-56.69 442.20 56.69 -14.17 re B q 0.0 g BT 67.52 433.01 Td (06/19/2023) Tj ET Q
-113.38 442.20 340.15 -14.17 re B q 0.0 g BT 116.22 433.01 Td (Virtual Reality for frail \(Global Challenges - Health\)) Tj ET Q
-453.54 442.20 34.01 -14.17 re B q 0.0 g BT 468.60 433.01 Td (6) Tj ET Q
-487.55 442.20 51.02 -14.17 re B q 0.0 g BT 509.17 433.01 Td (28) Tj ET Q
-56.69 428.03 56.69 -14.17 re B q 0.0 g BT 67.52 418.84 Td (06/23/2023) Tj ET Q
-113.38 428.03 340.15 -14.17 re B q 0.0 g BT 116.22 418.84 Td (Computer systems) Tj ET Q
-453.54 428.03 34.01 -14.17 re B q 0.0 g BT 468.60 418.84 Td (8) Tj ET Q
-487.55 428.03 51.02 -14.17 re B q 0.0 g BT 509.17 418.84 Td (25) Tj ET Q
-56.69 413.85 56.69 -14.17 re B q 0.0 g BT 67.52 404.67 Td (06/26/2023) Tj ET Q
-113.38 413.85 340.15 -14.17 re B q 0.0 g BT 116.22 404.67 Td (Database) Tj ET Q
-453.54 413.85 34.01 -14.17 re B q 0.0 g BT 468.60 404.67 Td (8) Tj ET Q
-487.55 413.85 51.02 -14.17 re B q 0.0 g BT 509.17 404.67 Td (25) Tj ET Q
-56.69 399.68 56.69 -14.17 re B q 0.0 g BT 67.52 390.49 Td (06/28/2023) Tj ET Q
-113.38 399.68 340.15 -14.17 re B q 0.0 g BT 116.22 390.49 Td (Mathematical methods for engineers) Tj ET Q
-453.54 399.68 34.01 -14.17 re B q 0.0 g BT 466.65 390.49 Td (10) Tj ET Q
-487.55 399.68 51.02 -14.17 re B q 0.0 g BT 509.17 390.49 Td (19) Tj ET Q
-56.69 385.51 56.69 -14.17 re B q 0.0 g BT 67.52 376.32 Td (07/17/2023) Tj ET Q
-113.38 385.51 340.15 -14.17 re B q 0.0 g BT 116.22 376.32 Td (Programming techniques) Tj ET Q
-453.54 385.51 34.01 -14.17 re B q 0.0 g BT 468.60 376.32 Td (6) Tj ET Q
-487.55 385.51 51.02 -14.17 re B q 0.0 g BT 509.17 376.32 Td (24) Tj ET Q
-56.69 371.33 56.69 -14.17 re B q 0.0 g BT 67.52 362.15 Td (01/30/2024) Tj ET Q
-113.38 371.33 340.15 -14.17 re B q 0.0 g BT 116.22 362.15 Td (Signal theory and Signal processing) Tj ET Q
-453.54 371.33 34.01 -14.17 re B q 0.0 g BT 468.60 362.15 Td (8) Tj ET Q
-487.55 371.33 51.02 -14.17 re B q 0.0 g BT 492.06 362.15 Td (30 cum laude) Tj ET Q
-56.69 357.16 56.69 -14.17 re B q 0.0 g BT 67.52 347.97 Td (02/02/2024) Tj ET Q
-113.38 357.16 340.15 -14.17 re B q 0.0 g BT 116.22 347.97 Td (Computer networks) Tj ET Q
-453.54 357.16 34.01 -14.17 re B q 0.0 g BT 468.60 347.97 Td (8) Tj ET Q
-487.55 357.16 51.02 -14.17 re B q 0.0 g BT 509.17 347.97 Td (28) Tj ET Q
-56.69 342.99 56.69 -14.17 re B q 0.0 g BT 67.52 333.80 Td (02/09/2024) Tj ET Q
-113.38 342.99 340.15 -14.17 re B q 0.0 g BT 116.22 333.80 Td (Introduction to Web Applications) Tj ET Q
-453.54 342.99 34.01 -14.17 re B q 0.0 g BT 468.60 333.80 Td (6) Tj ET Q
-487.55 342.99 51.02 -14.17 re B q 0.0 g BT 492.06 333.80 Td (30 cum laude) Tj ET Q
-56.69 328.81 56.69 -14.17 re B q 0.0 g BT 67.52 319.63 Td (02/12/2024) Tj ET Q
-113.38 328.81 340.15 -14.17 re B q 0.0 g BT 116.22 319.63 Td (Electronic systems, technologies and measurements) Tj ET Q
-453.54 328.81 34.01 -14.17 re B q 0.0 g BT 468.60 319.63 Td (8) Tj ET Q
-487.55 328.81 51.02 -14.17 re B q 0.0 g BT 509.17 319.63 Td (30) Tj ET Q
-56.69 314.64 56.69 -14.17 re B q 0.0 g BT 67.52 305.45 Td (02/27/2024) Tj ET Q
-113.38 314.64 340.15 -14.17 re B q 0.0 g BT 116.22 305.45 Td (Operating systems) Tj ET Q
-453.54 314.64 34.01 -14.17 re B q 0.0 g BT 468.60 305.45 Td (6) Tj ET Q
-487.55 314.64 51.02 -14.17 re B q 0.0 g BT 492.06 305.45 Td (30 cum laude) Tj ET Q
-56.69 300.47 56.69 -14.17 re B q 0.0 g BT 67.52 291.28 Td (06/25/2024) Tj ET Q
-113.38 300.47 340.15 -14.17 re B q 0.0 g BT 116.22 291.28 Td (Applied Electronics) Tj ET Q
-453.54 300.47 34.01 -14.17 re B q 0.0 g BT 468.60 291.28 Td (8) Tj ET Q
-487.55 300.47 51.02 -14.17 re B q 0.0 g BT 509.17 291.28 Td (30) Tj ET Q
-56.69 286.29 56.69 -14.17 re B q 0.0 g BT 67.52 277.11 Td (07/04/2024) Tj ET Q
-113.38 286.29 340.15 -14.17 re B q 0.0 g BT 116.22 277.11 Td (Algorithms and Data Structures) Tj ET Q
-453.54 286.29 34.01 -14.17 re B q 0.0 g BT 468.60 277.11 Td (8) Tj ET Q
-487.55 286.29 51.02 -14.17 re B q 0.0 g BT 509.17 277.11 Td (22) Tj ET Q
-56.69 272.12 56.69 -14.17 re B q 0.0 g BT 67.52 262.93 Td (07/09/2024) Tj ET Q
-113.38 272.12 340.15 -14.17 re B q 0.0 g BT 116.22 262.93 Td (Automatic control) Tj ET Q
-453.54 272.12 34.01 -14.17 re B q 0.0 g BT 466.65 262.93 Td (10) Tj ET Q
-487.55 272.12 51.02 -14.17 re B q 0.0 g BT 509.17 262.93 Td (30) Tj ET Q
-56.69 257.95 56.69 -14.17 re B q 0.0 g BT 67.52 248.76 Td (07/24/2024) Tj ET Q
-113.38 257.95 340.15 -14.17 re B q 0.0 g BT 116.22 248.76 Td (Object-oriented programming) Tj ET Q
-453.54 257.95 34.01 -14.17 re B q 0.0 g BT 468.60 248.76 Td (8) Tj ET Q
-487.55 257.95 51.02 -14.17 re B q 0.0 g BT 509.17 248.76 Td (28) Tj ET Q
-56.69 243.77 56.69 -14.17 re B q 0.0 g BT 67.52 234.59 Td (09/11/2024) Tj ET Q
-113.38 243.77 340.15 -14.17 re B q 0.0 g BT 116.22 234.59 Td (Final essay) Tj ET Q
-453.54 243.77 34.01 -14.17 re B q 0.0 g BT 468.60 234.59 Td (1) Tj ET Q
-487.55 243.77 51.02 -14.17 re B q 0.0 g BT 501.78 234.59 Td (passed) Tj ET Q
+56.69 785.19 56.69 -14.17 re B q 0.0 g BT 67.52 776.01 Td (25/01/2022) Tj ET Q
+113.38 785.19 391.18 -14.17 re B q 0.0 g BT 116.22 776.01 Td (Analisi matematica I) Tj ET Q
+504.56 785.19 34.01 -14.17 re B q 0.0 g BT 517.68 776.01 Td (10) Tj ET Q
+56.69 771.02 56.69 -14.17 re B q 0.0 g BT 67.52 761.83 Td (01/02/2022) Tj ET Q
+113.38 771.02 391.18 -14.17 re B q 0.0 g BT 116.22 761.83 Td (Informatica) Tj ET Q
+504.56 771.02 34.01 -14.17 re B q 0.0 g BT 519.62 761.83 Td (8) Tj ET Q
+56.69 756.85 56.69 -14.17 re B q 0.0 g BT 67.52 747.66 Td (04/02/2022) Tj ET Q
+113.38 756.85 391.18 -14.17 re B q 0.0 g BT 116.22 747.66 Td (Chimica) Tj ET Q
+504.56 756.85 34.01 -14.17 re B q 0.0 g BT 519.62 747.66 Td (8) Tj ET Q
+56.69 742.67 56.69 -14.17 re B q 0.0 g BT 67.52 733.49 Td (21/06/2022) Tj ET Q
+113.38 742.67 391.18 -14.17 re B q 0.0 g BT 116.22 733.49 Td (Fisica I) Tj ET Q
+504.56 742.67 34.01 -14.17 re B q 0.0 g BT 517.68 733.49 Td (10) Tj ET Q
+56.69 728.50 56.69 -14.17 re B q 0.0 g BT 67.52 719.31 Td (14/07/2022) Tj ET Q
+113.38 728.50 391.18 -14.17 re B q 0.0 g BT 116.22 719.31 Td (Algebra lineare e geometria) Tj ET Q
+504.56 728.50 34.01 -14.17 re B q 0.0 g BT 517.68 719.31 Td (10) Tj ET Q
+56.69 714.33 56.69 -14.17 re B q 0.0 g BT 67.52 705.14 Td (23/01/2023) Tj ET Q
+113.38 714.33 391.18 -14.17 re B q 0.0 g BT 116.22 705.14 Td (Elettromagnetismo e Teoria dei circuiti) Tj ET Q
+504.56 714.33 34.01 -14.17 re B q 0.0 g BT 517.68 705.14 Td (12) Tj ET Q
+56.69 700.15 56.69 -14.17 re B q 0.0 g BT 67.52 690.97 Td (02/02/2023) Tj ET Q
+113.38 700.15 391.18 -14.17 re B q 0.0 g BT 116.22 690.97 Td (Analisi matematica II) Tj ET Q
+504.56 700.15 34.01 -14.17 re B q 0.0 g BT 517.68 690.97 Td (10) Tj ET Q
+56.69 685.98 56.69 -14.17 re B q 0.0 g BT 67.52 676.79 Td (19/06/2023) Tj ET Q
+113.38 685.98 391.18 -14.17 re B q 0.0 g BT 116.22 676.79 Td (Realtà virtuale e fragilità \(Grandi Sfide - Salute\)) Tj ET Q
+504.56 685.98 34.01 -14.17 re B q 0.0 g BT 519.62 676.79 Td (6) Tj ET Q
+56.69 671.81 56.69 -14.17 re B q 0.0 g BT 67.52 662.62 Td (23/06/2023) Tj ET Q
+113.38 671.81 391.18 -14.17 re B q 0.0 g BT 116.22 662.62 Td (Calcolatori elettronici) Tj ET Q
+504.56 671.81 34.01 -14.17 re B q 0.0 g BT 519.62 662.62 Td (8) Tj ET Q
+56.69 657.63 56.69 -14.17 re B q 0.0 g BT 67.52 648.45 Td (26/06/2023) Tj ET Q
+113.38 657.63 391.18 -14.17 re B q 0.0 g BT 116.22 648.45 Td (Basi di dati) Tj ET Q
+504.56 657.63 34.01 -14.17 re B q 0.0 g BT 519.62 648.45 Td (8) Tj ET Q
+56.69 643.46 56.69 -14.17 re B q 0.0 g BT 67.52 634.27 Td (28/06/2023) Tj ET Q
+113.38 643.46 391.18 -14.17 re B q 0.0 g BT 116.22 634.27 Td (Metodi matematici per l'ingegneria) Tj ET Q
+504.56 643.46 34.01 -14.17 re B q 0.0 g BT 517.68 634.27 Td (10) Tj ET Q
+56.69 629.29 56.69 -14.17 re B q 0.0 g BT 67.52 620.10 Td (17/07/2023) Tj ET Q
+113.38 629.29 391.18 -14.17 re B q 0.0 g BT 116.22 620.10 Td (Tecniche di programmazione) Tj ET Q
+504.56 629.29 34.01 -14.17 re B q 0.0 g BT 519.62 620.10 Td (6) Tj ET Q
+56.69 615.11 56.69 -14.17 re B q 0.0 g BT 67.52 605.93 Td (30/01/2024) Tj ET Q
+113.38 615.11 391.18 -14.17 re B q 0.0 g BT 116.22 605.93 Td (Teoria ed elaborazione dei segnali) Tj ET Q
+504.56 615.11 34.01 -14.17 re B q 0.0 g BT 519.62 605.93 Td (8) Tj ET Q
+56.69 600.94 56.69 -14.17 re B q 0.0 g BT 67.52 591.75 Td (02/02/2024) Tj ET Q
+113.38 600.94 391.18 -14.17 re B q 0.0 g BT 116.22 591.75 Td (Reti di calcolatori) Tj ET Q
+504.56 600.94 34.01 -14.17 re B q 0.0 g BT 519.62 591.75 Td (8) Tj ET Q
+56.69 586.77 56.69 -14.17 re B q 0.0 g BT 67.52 577.58 Td (09/02/2024) Tj ET Q
+113.38 586.77 391.18 -14.17 re B q 0.0 g BT 116.22 577.58 Td (Introduzione alle Applicazioni Web) Tj ET Q
+504.56 586.77 34.01 -14.17 re B q 0.0 g BT 519.62 577.58 Td (6) Tj ET Q
+56.69 572.59 56.69 -14.17 re B q 0.0 g BT 67.52 563.41 Td (12/02/2024) Tj ET Q
+113.38 572.59 391.18 -14.17 re B q 0.0 g BT 116.22 563.41 Td (Sistemi elettronici, tecnologie e misure) Tj ET Q
+504.56 572.59 34.01 -14.17 re B q 0.0 g BT 519.62 563.41 Td (8) Tj ET Q
+56.69 558.42 56.69 -14.17 re B q 0.0 g BT 67.52 549.23 Td (27/02/2024) Tj ET Q
+113.38 558.42 391.18 -14.17 re B q 0.0 g BT 116.22 549.23 Td (Sistemi operativi) Tj ET Q
+504.56 558.42 34.01 -14.17 re B q 0.0 g BT 519.62 549.23 Td (6) Tj ET Q
+56.69 544.25 56.69 -14.17 re B q 0.0 g BT 67.52 535.06 Td (25/06/2024) Tj ET Q
+113.38 544.25 391.18 -14.17 re B q 0.0 g BT 116.22 535.06 Td (Elettronica applicata) Tj ET Q
+504.56 544.25 34.01 -14.17 re B q 0.0 g BT 519.62 535.06 Td (8) Tj ET Q
+56.69 530.07 56.69 -14.17 re B q 0.0 g BT 67.52 520.89 Td (04/07/2024) Tj ET Q
+113.38 530.07 391.18 -14.17 re B q 0.0 g BT 116.22 520.89 Td (Algoritmi e strutture dati) Tj ET Q
+504.56 530.07 34.01 -14.17 re B q 0.0 g BT 519.62 520.89 Td (8) Tj ET Q
+56.69 515.90 56.69 -14.17 re B q 0.0 g BT 67.52 506.71 Td (09/07/2024) Tj ET Q
+113.38 515.90 391.18 -14.17 re B q 0.0 g BT 116.22 506.71 Td (Controlli automatici) Tj ET Q
+504.56 515.90 34.01 -14.17 re B q 0.0 g BT 517.68 506.71 Td (10) Tj ET Q
+56.69 501.73 56.69 -14.17 re B q 0.0 g BT 67.52 492.54 Td (24/07/2024) Tj ET Q
+113.38 501.73 391.18 -14.17 re B q 0.0 g BT 116.22 492.54 Td (Programmazione a oggetti) Tj ET Q
+504.56 501.73 34.01 -14.17 re B q 0.0 g BT 519.62 492.54 Td (8) Tj ET Q
+56.69 487.55 56.69 -14.17 re B q 0.0 g BT 67.52 478.37 Td (11/09/2024) Tj ET Q
+113.38 487.55 391.18 -14.17 re B q 0.0 g BT 116.22 478.37 Td (Prova finale) Tj ET Q
+504.56 487.55 34.01 -14.17 re B q 0.0 g BT 519.62 478.37 Td (1) Tj ET Q
 BT /F1 24.0 Tf ET
-q 0.862 0.039 0.039 rg BT 45.35 199.72 Td (*) Tj ET Q
+q 0.862 0.039 0.039 rg BT 45.35 443.50 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
 BT /F3 8.0 Tf ET
-q 0.0 g BT 59.52 210.19 Td (Fields marked with an * are certified by Politecnico di Torino, while the potential thesis description is added by the candidate.) Tj ET Q
+q 0.0 g BT 59.52 453.97 Td (L’asterisco si riferisce ai dati certificati dall’Ateneo. L’eventuale descrizione della tesi è inserita direttamente dal candidato.) Tj ET Q
 BT /F1 10.0 Tf ET
 0.0 G
 BT /F1 7.0 Tf ET
-q 0.0 g BT 31.18 47.50 Td (I declare that I read the privacy statement on the processing of my personal data and my rights within the meaning of the General Data Protection) Tj ET Q
-q 0.0 g BT 31.18 39.00 Td (Regulation \(EU Regulation 2016/679\) and Legislative decree no.196 of 30th June 2003 (Code regarding the protection of personal data): ) Tj ET Q
+q 0.0 g BT 31.18 47.50 Td (Ho preso visione dell’informativa completa riguardante la modalità di trattamento dei dati da me forniti e i diritti a me spettanti ai sensi del GDPR) Tj ET Q
+q 0.0 g BT 31.18 39.00 Td (\(Regolamento UE 2016/679\) e del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” presente) Tj ET Q
 BT /F1 7.0 Tf ET
-q 0.0 g BT 31.18 30.49 Td (https://didattica.polito.it/privacy/index_en.html) Tj ET 31.18 29.79 140.84 -.35 re f Q
+q 0.0 g BT 31.18 30.49 Td (https://didattica.polito.it/privacy/) Tj ET 31.18 29.79 97.26 -.35 re f Q
 BT /F1 7.0 Tf ET
-q 0.0 g BT 172.03 30.49 Td (. I hereby give my consent to the processing of my personal data included in my CV.) Tj ET Q
+q 0.0 g BT 128.46 30.49 Td ( e autorizzo il trattamento dei miei dati personali presenti nel cv.) Tj ET Q
 BT /F1 8.0 Tf ET
 q 0.0 g BT 523.16 42.95 Td (pag. 2/ 2) Tj ET Q
 BT /F1 10.0 Tf ET
@@ -374,9 +322,33 @@ endobj
 12 0 obj
 <</Type /XObject
 /Subtype /Image
+/Width 42
+/Height 43
+/ColorSpace [/Indexed /DeviceRGB 255 13 0 R]
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 42>>
+/Length 1095>>
+stream
+x^-•½E…ouWIlÀ¯ŒÎ˜®a»¥`ı !KˆÈ!	Oáˆ Kø?¡“5šw7;!d	A€VlUoñZ4==ÕÕ÷çÜsnİq‹==Ë~i³·ìëÍL«P´ºÛàÚ?}|ƒsÆ¹²-æ³ó¬õ˜û¯J?½ñ¹¹­»ml	ÓVºn6Ù»Óš^Á,p5ˆn!·KÍÃ§•³K¥Ç!ñ¦ØoÉEÖm.>·€
+É ,½9]dtÓ°·2xK-Š!¯––+aÅSòìí‡íÖ.v?ğŸĞıŞ%^å g	H¤¥?§æsK-v!¾Ãx Š˜5ò.mSa_nD¹í•4ÙÊïˆIÃ•_ÀÕp/@ƒö’èÌ”yÄ¥zU"hñDµ\íxÌıÀF~(Òæv]o³kéUv£øøŸXÒ–$GyB}CVç»ç7®ØÅË’„¬Äá»dW#´O¨¬¹½ÿcúéß_ía¤¥Ï§!.b“}ÙeQûBÉÓnÅüCÏÎÜ¾LÛ!7:ÄúD®ê¦$›û)JºÁ£Ş°‹4€[+óÙà³mw›|2lí¤·‹íVè’í¢Ä§. ²s4VğG7ø·?y¤ŠùGgBf–˜ÌsÏ’7S„.1¼ı¤R'ÚD]ñ„|ÿy_–¼=mş¾¯Ê€
+9÷áÍñ­[1 ØLU°dc{…'–àC1óÇ5%/¿Ün´mÁ6“›°›Ì——_>ıxtQ½µjõ|«¸1¸õÑÊ³mÓw£EmOŞµyh$¯ë÷ŠÊqQÜêô¥·µÀ¸7b–(´ÕàP ºi\‹{qˆ‚9Ö[Ïä§	Õ¤<Õ½eÚÄc¥¸jä‡•¯c·×¡ltâ¼;
+€µ›q®N²%—M 7‹sÔ(‘Z%Ûº*)ª‡b¡:×UàSÄEQ0Ö¨%P"A'f†T‰¬qĞğĞ1,vU£fz`ÓCƒ¸¥Õ·j¬Ñ‘jçxßIPfjÆ	2ûäİzÉöØŒcˆ½w—uÏºèàG*tÜ¨®Ÿ1arjÒäNGÕ7—ÈJ•µĞb§®‹jYau6ï+W¥³Yê	·J ³rQíBg©ƒ|_3å²î è¼İ‰Á­òjÂºL+à•Røël«ƒ
+r+Ÿ|Àªù–}¯ÂÙ!WHÜ]—KJ Ì9¬»º(œš¾à¨‡7›ßÓÏï¼ÎW÷Úôçõşİ_Ş«³½Y^ßŒiÉ¿İÓŒG-…Ïmˆiñ+š8….¯jg,Àh×½©“^èŸ §À\ÔÔÙİ4F*Gb¿ªsvtG—P ¦9œPU.K´‚¨=›ÏÁLáj2ì[ädV*)Şh!6Ü÷Ÿ7î›ç-Âu£úÌB³Ø`mÆiÙ}mÿjş«
+endstream
+endobj
+13 0 obj
+<</Length 768>>
+stream
+                                                                                                                     U  ª  ÿ     U  ª  ÿ   @ U@ ª@ ÿ@  ` U` ª` ÿ`  € U€ ª€ ÿ€  Ÿ UŸ ªŸ ÿŸ  ¿ U¿ ª¿ ÿ¿  ß Uß ªß ÿß  ÿ Uÿ ªÿ ÿÿ   3U 3ª 3ÿ 3  3U 3ª 3ÿ 3 @3U@3ª@3ÿ@3 `3U`3ª`3ÿ`3 €3U€3ª€3ÿ€3 Ÿ3UŸ3ªŸ3ÿŸ3 ¿3U¿3ª¿3ÿ¿3 ß3Uß3ªß3ÿß3 ÿ3Uÿ3ªÿ3ÿÿ3  fU fª fÿ f  fU fª fÿ f @fU@fª@fÿ@f `fU`fª`fÿ`f €fU€fª€fÿ€f ŸfUŸfªŸfÿŸf ¿fU¿fª¿fÿ¿f ßfUßfªßfÿßf ÿfUÿfªÿfÿÿf  ™U ™ª ™ÿ ™  ™U ™ª ™ÿ ™ @™U@™ª@™ÿ@™ `™U`™ª`™ÿ`™ €™U€™ª€™ÿ€™ Ÿ™UŸ™ªŸ™ÿŸ™ ¿™U¿™ª¿™ÿ¿™ ß™Uß™ªß™ÿß™ ÿ™Uÿ™ªÿ™ÿÿ™  ÌU Ìª Ìÿ Ì  ÌU Ìª Ìÿ Ì @ÌU@Ìª@Ìÿ@Ì `ÌU`Ìª`Ìÿ`Ì €ÌU€Ìª€Ìÿ€Ì ŸÌUŸÌªŸÌÿŸÌ ¿ÌU¿Ìª¿Ìÿ¿Ì ßÌUßÌªßÌÿßÌ ÿÌUÿÌªÿÌÿÿÌ  ÿU ÿª ÿÿ ÿ  ÿU ÿª ÿÿ ÿ @ÿU@ÿª@ÿÿ@ÿ `ÿU`ÿª`ÿÿ`ÿ €ÿU€ÿª€ÿÿ€ÿ ŸÿUŸÿªŸÿÿŸÿ ¿ÿU¿ÿª¿ÿÿ¿ÿ ßÿUßÿªßÿÿßÿ ÿÿUÿÿªÿÿÿÿÿ      
+endstream
+endobj
+14 0 obj
+<</Type /XObject
+/Subtype /Image
 /Width 49
 /Height 56
-/ColorSpace [/Indexed /DeviceRGB 255 13 0 R]
+/ColorSpace [/Indexed /DeviceRGB 255 15 0 R]
 /BitsPerComponent 8
 /Filter /FlateDecode
 /DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 49>>
@@ -390,27 +362,6 @@ x^í•Ïn7Æ‡KPr1Šô_…lH‚¥Bj}…ŞZÔ‡ú2íãµôM$  v•¯9®Q’fCÙ©ô`ß
 Y0®Oêa\'ìÃ¼¼ao3µú«¦ï]½¾,|—£Î%Æ`F~¡°¹)=úkVl²êì©[K‘d6M{\íA5dûÔ½9~–¡Q„±ç×Yëì3<öE¹˜÷N@uªVÂÕ÷sÎµ%ÇŠ"TÚ}©–(­ˆ¾ÕÄæ½.öGÚû\ÏÅ-.kŠ”÷œAÔ‰JÏd]4j@„Åş»—JsmuÛÃ\•Hk¸IÍêUp±22}fô¬Ëˆo¢»±ìdÅM§«µ'yIo>İyû“û’€¿¼ø¨úXô$ĞcÊ¥*Wºñ¢ÇFU½ÛÛüös#ŸÉ§•L ÷gèkSr;Plá÷·dw1å.×®6íNBò®İ’Mù¬ùjdCÔÃãƒ6â,c¬ç¯|6à ‘¾)»K—”‹ér1@¯|9ï§ÏûÎıèÓÿğ­}·òA¼İGßÙüw-ş~÷‘´
 endstream
 endobj
-13 0 obj
-<</Length 768>>
-stream
-                                                                                                                     U  ª  ÿ     U  ª  ÿ   @ U@ ª@ ÿ@  ` U` ª` ÿ`  € U€ ª€ ÿ€  Ÿ UŸ ªŸ ÿŸ  ¿ U¿ ª¿ ÿ¿  ß Uß ªß ÿß  ÿ Uÿ ªÿ ÿÿ   3U 3ª 3ÿ 3  3U 3ª 3ÿ 3 @3U@3ª@3ÿ@3 `3U`3ª`3ÿ`3 €3U€3ª€3ÿ€3 Ÿ3UŸ3ªŸ3ÿŸ3 ¿3U¿3ª¿3ÿ¿3 ß3Uß3ªß3ÿß3 ÿ3Uÿ3ªÿ3ÿÿ3  fU fª fÿ f  fU fª fÿ f @fU@fª@fÿ@f `fU`fª`fÿ`f €fU€fª€fÿ€f ŸfUŸfªŸfÿŸf ¿fU¿fª¿fÿ¿f ßfUßfªßfÿßf ÿfUÿfªÿfÿÿf  ™U ™ª ™ÿ ™  ™U ™ª ™ÿ ™ @™U@™ª@™ÿ@™ `™U`™ª`™ÿ`™ €™U€™ª€™ÿ€™ Ÿ™UŸ™ªŸ™ÿŸ™ ¿™U¿™ª¿™ÿ¿™ ß™Uß™ªß™ÿß™ ÿ™Uÿ™ªÿ™ÿÿ™  ÌU Ìª Ìÿ Ì  ÌU Ìª Ìÿ Ì @ÌU@Ìª@Ìÿ@Ì `ÌU`Ìª`Ìÿ`Ì €ÌU€Ìª€Ìÿ€Ì ŸÌUŸÌªŸÌÿŸÌ ¿ÌU¿Ìª¿Ìÿ¿Ì ßÌUßÌªßÌÿßÌ ÿÌUÿÌªÿÌÿÿÌ  ÿU ÿª ÿÿ ÿ  ÿU ÿª ÿÿ ÿ @ÿU@ÿª@ÿÿ@ÿ `ÿU`ÿª`ÿÿ`ÿ €ÿU€ÿª€ÿÿ€ÿ ŸÿUŸÿªŸÿÿŸÿ ¿ÿU¿ÿª¿ÿÿ¿ÿ ßÿUßÿªßÿÿßÿ ÿÿUÿÿªÿÿÿÿÿ      
-endstream
-endobj
-14 0 obj
-<</Type /XObject
-/Subtype /Image
-/Width 38
-/Height 44
-/ColorSpace [/Indexed /DeviceRGB 255 15 0 R]
-/BitsPerComponent 8
-/Filter /FlateDecode
-/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 38>>
-/Length 747>>
-stream
-x^Uíjã0Ü­$è[¤¥6q 	¤rĞé+\ŞƒšpvHLÒ§ÈQIìÍJ¶ã4Îäi<»3;r8Òÿ\w· ïo×ìxIBMçvÊuñL–x´5‚ÉvSy¶Ó`gò«<Tn~EÅÿüzª¡àÈsaèãıR}€mßM´•¶¬wÁÊ,¼}ôu;˜l¾¤N ˜ÄQ™n½d`Ï¶Á®²ŸøŸP1}W°÷i&>EŠ6ªH¶p‡j3†ù¢L¨Ôh¨UÂh½ëZõĞ­K±‘\ªãrõâvå] õÃ°"Ãd+8ˆìëÂ¹çµ²{¬É¦$X 4Äà“İ
-û zİ£=4›&i½Ca²“`(·-µW,Íz	ØèBÙjì¦‹ó8ZòU²$Å`qkc¨<u0ôÊVÂ”¸v#{#*Í™sç:Ot`r]oZ¢2*”)ú-¨tóUby?K1ÉÃZ¡5jıü:+êïÜf0)«Èyã}åí&á÷Ã}hJ"Ì¸-2 ³ÉëJa€³³õ*{¨ÂÒ"G3Ã÷h‚RŒ¦ÎÃ¼¥Kw$^G9èÅˆ¼eè0±ŠfÙå¼Ï›=€®C‹¦\Áğ>Î;{¯œÚŒÊøVvÖ	zSÉÌğ Tˆ8~‘ºhÒ.TÅºÖ²EBpãô£ŸIVŠ(@h‰á4dc|ÅıpP!İN‚‹¢-š;v]%º"õl¡7Çrèìr Sw8&zJó~\ôıSÈN‹© ˆ<y;"sÂ­RŠá™Çv5"»†q…®ö„IcFıE“#J×W ˜”»~Lc{“#ªbî|ŠÊq=~^)UÜ¢±:›ñÍ7=Ö¼ŞÁİ`ÇfŒay^xÍ[ÌébF×u¤T©;åi—ƒ]×—~gGó½ä°,‰ñúºú_H[²ÈGóêºı—á…ÆDC8„’è9ßR}
-endstream
-endobj
 15 0 obj
 <</Length 768>>
 stream
@@ -420,9 +371,54 @@ endobj
 16 0 obj
 <</Type /XObject
 /Subtype /Image
+/Width 38
+/Height 44
+/ColorSpace [/Indexed /DeviceRGB 255 17 0 R]
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 38>>
+/Length 747>>
+stream
+x^Uíjã0Ü­$è[¤¥6q 	¤rĞé+\ŞƒšpvHLÒ§ÈQIìÍJ¶ã4Îäi<»3;r8Òÿ\w· ïo×ìxIBMçvÊuñL–x´5‚ÉvSy¶Ó`gò«<Tn~EÅÿüzª¡àÈsaèãıR}€mßM´•¶¬wÁÊ,¼}ôu;˜l¾¤N ˜ÄQ™n½d`Ï¶Á®²ŸøŸP1}W°÷i&>EŠ6ªH¶p‡j3†ù¢L¨Ôh¨UÂh½ëZõĞ­K±‘\ªãrõâvå] õÃ°"Ãd+8ˆìëÂ¹çµ²{¬É¦$X 4Äà“İ
+û zİ£=4›&i½Ca²“`(·-µW,Íz	ØèBÙjì¦‹ó8ZòU²$Å`qkc¨<u0ôÊVÂ”¸v#{#*Í™sç:Ot`r]oZ¢2*”)ú-¨tóUby?K1ÉÃZ¡5jıü:+êïÜf0)«Èyã}åí&á÷Ã}hJ"Ì¸-2 ³ÉëJa€³³õ*{¨ÂÒ"G3Ã÷h‚RŒ¦ÎÃ¼¥Kw$^G9èÅˆ¼eè0±ŠfÙå¼Ï›=€®C‹¦\Áğ>Î;{¯œÚŒÊøVvÖ	zSÉÌğ Tˆ8~‘ºhÒ.TÅºÖ²EBpãô£ŸIVŠ(@h‰á4dc|ÅıpP!İN‚‹¢-š;v]%º"õl¡7Çrèìr Sw8&zJó~\ôıSÈN‹© ˆ<y;"sÂ­RŠá™Çv5"»†q…®ö„IcFıE“#J×W ˜”»~Lc{“#ªbî|ŠÊq=~^)UÜ¢±:›ñÍ7=Ö¼ŞÁİ`ÇfŒay^xÍ[ÌébF×u¤T©;åi—ƒ]×—~gGó½ä°,‰ñúºú_H[²ÈGóêºı—á…ÆDC8„’è9ßR}
+endstream
+endobj
+17 0 obj
+<</Length 768>>
+stream
+                                                                                                                     U  ª  ÿ     U  ª  ÿ   @ U@ ª@ ÿ@  ` U` ª` ÿ`  € U€ ª€ ÿ€  Ÿ UŸ ªŸ ÿŸ  ¿ U¿ ª¿ ÿ¿  ß Uß ªß ÿß  ÿ Uÿ ªÿ ÿÿ   3U 3ª 3ÿ 3  3U 3ª 3ÿ 3 @3U@3ª@3ÿ@3 `3U`3ª`3ÿ`3 €3U€3ª€3ÿ€3 Ÿ3UŸ3ªŸ3ÿŸ3 ¿3U¿3ª¿3ÿ¿3 ß3Uß3ªß3ÿß3 ÿ3Uÿ3ªÿ3ÿÿ3  fU fª fÿ f  fU fª fÿ f @fU@fª@fÿ@f `fU`fª`fÿ`f €fU€fª€fÿ€f ŸfUŸfªŸfÿŸf ¿fU¿fª¿fÿ¿f ßfUßfªßfÿßf ÿfUÿfªÿfÿÿf  ™U ™ª ™ÿ ™  ™U ™ª ™ÿ ™ @™U@™ª@™ÿ@™ `™U`™ª`™ÿ`™ €™U€™ª€™ÿ€™ Ÿ™UŸ™ªŸ™ÿŸ™ ¿™U¿™ª¿™ÿ¿™ ß™Uß™ªß™ÿß™ ÿ™Uÿ™ªÿ™ÿÿ™  ÌU Ìª Ìÿ Ì  ÌU Ìª Ìÿ Ì @ÌU@Ìª@Ìÿ@Ì `ÌU`Ìª`Ìÿ`Ì €ÌU€Ìª€Ìÿ€Ì ŸÌUŸÌªŸÌÿŸÌ ¿ÌU¿Ìª¿Ìÿ¿Ì ßÌUßÌªßÌÿßÌ ÿÌUÿÌªÿÌÿÿÌ  ÿU ÿª ÿÿ ÿ  ÿU ÿª ÿÿ ÿ @ÿU@ÿª@ÿÿ@ÿ `ÿU`ÿª`ÿÿ`ÿ €ÿU€ÿª€ÿÿ€ÿ ŸÿUŸÿªŸÿÿŸÿ ¿ÿU¿ÿª¿ÿÿ¿ÿ ßÿUßÿªßÿÿßÿ ÿÿUÿÿªÿÿÿÿÿ      
+endstream
+endobj
+18 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 45
+/Height 46
+/ColorSpace [/Indexed /DeviceRGB 255 19 0 R]
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 45>>
+/Length 1126>>
+stream
+x^•UÏoE~Ï3-J!¤Ê©‰¼«İ•âG‚+w$rHPúÏğß´>€ø*ZN¨".µÕ]Ëkâ¸"qj”™Éã{³Nš˜S§Iãıæ›ï}ï‡9Ò;¬Ş;`‰ì:Z(ø…d-e,¯½½ø&›çfJö'.›Ã5¼ùáíqáñÓûaÓl\^Ú¿>ŞÜ›?÷½tº[ıO¦}Õ¸&„3¦É[øÑÄëËp÷§À†?/>¿<í¿ÿõÖVõïëû†C¯{æ?«QÇz­$ŒîÙØ~÷ğÁÚÜûçõ†ô‚Å‰ğÙoak%÷ÊÁWã‚©=ºÛ‰dÚ;	[n9X[†WÒÁ;´ø)g‡ñó<H&<™é¤‹®s0Œ
+ög‡N@}Ò”õ‘Í=9o~3ï±“­¸'eÅ…ÿD
+ÉF¸‰5xm´â‚‰?&-I‰¯…ÛÍ„ŒŠØö§‰[pÜ„Ö¯Ğ2*£É5@yÑÆù–=ôSÛ3›[œ2F£º§}–Ù#vÜ°‚P%–û3â</¥C6ŠÉ~BË¤¨«c¿”>=ú
+·ü|<ş’ÿN¼åe^¹ÓK§>O/Ø*5ãO3µ—Z	.È¶äpèIvÊ0ËÄRS¢IŸ¸@ĞàV2Qô›6‡$âÇe0”w`‚ìîCã ;ˆÅ;å–³şPÉNr±1í¥e³.Û%ë8QÂ¾z7%CÁØ#8—I‰`C‰ƒ¸Ú ½x¤i>%@¡Œ(’Ê'nîƒåeƒÏa?•ÊpşK®ÌKód¥¤ï^´ˆ§,¢ôÎ²ç”áéÅ¡/ãéAçÑÕpüÔjvõ ò O„OŞ D’ßyÏYüsîKæx%Pm›jğÉï$m°(ãˆº@B’*N?-,u!â,[upMÿµŞ¨]0Ùœ¢X¹:š3-kT2L©]s_¯P/`«Jà&;ÅŠmÖ¸—šuUÍmÙ¡¹MÇÉ/9kSÅ«Äğ«‚ «6G•i¶…«î¾’‚(!²mƒÄ(w©v"ØãşÚ Ü>…³ƒEÊæÁÂP&èSY¥I—Ö#Îr8óKÌÜÔ®„×AËÌÑ<aĞ	«qš‡n-ĞõÎ`ÑØDZù¶ƒ‚JŒ¸˜ë»Z{	ívÑç¸eQèf’1²càø²ÚÕÇn²íár-a²3IHg|SáZŒ«AŠ~55‡n¦ÜŸÜ´½ªÅ‡qªW^£yP¢ êXÆih¦%a\ ‘şìÛU†7èÜä#ˆêÉ‰×ä‰Ô/Gm¡·Ôİ´Oº%õƒØ»ìİæÙåÓó_ÏŸÈŸn*ú¦“ñVI
+õ–ÒúÒ—¦4ü¯£+÷¯ÁWQ¦“nÿ{[;dI7 ®©á/>¸ãß®ÃAMä§ÛÔVsŞÕ/‹›k­œÙíÑÂGYs„6Ö½…¾ñ}yµÏì*7@Ãß¨…ÿ Ù?ê
+endstream
+endobj
+19 0 obj
+<</Length 768>>
+stream
+                                                                                                                     U  ª  ÿ     U  ª  ÿ   @ U@ ª@ ÿ@  ` U` ª` ÿ`  € U€ ª€ ÿ€  Ÿ UŸ ªŸ ÿŸ  ¿ U¿ ª¿ ÿ¿  ß Uß ªß ÿß  ÿ Uÿ ªÿ ÿÿ   3U 3ª 3ÿ 3  3U 3ª 3ÿ 3 @3U@3ª@3ÿ@3 `3U`3ª`3ÿ`3 €3U€3ª€3ÿ€3 Ÿ3UŸ3ªŸ3ÿŸ3 ¿3U¿3ª¿3ÿ¿3 ß3Uß3ªß3ÿß3 ÿ3Uÿ3ªÿ3ÿÿ3  fU fª fÿ f  fU fª fÿ f @fU@fª@fÿ@f `fU`fª`fÿ`f €fU€fª€fÿ€f ŸfUŸfªŸfÿŸf ¿fU¿fª¿fÿ¿f ßfUßfªßfÿßf ÿfUÿfªÿfÿÿf  ™U ™ª ™ÿ ™  ™U ™ª ™ÿ ™ @™U@™ª@™ÿ@™ `™U`™ª`™ÿ`™ €™U€™ª€™ÿ€™ Ÿ™UŸ™ªŸ™ÿŸ™ ¿™U¿™ª¿™ÿ¿™ ß™Uß™ªß™ÿß™ ÿ™Uÿ™ªÿ™ÿÿ™  ÌU Ìª Ìÿ Ì  ÌU Ìª Ìÿ Ì @ÌU@Ìª@Ìÿ@Ì `ÌU`Ìª`Ìÿ`Ì €ÌU€Ìª€Ìÿ€Ì ŸÌUŸÌªŸÌÿŸÌ ¿ÌU¿Ìª¿Ìÿ¿Ì ßÌUßÌªßÌÿßÌ ÿÌUÿÌªÿÌÿÿÌ  ÿU ÿª ÿÿ ÿ  ÿU ÿª ÿÿ ÿ @ÿU@ÿª@ÿÿ@ÿ `ÿU`ÿª`ÿÿ`ÿ €ÿU€ÿª€ÿÿ€ÿ ŸÿUŸÿªŸÿÿŸÿ ¿ÿU¿ÿª¿ÿÿ¿ÿ ßÿUßÿªßÿÿßÿ ÿÿUÿÿªÿÿÿÿÿ      
+endstream
+endobj
+20 0 obj
+<</Type /XObject
+/Subtype /Image
 /Width 230
 /Height 240
-/ColorSpace [/Indexed /DeviceRGB 255 17 0 R]
+/ColorSpace [/Indexed /DeviceRGB 255 21 0 R]
 /BitsPerComponent 8
 /Filter /FlateDecode
 /DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 230>>
@@ -547,7 +543,7 @@ rRZ¤°,—ŞÍÙ=Jz;KDDÛtÕNôŒÛV³š s0Qjkí™8’rÏ~˜¾½»ÿª®Q`;^ ®5V!tÒÙ¸Ä /a†ú ¡‡ÍH
 BŸéqª;õt²Š>°Y@WİHÕ]/¢uZ)œ9uôUJŸüï×â5KdÜÌTÃ,ˆ¬:àÛŒ—c|JEa™yöyE§ö«êV{ºı\Q aVN‘¸ª`t`L…“°ñPê#Z_A^ÖŞÄGºÔ²k9Øœ‚%	ó™?9È>©mnÆó=¢õ}³ØO7Ö€¥Q¬ EQªÓğ‰†O¦î?1ê¯arr.³6Öà‹ac‹œ"`_¿™#‹=C{WÒ–ÊÆ¸m›§¢$¡¬x”/ÔÎªx-t5x€†$Ğ…ÊÍTÆ/Öaí§p¤“‚üŸ……‹ï«*Ö+şö/U©cq
 endstream
 endobj
-17 0 obj
+21 0 obj
 <</Length 768>>
 stream
                                                                                                                      U  ª  ÿ     U  ª  ÿ   @ U@ ª@ ÿ@  ` U` ª` ÿ`  € U€ ª€ ÿ€  Ÿ UŸ ªŸ ÿŸ  ¿ U¿ ª¿ ÿ¿  ß Uß ªß ÿß  ÿ Uÿ ªÿ ÿÿ   3U 3ª 3ÿ 3  3U 3ª 3ÿ 3 @3U@3ª@3ÿ@3 `3U`3ª`3ÿ`3 €3U€3ª€3ÿ€3 Ÿ3UŸ3ªŸ3ÿŸ3 ¿3U¿3ª¿3ÿ¿3 ß3Uß3ªß3ÿß3 ÿ3Uÿ3ªÿ3ÿÿ3  fU fª fÿ f  fU fª fÿ f @fU@fª@fÿ@f `fU`fª`fÿ`f €fU€fª€fÿ€f ŸfUŸfªŸfÿŸf ¿fU¿fª¿fÿ¿f ßfUßfªßfÿßf ÿfUÿfªÿfÿÿf  ™U ™ª ™ÿ ™  ™U ™ª ™ÿ ™ @™U@™ª@™ÿ@™ `™U`™ª`™ÿ`™ €™U€™ª€™ÿ€™ Ÿ™UŸ™ªŸ™ÿŸ™ ¿™U¿™ª¿™ÿ¿™ ß™Uß™ªß™ÿß™ ÿ™Uÿ™ªÿ™ÿÿ™  ÌU Ìª Ìÿ Ì  ÌU Ìª Ìÿ Ì @ÌU@Ìª@Ìÿ@Ì `ÌU`Ìª`Ìÿ`Ì €ÌU€Ìª€Ìÿ€Ì ŸÌUŸÌªŸÌÿŸÌ ¿ÌU¿Ìª¿Ìÿ¿Ì ßÌUßÌªßÌÿßÌ ÿÌUÿÌªÿÌÿÿÌ  ÿU ÿª ÿÿ ÿ  ÿU ÿª ÿÿ ÿ @ÿU@ÿª@ÿÿ@ÿ `ÿU`ÿª`ÿÿ`ÿ €ÿU€ÿª€ÿÿ€ÿ ŸÿUŸÿªŸÿÿŸÿ ¿ÿU¿ÿª¿ÿÿ¿ÿ ßÿUßÿªßÿÿßÿ ÿÿUÿÿªÿÿÿÿÿ      
@@ -563,21 +559,23 @@ endobj
 >>
 /XObject <<
 /I3 10 0 R
-/I4 12 0 R
-/I2 14 0 R
-/I1 16 0 R
+/I6 12 0 R
+/I4 14 0 R
+/I2 16 0 R
+/I5 18 0 R
+/I1 20 0 R
 >>
 >>
 endobj
-18 0 obj
+22 0 obj
 <<
 /Producer (PL_FPDF 0.9.4 portage pour Laclasse.com par P.G. Levallois de la version 1.53 de PHP/FPDF d'Olivier Plathey.)
 /Title (Curriculum Vitae Claudio MARTINI)
 /Author (Politecnico di Torino)
-/CreationDate (D:20251020125154)
+/CreationDate (D:20260204162538)
 >>
 endobj
-19 0 obj
+23 0 obj
 <<
 /Type /Catalog
 /Pages 1 0 R
@@ -586,33 +584,37 @@ endobj
 >>
 endobj
 xref
-0 20
+0 24
 0000000000 65535 f 
-0000018008 00000 n 
-0000055685 00000 n 
+0000014931 00000 n 
+0000056989 00000 n 
 0000000009 00000 n 
-0000000432 00000 n 
-0000005693 00000 n 
-0000005934 00000 n 
-0000018101 00000 n 
-0000018197 00000 n 
-0000018298 00000 n 
-0000018402 00000 n 
-0000019446 00000 n 
-0000020264 00000 n 
-0000021642 00000 n 
-0000022460 00000 n 
-0000023468 00000 n 
-0000024286 00000 n 
-0000054867 00000 n 
-0000055853 00000 n 
-0000056103 00000 n 
+0000000419 00000 n 
+0000008169 00000 n 
+0000008397 00000 n 
+0000015024 00000 n 
+0000015120 00000 n 
+0000015221 00000 n 
+0000015325 00000 n 
+0000016369 00000 n 
+0000017187 00000 n 
+0000018544 00000 n 
+0000019362 00000 n 
+0000020740 00000 n 
+0000021558 00000 n 
+0000022566 00000 n 
+0000023384 00000 n 
+0000024772 00000 n 
+0000025590 00000 n 
+0000056171 00000 n 
+0000057179 00000 n 
+0000057429 00000 n 
 trailer
 <<
-/Size 20
-/Root 19 0 R
-/Info 18 0 R
+/Size 24
+/Root 23 0 R
+/Info 22 0 R
 >>
 startxref
-56207
+57533
 %%EOF
