@@ -1,0 +1,144 @@
+/* ─── Search Bar ─────────────────────────────────────── */
+.search-bar-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 2px solid #f71735;
+  border-radius: 16px;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-container:focus-within {
+  border-color: #f71735;
+  box-shadow:
+    0 0 15px rgba(247, 23, 53, 0.15),
+    0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-icon {
+  color: #f71735;
+  font-size: 1.1rem;
+  margin-right: 0.6rem;
+  flex-shrink: 0;
+}
+
+.search-bar-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  min-width: 0;
+}
+
+.search-bar-input::placeholder {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.search-bar-clear,
+.search-bar-submit {
+  background: none;
+  border: none;
+  color: #f71735;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar-clear:hover {
+  color: #d41430;
+  background: rgba(247, 23, 53, 0.08);
+}
+
+.search-bar-submit:hover {
+  color: #d41430;
+  background: rgba(247, 23, 53, 0.08);
+}
+
+/* ─── Suggestions Dropdown ──────────────────────────── */
+.search-bar-suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: rgba(23, 55, 83, 0.95);
+  border: 2px solid rgba(180, 210, 231, 0.3);
+  border-radius: 12px;
+  max-height: 260px;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0.4rem 0;
+  margin: 0;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  z-index: 200;
+}
+
+.search-bar-suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.search-bar-suggestions::-webkit-scrollbar-thumb {
+  background: rgba(180, 210, 231, 0.3);
+  border-radius: 3px;
+}
+
+.search-bar-suggestion {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  color: #B4D2E7;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  transition: all 0.15s ease;
+}
+
+.search-bar-suggestion:hover,
+.search-bar-suggestion.active {
+  background: rgba(75, 185, 99, 0.2);
+  color: #4CB963;
+}
+
+.suggestion-icon {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* ─── Responsive ────────────────────────────────────── */
+@media (max-width: 600px) {
+  .search-bar-wrapper {
+    max-width: 100%;
+  }
+
+  .search-bar-input {
+    font-size: 0.9rem;
+  }
+
+  .search-bar-input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .search-bar-suggestions {
+    max-height: 200px;
+  }
+}

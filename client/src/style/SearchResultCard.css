@@ -1,0 +1,182 @@
+/* ─── Search Result Card ─────────────────────────────── */
+.search-result-card {
+  background: rgba(23, 55, 83, 0.85);
+  border: 2px solid rgba(180, 210, 231, 0.25);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.search-result-card:hover {
+  border-color: rgba(180, 210, 231, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.search-result-card.expanded {
+  border-color: rgba(180, 210, 231, 0.25);
+  box-shadow: none;
+}
+
+/* Type-specific accent */
+.search-result-card.result-exam {
+  border-left: 4px solid #4CB963;
+}
+
+.search-result-card.result-project {
+  border-left: 4px solid #B4D2E7;
+}
+
+/* ─── Header ─────────────────────────────────────────── */
+.result-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.result-card-header:hover {
+  background: rgba(180, 210, 231, 0.08);
+}
+
+.result-card-type {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.result-card-type i {
+  font-size: 1.2rem;
+  color: #4CB963;
+}
+
+.result-project .result-card-type i {
+  color: #B4D2E7;
+}
+
+.result-type-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(180, 210, 231, 0.6);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+}
+
+.result-card-name {
+  flex: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #F8F8F8;
+  margin: 0;
+  font-family: 'Orbitron', monospace;
+}
+
+.result-card-date {
+  font-size: 0.8rem;
+  color: #E6A500;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.result-card-toggle {
+  background: none;
+  border: none;
+  color: #B4D2E7;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.result-card-toggle:hover {
+  color: #4CB963;
+  background: rgba(75, 185, 99, 0.15);
+}
+
+/* ─── Body (expanded) ────────────────────────────────── */
+.result-card-body {
+  padding: 0 1.2rem 1.2rem 1.2rem;
+  animation: slideDown 0.25s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-card-description {
+  color: rgba(248, 248, 248, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.result-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.result-tag {
+  background: #B4D2E7;
+  color: #173753;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.result-tag:hover {
+  background: #4CB963;
+  color: #173753;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(75, 185, 99, 0.3);
+}
+
+/* ─── Responsive ─────────────────────────────────────── */
+@media (max-width: 600px) {
+  .result-card-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .result-card-name {
+    font-size: 0.95rem;
+    width: 100%;
+    order: 2;
+  }
+
+  .result-card-type {
+    order: 0;
+  }
+
+  .result-card-date {
+    order: 1;
+    margin-left: auto;
+  }
+
+  .result-card-toggle {
+    order: 3;
+    margin-left: auto;
+  }
+}

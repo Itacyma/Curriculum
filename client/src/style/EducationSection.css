@@ -2,8 +2,76 @@
 
 .education-section {
   max-width: 1400px;
-  margin: 4rem auto 0rem auto;
+  margin: 2rem auto 0rem auto;
   padding: 0 clamp(1.5rem, 6vw, 3rem);
+}
+
+/* Interactive Explore Button — integrated with scroll-arrow red style */
+.explore-buttons-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.interactive-explore-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 0;
+  padding: 0.45rem 1.2rem;
+  background: white;
+  border: 2px solid #f71735;
+  border-radius: 30px;
+  color: #f71735;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(247, 23, 53, 0.3);
+  -webkit-text-stroke: 0.3px #f71735;
+  position: relative;
+  overflow: hidden;
+}
+
+.interactive-explore-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(247, 23, 53, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.interactive-explore-btn:hover {
+  background: white;
+  transform: scale(1.04);
+  text-shadow: 0 0 18px rgba(247, 23, 53, 0.5);
+  border: 2px solid #f71735 !important;
+}
+
+.interactive-explore-btn:hover::before {
+  left: 100%;
+}
+
+.interactive-explore-btn:active {
+  transform: scale(0.98);
+}
+
+.interactive-explore-btn i {
+  font-size: 0.85em;
+}
+
+@media (max-width: 600px) {
+  .interactive-explore-btn {
+    font-size: clamp(0.7rem, 2.5vw, 0.85rem);
+    padding: 0.35rem 1rem;
+  }
 }
 
 /* Freccia di scroll verso il basso */
@@ -59,6 +127,8 @@
   font-size: clamp(3.25rem, 8vw, 5rem);
   color: #f71735;
   font-weight: 900;
+  margin-top: -0.1rem;
+  line-height: 1;
   text-shadow: 
     0 0 15px rgba(247, 23, 53, 0.5),
     0 0 30px rgba(247, 23, 53, 0.3);

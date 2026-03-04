@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useNavigate } from 'react-router';
 import { PresentationCV } from "../components/Presentation";
 import { CircuitBackground } from "../components/CircuitBackground";
 import { Diploma } from "../components/Lauree/Diploma";
@@ -19,6 +20,7 @@ function HomePageCV(props) {
   const { language, setLanguage } = props;
 
   const topAnchorRef = useRef(null);
+  const navigate = useNavigate();
 
   const handleGoUp = (event) => {
     event?.preventDefault?.();
@@ -50,6 +52,14 @@ function HomePageCV(props) {
     goUpText: {
       it: "Premi per tornare all'inizio del curriculum",
       en: "Press to return to the top of the curriculum"
+    },
+    exploreButton: {
+      it: "Passa alla ricerca interattiva",
+      en: "Switch to interactive search"
+    },
+    quizButton: {
+      it: "Passa al quiz conoscitivo",
+      en: "Take the get-to-know-me quiz"
     }
   };
 
@@ -66,6 +76,22 @@ function HomePageCV(props) {
         {/* Sezione Formazione - Diploma e Triennale */}
         <div className="education-section">
           <div className="scroll-arrow">
+            <div className="explore-buttons-row">
+              <button
+                className="interactive-explore-btn"
+                onClick={() => navigate('/explore')}
+              >
+                <i className="bi bi-search"></i>
+                <span>{language === 'it' ? labels.exploreButton.it : labels.exploreButton.en}</span>
+              </button>
+              <button
+                className="interactive-explore-btn"
+                onClick={() => navigate('/quiz')}
+              >
+                <i className="bi bi-patch-question"></i>
+                <span>{language === 'it' ? labels.quizButton.it : labels.quizButton.en}</span>
+              </button>
+            </div>
             <div className="scroll-text">{language==='it'?labels.scrollText.it:labels.scrollText.en}</div>
             <div className="arrow-down">↓</div>
           </div>
