@@ -66,6 +66,10 @@
   background: #173753;
   color: #ffffff;
   padding: 0.9rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
 }
 
 .skills-card-title {
@@ -74,6 +78,49 @@
   gap: 0.6rem;
   font-weight: 800;
   letter-spacing: 0.2px;
+}
+
+/* Info tooltip */
+.skills-info-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.skills-info-btn {
+  font-size: 1rem;
+  color: rgba(180, 210, 231, 0.6);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.skills-info-btn:hover {
+  color: #B4D2E7;
+}
+
+.skills-info-tooltip {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  width: 280px;
+  background: #1e4a6e;
+  color: rgba(248, 248, 248, 0.9);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid rgba(180, 210, 231, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  pointer-events: none;
+}
+
+.skills-info-wrapper:hover .skills-info-tooltip {
+  display: block;
 }
 
 .skills-icon {

@@ -26,20 +26,20 @@ function Quiz({ quiz, language, onBack }) {
     resultTitle: { it: 'Quiz completato!', en: 'Quiz completed!' },
     yourScore: { it: 'Il tuo punteggio:', en: 'Your score:' },
     perfect: {
-      it: 'Perfetto! Conosci molto bene il mio profilo. Se sei interessato\\a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
+      it: 'Perfetto! Conosci molto bene il mio profilo. Se sei interessato\/a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
       en: 'Perfect! You know my profile very well. How about scheduling a meeting to discuss further? You can find all my contact details on the main page!'
     },
     great: {
-      it: 'Ottimo risultato! Hai una buona conoscenza del mio profilo. Se sei interessato\\a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
+      it: 'Ottimo risultato! Hai una buona conoscenza del mio profilo. Se sei interessato\/a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
       en: 'Great result! You have a good knowledge of my profile. I\'d love to discuss more in a meeting! You can find all my contact details on the main page!'
     },
     good: {
-      it: 'Buon punteggio, ma c\'è ancora molto da scoprire. Se sei interessato\\a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
+      it: 'Buon punteggio, ma c\'è ancora molto da scoprire. Se sei interessato\/a a lavorare con me, che ne dici di pianificare un incontro conoscitivo per approfondire? Troverai tutti i miei contatti nella pagina principale!',
       en: 'Good score, but there\'s still a lot to discover. Shall we schedule a meeting to get to know each other better? You can find all my contact details on the main page!'
     },
     tryAgain: {
-      it: 'Non male! Ma il modo migliore per conoscermi è di persona. Se sei interessato\\a a lavorare con me, che ne dici di pianificare un incontro conoscitivo? Troverai tutti i miei contatti nella pagina principale!',
-      en: 'Not bad! But the best way to know me is in person. Would you like to schedule a meeting? You can find all my contact details on the main page!'
+      it: 'Non ci conosciamo ancora molto, ma possiamo rimediare! Se sei interessato\/a a lavorare con me, che ne dici di pianificare un incontro conoscitivo? Troverai tutti i miei contatti nella pagina principale.',
+      en: 'We don\'t know each other very well yet, but we can fix that! Would you like to schedule a meeting? You can find all my contact details on the main page.'
     },
     ctaButton: {
       it: 'Torna alla pagina principale',

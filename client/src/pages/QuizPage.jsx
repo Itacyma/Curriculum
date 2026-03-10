@@ -15,8 +15,8 @@ function QuizPage({ language, setLanguage }) {
     backButton: { it: 'Torna al curriculum', en: 'Back to curriculum' },
     title: { it: 'Quiz conoscitivo', en: 'Get-to-know-me Quiz' },
     subtitle: {
-      it: 'Mettiti alla prova e scopri quanto conosci il mio profilo professionale!',
-      en: 'Challenge yourself and discover how well you know my professional profile!'
+      it: 'Scopri il mio profilo personale e professionale partecipando a questo quiz!',
+      en: 'Discover my personal and professional profile by taking this quiz!'
     },
     skillsBtn: { it: 'Quiz sulle Competenze', en: 'Skills Quiz' },
     interestsBtn: { it: 'Quiz sugli Interessi', en: 'Interests Quiz' },
@@ -25,8 +25,8 @@ function QuizPage({ language, setLanguage }) {
       en: '5 questions about my technical skills and completed projects'
     },
     interestsDesc: {
-      it: '5 domande sui miei interessi, passioni e obiettivi futuri',
-      en: '5 questions about my interests, passions and future goals'
+      it: '4 domande sui miei interessi e passioni',
+      en: '4 questions about my interests and passions'
     }
   };
 
@@ -37,7 +37,6 @@ function QuizPage({ language, setLanguage }) {
       <CircuitBackground />
 
       <div className="interactive-search-content">
-        {/* Top bar — riusa la stessa struttura della search page */}
         <div className="interactive-top-bar">
           <button className="interactive-back-btn" onClick={() => navigate('/')}>
             <i className="bi bi-arrow-left"></i>

@@ -38,6 +38,10 @@ function SkillsSection({ language = "it" }) {
     return skillGroups[normalized] ?? skillGroups.it;
   }, [language]);
 
+  const disclaimerText = language === 'en'
+    ? 'Scores are self-assigned based on the number of exams taken on each topic, their grades, and the depth with which each subject was covered.'
+    : 'Le valutazioni sono auto-assegnate sulla base del numero di esami sostenuti in merito, sulla loro valutazione e sulla completezza con cui sono state fatte quelle discipline.';
+
   return (
     <section className="skills-section" id="skills">
       <div className="skills-grid">
@@ -49,6 +53,10 @@ function SkillsSection({ language = "it" }) {
                   <i className={`skills-icon ${group.iconClass}`} aria-hidden="true" />
                 ) : null}
                 <span><NoTranslate>{group.title}</NoTranslate></span>
+              </div>
+              <div className="skills-info-wrapper">
+                <i className="bi bi-info-circle skills-info-btn" aria-hidden="true"></i>
+                <div className="skills-info-tooltip">{disclaimerText}</div>
               </div>
             </div>
 

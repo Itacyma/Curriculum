@@ -50,8 +50,8 @@ const skillsQuiz = {
       },
       correctIndex: 0,
       explanation: {
-        it: 'Sebbene tutte le opzioni rappresentino progetti significativi per il mio percorso, \'Participium\' è stato il mio primo progetto sviluppato seguendo metodologie Agile - in particolare Scrum - con un focus sulla collaborazione e l\'iterazione continua nel corso di un intero semestre.',
-        en: 'Although all the options represent significant projects in my journey, \'Participium\' was my first project developed following Agile methodologies - particularly Scrum - with a focus on collaboration and continuous iteration throughout an entire semester.'
+        it: 'Sebbene tutte le opzioni rappresentino progetti significativi per il mio percorso, \'Participium\' è stato il mio primo progetto sviluppato seguendo metodologie Agile - in particolare Scrum - con un focus sulla collaborazione e l\'iterazione continua nel corso di un intero semestre. Per maggiori informazioni, ti invito a visitare la sezione \'Progetti\' nella pagina principale!',
+        en: 'Although all the options represent significant projects in my journey, \'Participium\' was my first project developed following Agile methodologies - particularly Scrum - with a focus on collaboration and continuous iteration throughout an entire semester. For more information, I invite you to visit the \'Projects\' section on the main page!'
       }
     },
     {

@@ -5,7 +5,8 @@ import { CircuitBackground } from "../components/CircuitBackground";
 import { Diploma } from "../components/Lauree/Diploma";
 import { Triennale } from "../components/Lauree/Triennale";
 import { Magistrale } from "../components/Lauree/Magistrale";
-import { CertificazioneLinguistica } from "../components/Certificati/CertificazioneLinguistica";
+import { CertificazioneInglese } from "../components/Certificati/CertificazioneInglese";
+import { CertificazioneTedesco } from "../components/Certificati/CertificazioneTedesco";
 import { Contatti } from "../components/Contatti";
 import { ExamSection } from "./ExamSection";
 import { SkillsSection } from "./SkillsSection";
@@ -109,6 +110,18 @@ function HomePageCV(props) {
           <Magistrale language={language} />
         </div>
 
+        {/* Sezione Certificazione Linguistica */}
+        <h2 className="section-main-title">
+          <span className="separator-icon">
+            <i className="bi bi-diamond-fill"></i>
+          </span>
+          {language === 'it' ? 'Certificazioni' : 'Certifications'}
+        </h2>
+        <div className="certifications-grid">
+          <CertificazioneInglese language={language}/>
+          <CertificazioneTedesco language={language}/>
+        </div>
+
         {/* Sezione Skills */}
         <h2 id="competenze-tecniche" className="section-main-title">
           <span className="separator-icon">
@@ -118,14 +131,7 @@ function HomePageCV(props) {
         </h2>
         <SkillsSection language={language} />
         
-        {/* Sezione Certificazione Linguistica */}
-        {language==='it' ? <h2 className="section-main-title">
-          <span className="separator-icon">
-            <i className="bi bi-diamond-fill"></i>
-          </span>
-          Certificazioni
-        </h2> : <></>}
-        {language==='it' ? <CertificazioneLinguistica language={language}/> : <></>}
+        
               
         {/* Sezione Esami */}
         <h2 className="section-main-title">

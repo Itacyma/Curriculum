@@ -96,7 +96,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex: 1;
 }
 
@@ -104,6 +104,7 @@
     width: 100%;
     flex: 1;
     overflow: hidden;
+    text-align: left;
 }
 
 .exam-description p {
