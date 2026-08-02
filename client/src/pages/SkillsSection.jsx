@@ -25,9 +25,6 @@ function SkillMeter({ score }) {
       <div className="skill-meter-track" aria-hidden="true">
         <div className="skill-meter-fill" style={{ width: `${percent}%` }} />
       </div>
-      <div className="skill-score" aria-hidden="true">
-        {formatScore(safe)}
-      </div>
     </div>
   );
 }

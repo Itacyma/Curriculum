@@ -85,6 +85,7 @@ function HomePageCV(props) {
                 <i className="bi bi-search"></i>
                 <span>{language === 'it' ? labels.exploreButton.it : labels.exploreButton.en}</span>
               </button>
+              {/*
               <button
                 className="interactive-explore-btn"
                 onClick={() => navigate('/quiz')}
@@ -92,6 +93,7 @@ function HomePageCV(props) {
                 <i className="bi bi-patch-question"></i>
                 <span>{language === 'it' ? labels.quizButton.it : labels.quizButton.en}</span>
               </button>
+              */}
             </div>
             <div className="scroll-text">{language==='it'?labels.scrollText.it:labels.scrollText.en}</div>
             <div className="arrow-down">↓</div>
