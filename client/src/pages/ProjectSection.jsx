@@ -5,6 +5,8 @@ import { TORent } from '../components/Projects/TORent';
 import { AppRuggine } from '../components/Projects/AppRuggine';
 import { GeoControl } from '../components/Projects/GeoControl';
 import { RaspberryPi } from '../components/Projects/RaspberryPi';
+import { Fridge } from '../components/Projects/FRIDGE';
+import { EuroTransit } from '../components/Projects/EuroTransit';
 
 function ProjectSection({ language }) {
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -16,9 +18,11 @@ function ProjectSection({ language }) {
     { key: 'stuff-happens', element: <GiocoDellaSfortuna language={language} /> },
     { key: 'geocontrol', element: <GeoControl language={language} /> },
     { key: 'torent', element: <TORent language={language} /> },
+    { key: 'fridge', element: <Fridge language={language} /> },
+    { key: 'eurotransit', element: <EuroTransit language={language} /> },
   ];
 
-  const featuredProjectKeys = new Set(['appruggine', 'raspberry']);
+  const featuredProjectKeys = new Set(['eurotransit', 'raspberry', 'fridge']);
   const featuredProjects = projects.filter((p) => featuredProjectKeys.has(p.key));
   const displayedProjects = showAllProjects ? projects : featuredProjects;
   const otherProjectsCount = Math.max(0, projects.length - featuredProjects.length);

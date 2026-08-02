@@ -15,7 +15,8 @@ function GiocoDellaSfortuna(props) {
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
     extra: '',
     subtitle: 'Full-stack application',
-    iconClass: 'bi bi-pc-display-horizontal'
+    iconClass: 'bi bi-pc-display-horizontal',
+    images: []
   };
 
   const mockData_eng = {

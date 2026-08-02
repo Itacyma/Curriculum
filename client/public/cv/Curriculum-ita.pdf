@@ -7,7 +7,7 @@
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 7700>>
+<</Length 7816>>
 stream
 2 J
 0.56 w
@@ -46,7 +46,7 @@ q 0.862 0.039 0.039 rg BT 150.23 579.57 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
 q 0.0 0.309 0.615 rg BT 164.40 583.77 Td (Laurea magistrale in Ingegneria Informatica \\\\(Computer Engineering\\\\)) Tj ET Q
 q 0.0 g BT 164.40 566.76 Td (Politecnico di Torino) Tj ET Q
-q 0.0 g BT 164.40 549.75 Td (Media esami 29.1 - Crediti 47 %) Tj ET Q
+q 0.0 g BT 164.40 549.75 Td (Media esami 29.3 - Crediti 75 %) Tj ET Q
 q 0.0 g BT 35.59 527.07 Td (10/09/2021 - 11/09/2024) Tj ET Q
 BT /F1 24.0 Tf ET
 q 0.862 0.039 0.039 rg BT 150.23 522.87 Td (*) Tj ET Q
@@ -137,23 +137,18 @@ BT /F1 7.0 Tf ET
 56.69 144.56 56.69 -14.17 re B q 0.0 g BT 67.52 135.38 Td (05/09/2025) Tj ET Q
 113.38 144.56 391.18 -14.17 re B q 0.0 g BT 116.22 135.38 Td (Software engineering) Tj ET Q
 504.56 144.56 34.01 -14.17 re B q 0.0 g BT 519.62 135.38 Td (8) Tj ET Q
-56.69 130.39 56.69 -14.17 re B q 0.0 g BT 67.52 121.20 Td (19/01/2026) Tj ET Q
-113.38 130.39 391.18 -14.17 re B q 0.0 g BT 116.22 121.20 Td (Distributed systems programming) Tj ET Q
-504.56 130.39 34.01 -14.17 re B q 0.0 g BT 519.62 121.20 Td (6) Tj ET Q
-BT /F1 10.0 Tf ET
-q 0.0 0.309 0.615 rg BT 59.52 96.21 Td (Laurea in Ingegneria Informatica) Tj ET Q
-0.588 G
-0.941 g
-0.42 w
-BT /F2 7.0 Tf ET
-56.69 93.54 56.69 -14.17 re B q 0.0 g BT 77.45 84.35 Td (Data) Tj ET Q
-113.38 93.54 391.18 -14.17 re B q 0.0 g BT 116.22 84.35 Td (Esame) Tj ET Q
-504.56 93.54 34.01 -14.17 re B q 0.0 g BT 510.49 84.35 Td (Crediti) Tj ET Q
-BT /F1 7.0 Tf ET
-1.0 g
-56.69 79.37 56.69 -14.17 re B q 0.0 g BT 67.52 70.18 Td (01/12/2021) Tj ET Q
-113.38 79.37 391.18 -14.17 re B q 0.0 g BT 116.22 70.18 Td (Lingua inglese I livello) Tj ET Q
-504.56 79.37 34.01 -14.17 re B q 0.0 g BT 519.62 70.18 Td (3) Tj ET Q
+56.69 130.39 56.69 -14.17 re B q 0.0 g BT 67.52 121.20 Td (16/01/2026) Tj ET Q
+113.38 130.39 391.18 -14.17 re B q 0.0 g BT 116.22 121.20 Td (Programmazione di sistema) Tj ET Q
+504.56 130.39 34.01 -14.17 re B q 0.0 g BT 517.68 121.20 Td (10) Tj ET Q
+56.69 116.22 56.69 -14.17 re B q 0.0 g BT 67.52 107.03 Td (19/01/2026) Tj ET Q
+113.38 116.22 391.18 -14.17 re B q 0.0 g BT 116.22 107.03 Td (Distributed systems programming) Tj ET Q
+504.56 116.22 34.01 -14.17 re B q 0.0 g BT 519.62 107.03 Td (6) Tj ET Q
+56.69 102.04 56.69 -14.17 re B q 0.0 g BT 67.52 92.86 Td (22/01/2026) Tj ET Q
+113.38 102.04 391.18 -14.17 re B q 0.0 g BT 116.22 92.86 Td (Software Engineering II) Tj ET Q
+504.56 102.04 34.01 -14.17 re B q 0.0 g BT 519.62 92.86 Td (6) Tj ET Q
+56.69 87.87 56.69 -14.17 re B q 0.0 g BT 67.52 78.68 Td (26/01/2026) Tj ET Q
+113.38 87.87 391.18 -14.17 re B q 0.0 g BT 116.22 78.68 Td (Sicurezza dei sistemi informativi) Tj ET Q
+504.56 87.87 34.01 -14.17 re B q 0.0 g BT 519.62 78.68 Td (6) Tj ET Q
 0.0 G
 BT /F1 7.0 Tf ET
 q 0.0 g BT 31.18 47.50 Td (Ho preso visione dell’informativa completa riguardante la modalità di trattamento dei dati da me forniti e i diritti a me spettanti ai sensi del GDPR) Tj ET Q
@@ -176,84 +171,104 @@ endobj
 /Contents 6 0 R>>
 endobj
 6 0 obj
-<</Length 6484>>
+<</Length 7631>>
 stream
 2 J
 0.42 w
 BT /F1 7.0 Tf ET
 0.588 G
 1.0 g
-56.69 785.19 56.69 -14.17 re B q 0.0 g BT 67.52 776.01 Td (25/01/2022) Tj ET Q
-113.38 785.19 391.18 -14.17 re B q 0.0 g BT 116.22 776.01 Td (Analisi matematica I) Tj ET Q
-504.56 785.19 34.01 -14.17 re B q 0.0 g BT 517.68 776.01 Td (10) Tj ET Q
-56.69 771.02 56.69 -14.17 re B q 0.0 g BT 67.52 761.83 Td (01/02/2022) Tj ET Q
-113.38 771.02 391.18 -14.17 re B q 0.0 g BT 116.22 761.83 Td (Informatica) Tj ET Q
-504.56 771.02 34.01 -14.17 re B q 0.0 g BT 519.62 761.83 Td (8) Tj ET Q
-56.69 756.85 56.69 -14.17 re B q 0.0 g BT 67.52 747.66 Td (04/02/2022) Tj ET Q
-113.38 756.85 391.18 -14.17 re B q 0.0 g BT 116.22 747.66 Td (Chimica) Tj ET Q
-504.56 756.85 34.01 -14.17 re B q 0.0 g BT 519.62 747.66 Td (8) Tj ET Q
-56.69 742.67 56.69 -14.17 re B q 0.0 g BT 67.52 733.49 Td (21/06/2022) Tj ET Q
-113.38 742.67 391.18 -14.17 re B q 0.0 g BT 116.22 733.49 Td (Fisica I) Tj ET Q
-504.56 742.67 34.01 -14.17 re B q 0.0 g BT 517.68 733.49 Td (10) Tj ET Q
-56.69 728.50 56.69 -14.17 re B q 0.0 g BT 67.52 719.31 Td (14/07/2022) Tj ET Q
-113.38 728.50 391.18 -14.17 re B q 0.0 g BT 116.22 719.31 Td (Algebra lineare e geometria) Tj ET Q
-504.56 728.50 34.01 -14.17 re B q 0.0 g BT 517.68 719.31 Td (10) Tj ET Q
-56.69 714.33 56.69 -14.17 re B q 0.0 g BT 67.52 705.14 Td (23/01/2023) Tj ET Q
-113.38 714.33 391.18 -14.17 re B q 0.0 g BT 116.22 705.14 Td (Elettromagnetismo e Teoria dei circuiti) Tj ET Q
-504.56 714.33 34.01 -14.17 re B q 0.0 g BT 517.68 705.14 Td (12) Tj ET Q
-56.69 700.15 56.69 -14.17 re B q 0.0 g BT 67.52 690.97 Td (02/02/2023) Tj ET Q
-113.38 700.15 391.18 -14.17 re B q 0.0 g BT 116.22 690.97 Td (Analisi matematica II) Tj ET Q
-504.56 700.15 34.01 -14.17 re B q 0.0 g BT 517.68 690.97 Td (10) Tj ET Q
-56.69 685.98 56.69 -14.17 re B q 0.0 g BT 67.52 676.79 Td (19/06/2023) Tj ET Q
-113.38 685.98 391.18 -14.17 re B q 0.0 g BT 116.22 676.79 Td (Realtà virtuale e fragilità \(Grandi Sfide - Salute\)) Tj ET Q
-504.56 685.98 34.01 -14.17 re B q 0.0 g BT 519.62 676.79 Td (6) Tj ET Q
-56.69 671.81 56.69 -14.17 re B q 0.0 g BT 67.52 662.62 Td (23/06/2023) Tj ET Q
-113.38 671.81 391.18 -14.17 re B q 0.0 g BT 116.22 662.62 Td (Calcolatori elettronici) Tj ET Q
-504.56 671.81 34.01 -14.17 re B q 0.0 g BT 519.62 662.62 Td (8) Tj ET Q
-56.69 657.63 56.69 -14.17 re B q 0.0 g BT 67.52 648.45 Td (26/06/2023) Tj ET Q
-113.38 657.63 391.18 -14.17 re B q 0.0 g BT 116.22 648.45 Td (Basi di dati) Tj ET Q
-504.56 657.63 34.01 -14.17 re B q 0.0 g BT 519.62 648.45 Td (8) Tj ET Q
-56.69 643.46 56.69 -14.17 re B q 0.0 g BT 67.52 634.27 Td (28/06/2023) Tj ET Q
-113.38 643.46 391.18 -14.17 re B q 0.0 g BT 116.22 634.27 Td (Metodi matematici per l'ingegneria) Tj ET Q
-504.56 643.46 34.01 -14.17 re B q 0.0 g BT 517.68 634.27 Td (10) Tj ET Q
-56.69 629.29 56.69 -14.17 re B q 0.0 g BT 67.52 620.10 Td (17/07/2023) Tj ET Q
-113.38 629.29 391.18 -14.17 re B q 0.0 g BT 116.22 620.10 Td (Tecniche di programmazione) Tj ET Q
-504.56 629.29 34.01 -14.17 re B q 0.0 g BT 519.62 620.10 Td (6) Tj ET Q
-56.69 615.11 56.69 -14.17 re B q 0.0 g BT 67.52 605.93 Td (30/01/2024) Tj ET Q
-113.38 615.11 391.18 -14.17 re B q 0.0 g BT 116.22 605.93 Td (Teoria ed elaborazione dei segnali) Tj ET Q
-504.56 615.11 34.01 -14.17 re B q 0.0 g BT 519.62 605.93 Td (8) Tj ET Q
-56.69 600.94 56.69 -14.17 re B q 0.0 g BT 67.52 591.75 Td (02/02/2024) Tj ET Q
-113.38 600.94 391.18 -14.17 re B q 0.0 g BT 116.22 591.75 Td (Reti di calcolatori) Tj ET Q
-504.56 600.94 34.01 -14.17 re B q 0.0 g BT 519.62 591.75 Td (8) Tj ET Q
-56.69 586.77 56.69 -14.17 re B q 0.0 g BT 67.52 577.58 Td (09/02/2024) Tj ET Q
-113.38 586.77 391.18 -14.17 re B q 0.0 g BT 116.22 577.58 Td (Introduzione alle Applicazioni Web) Tj ET Q
-504.56 586.77 34.01 -14.17 re B q 0.0 g BT 519.62 577.58 Td (6) Tj ET Q
-56.69 572.59 56.69 -14.17 re B q 0.0 g BT 67.52 563.41 Td (12/02/2024) Tj ET Q
-113.38 572.59 391.18 -14.17 re B q 0.0 g BT 116.22 563.41 Td (Sistemi elettronici, tecnologie e misure) Tj ET Q
-504.56 572.59 34.01 -14.17 re B q 0.0 g BT 519.62 563.41 Td (8) Tj ET Q
-56.69 558.42 56.69 -14.17 re B q 0.0 g BT 67.52 549.23 Td (27/02/2024) Tj ET Q
-113.38 558.42 391.18 -14.17 re B q 0.0 g BT 116.22 549.23 Td (Sistemi operativi) Tj ET Q
-504.56 558.42 34.01 -14.17 re B q 0.0 g BT 519.62 549.23 Td (6) Tj ET Q
-56.69 544.25 56.69 -14.17 re B q 0.0 g BT 67.52 535.06 Td (25/06/2024) Tj ET Q
-113.38 544.25 391.18 -14.17 re B q 0.0 g BT 116.22 535.06 Td (Elettronica applicata) Tj ET Q
-504.56 544.25 34.01 -14.17 re B q 0.0 g BT 519.62 535.06 Td (8) Tj ET Q
-56.69 530.07 56.69 -14.17 re B q 0.0 g BT 67.52 520.89 Td (04/07/2024) Tj ET Q
-113.38 530.07 391.18 -14.17 re B q 0.0 g BT 116.22 520.89 Td (Algoritmi e strutture dati) Tj ET Q
-504.56 530.07 34.01 -14.17 re B q 0.0 g BT 519.62 520.89 Td (8) Tj ET Q
-56.69 515.90 56.69 -14.17 re B q 0.0 g BT 67.52 506.71 Td (09/07/2024) Tj ET Q
-113.38 515.90 391.18 -14.17 re B q 0.0 g BT 116.22 506.71 Td (Controlli automatici) Tj ET Q
-504.56 515.90 34.01 -14.17 re B q 0.0 g BT 517.68 506.71 Td (10) Tj ET Q
-56.69 501.73 56.69 -14.17 re B q 0.0 g BT 67.52 492.54 Td (24/07/2024) Tj ET Q
-113.38 501.73 391.18 -14.17 re B q 0.0 g BT 116.22 492.54 Td (Programmazione a oggetti) Tj ET Q
-504.56 501.73 34.01 -14.17 re B q 0.0 g BT 519.62 492.54 Td (8) Tj ET Q
-56.69 487.55 56.69 -14.17 re B q 0.0 g BT 67.52 478.37 Td (11/09/2024) Tj ET Q
-113.38 487.55 391.18 -14.17 re B q 0.0 g BT 116.22 478.37 Td (Prova finale) Tj ET Q
-504.56 487.55 34.01 -14.17 re B q 0.0 g BT 519.62 478.37 Td (1) Tj ET Q
+56.69 785.19 56.69 -14.17 re B q 0.0 g BT 67.52 776.01 Td (16/06/2026) Tj ET Q
+113.38 785.19 391.18 -14.17 re B q 0.0 g BT 116.22 776.01 Td (Mobile application development) Tj ET Q
+504.56 785.19 34.01 -14.17 re B q 0.0 g BT 519.62 776.01 Td (6) Tj ET Q
+56.69 771.02 56.69 -14.17 re B q 0.0 g BT 67.52 761.83 Td (22/06/2026) Tj ET Q
+113.38 771.02 391.18 -14.17 re B q 0.0 g BT 116.22 761.83 Td (Cloud Programming and Operations) Tj ET Q
+504.56 771.02 34.01 -14.17 re B q 0.0 g BT 519.62 761.83 Td (6) Tj ET Q
+BT /F1 10.0 Tf ET
+q 0.0 0.309 0.615 rg BT 59.52 736.84 Td (Laurea in Ingegneria Informatica) Tj ET Q
+0.588 G
+0.941 g
+0.42 w
+BT /F2 7.0 Tf ET
+56.69 734.17 56.69 -14.17 re B q 0.0 g BT 77.45 724.98 Td (Data) Tj ET Q
+113.38 734.17 391.18 -14.17 re B q 0.0 g BT 116.22 724.98 Td (Esame) Tj ET Q
+504.56 734.17 34.01 -14.17 re B q 0.0 g BT 510.49 724.98 Td (Crediti) Tj ET Q
+BT /F1 7.0 Tf ET
+1.0 g
+56.69 720.00 56.69 -14.17 re B q 0.0 g BT 67.52 710.81 Td (01/12/2021) Tj ET Q
+113.38 720.00 391.18 -14.17 re B q 0.0 g BT 116.22 710.81 Td (Lingua inglese I livello) Tj ET Q
+504.56 720.00 34.01 -14.17 re B q 0.0 g BT 519.62 710.81 Td (3) Tj ET Q
+56.69 705.82 56.69 -14.17 re B q 0.0 g BT 67.52 696.64 Td (25/01/2022) Tj ET Q
+113.38 705.82 391.18 -14.17 re B q 0.0 g BT 116.22 696.64 Td (Analisi matematica I) Tj ET Q
+504.56 705.82 34.01 -14.17 re B q 0.0 g BT 517.68 696.64 Td (10) Tj ET Q
+56.69 691.65 56.69 -14.17 re B q 0.0 g BT 67.52 682.46 Td (01/02/2022) Tj ET Q
+113.38 691.65 391.18 -14.17 re B q 0.0 g BT 116.22 682.46 Td (Informatica) Tj ET Q
+504.56 691.65 34.01 -14.17 re B q 0.0 g BT 519.62 682.46 Td (8) Tj ET Q
+56.69 677.48 56.69 -14.17 re B q 0.0 g BT 67.52 668.29 Td (04/02/2022) Tj ET Q
+113.38 677.48 391.18 -14.17 re B q 0.0 g BT 116.22 668.29 Td (Chimica) Tj ET Q
+504.56 677.48 34.01 -14.17 re B q 0.0 g BT 519.62 668.29 Td (8) Tj ET Q
+56.69 663.30 56.69 -14.17 re B q 0.0 g BT 67.52 654.12 Td (21/06/2022) Tj ET Q
+113.38 663.30 391.18 -14.17 re B q 0.0 g BT 116.22 654.12 Td (Fisica I) Tj ET Q
+504.56 663.30 34.01 -14.17 re B q 0.0 g BT 517.68 654.12 Td (10) Tj ET Q
+56.69 649.13 56.69 -14.17 re B q 0.0 g BT 67.52 639.94 Td (14/07/2022) Tj ET Q
+113.38 649.13 391.18 -14.17 re B q 0.0 g BT 116.22 639.94 Td (Algebra lineare e geometria) Tj ET Q
+504.56 649.13 34.01 -14.17 re B q 0.0 g BT 517.68 639.94 Td (10) Tj ET Q
+56.69 634.96 56.69 -14.17 re B q 0.0 g BT 67.52 625.77 Td (23/01/2023) Tj ET Q
+113.38 634.96 391.18 -14.17 re B q 0.0 g BT 116.22 625.77 Td (Elettromagnetismo e Teoria dei circuiti) Tj ET Q
+504.56 634.96 34.01 -14.17 re B q 0.0 g BT 517.68 625.77 Td (12) Tj ET Q
+56.69 620.78 56.69 -14.17 re B q 0.0 g BT 67.52 611.60 Td (02/02/2023) Tj ET Q
+113.38 620.78 391.18 -14.17 re B q 0.0 g BT 116.22 611.60 Td (Analisi matematica II) Tj ET Q
+504.56 620.78 34.01 -14.17 re B q 0.0 g BT 517.68 611.60 Td (10) Tj ET Q
+56.69 606.61 56.69 -14.17 re B q 0.0 g BT 67.52 597.42 Td (19/06/2023) Tj ET Q
+113.38 606.61 391.18 -14.17 re B q 0.0 g BT 116.22 597.42 Td (Realtà virtuale e fragilità \(Grandi Sfide - Salute\)) Tj ET Q
+504.56 606.61 34.01 -14.17 re B q 0.0 g BT 519.62 597.42 Td (6) Tj ET Q
+56.69 592.44 56.69 -14.17 re B q 0.0 g BT 67.52 583.25 Td (23/06/2023) Tj ET Q
+113.38 592.44 391.18 -14.17 re B q 0.0 g BT 116.22 583.25 Td (Calcolatori elettronici) Tj ET Q
+504.56 592.44 34.01 -14.17 re B q 0.0 g BT 519.62 583.25 Td (8) Tj ET Q
+56.69 578.26 56.69 -14.17 re B q 0.0 g BT 67.52 569.08 Td (26/06/2023) Tj ET Q
+113.38 578.26 391.18 -14.17 re B q 0.0 g BT 116.22 569.08 Td (Basi di dati) Tj ET Q
+504.56 578.26 34.01 -14.17 re B q 0.0 g BT 519.62 569.08 Td (8) Tj ET Q
+56.69 564.09 56.69 -14.17 re B q 0.0 g BT 67.52 554.90 Td (28/06/2023) Tj ET Q
+113.38 564.09 391.18 -14.17 re B q 0.0 g BT 116.22 554.90 Td (Metodi matematici per l'ingegneria) Tj ET Q
+504.56 564.09 34.01 -14.17 re B q 0.0 g BT 517.68 554.90 Td (10) Tj ET Q
+56.69 549.92 56.69 -14.17 re B q 0.0 g BT 67.52 540.73 Td (17/07/2023) Tj ET Q
+113.38 549.92 391.18 -14.17 re B q 0.0 g BT 116.22 540.73 Td (Tecniche di programmazione) Tj ET Q
+504.56 549.92 34.01 -14.17 re B q 0.0 g BT 519.62 540.73 Td (6) Tj ET Q
+56.69 535.74 56.69 -14.17 re B q 0.0 g BT 67.52 526.56 Td (30/01/2024) Tj ET Q
+113.38 535.74 391.18 -14.17 re B q 0.0 g BT 116.22 526.56 Td (Teoria ed elaborazione dei segnali) Tj ET Q
+504.56 535.74 34.01 -14.17 re B q 0.0 g BT 519.62 526.56 Td (8) Tj ET Q
+56.69 521.57 56.69 -14.17 re B q 0.0 g BT 67.52 512.38 Td (02/02/2024) Tj ET Q
+113.38 521.57 391.18 -14.17 re B q 0.0 g BT 116.22 512.38 Td (Reti di calcolatori) Tj ET Q
+504.56 521.57 34.01 -14.17 re B q 0.0 g BT 519.62 512.38 Td (8) Tj ET Q
+56.69 507.40 56.69 -14.17 re B q 0.0 g BT 67.52 498.21 Td (09/02/2024) Tj ET Q
+113.38 507.40 391.18 -14.17 re B q 0.0 g BT 116.22 498.21 Td (Introduzione alle Applicazioni Web) Tj ET Q
+504.56 507.40 34.01 -14.17 re B q 0.0 g BT 519.62 498.21 Td (6) Tj ET Q
+56.69 493.22 56.69 -14.17 re B q 0.0 g BT 67.52 484.04 Td (12/02/2024) Tj ET Q
+113.38 493.22 391.18 -14.17 re B q 0.0 g BT 116.22 484.04 Td (Sistemi elettronici, tecnologie e misure) Tj ET Q
+504.56 493.22 34.01 -14.17 re B q 0.0 g BT 519.62 484.04 Td (8) Tj ET Q
+56.69 479.05 56.69 -14.17 re B q 0.0 g BT 67.52 469.86 Td (27/02/2024) Tj ET Q
+113.38 479.05 391.18 -14.17 re B q 0.0 g BT 116.22 469.86 Td (Sistemi operativi) Tj ET Q
+504.56 479.05 34.01 -14.17 re B q 0.0 g BT 519.62 469.86 Td (6) Tj ET Q
+56.69 464.88 56.69 -14.17 re B q 0.0 g BT 67.52 455.69 Td (25/06/2024) Tj ET Q
+113.38 464.88 391.18 -14.17 re B q 0.0 g BT 116.22 455.69 Td (Elettronica applicata) Tj ET Q
+504.56 464.88 34.01 -14.17 re B q 0.0 g BT 519.62 455.69 Td (8) Tj ET Q
+56.69 450.70 56.69 -14.17 re B q 0.0 g BT 67.52 441.52 Td (04/07/2024) Tj ET Q
+113.38 450.70 391.18 -14.17 re B q 0.0 g BT 116.22 441.52 Td (Algoritmi e strutture dati) Tj ET Q
+504.56 450.70 34.01 -14.17 re B q 0.0 g BT 519.62 441.52 Td (8) Tj ET Q
+56.69 436.53 56.69 -14.17 re B q 0.0 g BT 67.52 427.34 Td (09/07/2024) Tj ET Q
+113.38 436.53 391.18 -14.17 re B q 0.0 g BT 116.22 427.34 Td (Controlli automatici) Tj ET Q
+504.56 436.53 34.01 -14.17 re B q 0.0 g BT 517.68 427.34 Td (10) Tj ET Q
+56.69 422.36 56.69 -14.17 re B q 0.0 g BT 67.52 413.17 Td (24/07/2024) Tj ET Q
+113.38 422.36 391.18 -14.17 re B q 0.0 g BT 116.22 413.17 Td (Programmazione a oggetti) Tj ET Q
+504.56 422.36 34.01 -14.17 re B q 0.0 g BT 519.62 413.17 Td (8) Tj ET Q
+56.69 408.18 56.69 -14.17 re B q 0.0 g BT 67.52 399.00 Td (11/09/2024) Tj ET Q
+113.38 408.18 391.18 -14.17 re B q 0.0 g BT 116.22 399.00 Td (Prova finale) Tj ET Q
+504.56 408.18 34.01 -14.17 re B q 0.0 g BT 519.62 399.00 Td (1) Tj ET Q
 BT /F1 24.0 Tf ET
-q 0.862 0.039 0.039 rg BT 45.35 443.50 Td (*) Tj ET Q
+q 0.862 0.039 0.039 rg BT 45.35 364.13 Td (*) Tj ET Q
 BT /F1 10.0 Tf ET
 BT /F3 8.0 Tf ET
-q 0.0 g BT 59.52 453.97 Td (L’asterisco si riferisce ai dati certificati dall’Ateneo. L’eventuale descrizione della tesi è inserita direttamente dal candidato.) Tj ET Q
+q 0.0 g BT 59.52 374.60 Td (L’asterisco si riferisce ai dati certificati dall’Ateneo. L’eventuale descrizione della tesi è inserita direttamente dal candidato.) Tj ET Q
 BT /F1 10.0 Tf ET
 0.0 G
 BT /F1 7.0 Tf ET
@@ -572,7 +587,7 @@ endobj
 /Producer (PL_FPDF 0.9.4 portage pour Laclasse.com par P.G. Levallois de la version 1.53 de PHP/FPDF d'Olivier Plathey.)
 /Title (Curriculum Vitae Claudio MARTINI)
 /Author (Politecnico di Torino)
-/CreationDate (D:20260204162538)
+/CreationDate (D:20260802020430)
 >>
 endobj
 23 0 obj
@@ -586,29 +601,29 @@ endobj
 xref
 0 24
 0000000000 65535 f 
-0000014931 00000 n 
-0000056989 00000 n 
+0000016194 00000 n 
+0000058252 00000 n 
 0000000009 00000 n 
 0000000419 00000 n 
-0000008169 00000 n 
-0000008397 00000 n 
-0000015024 00000 n 
-0000015120 00000 n 
-0000015221 00000 n 
-0000015325 00000 n 
-0000016369 00000 n 
-0000017187 00000 n 
-0000018544 00000 n 
-0000019362 00000 n 
-0000020740 00000 n 
-0000021558 00000 n 
-0000022566 00000 n 
-0000023384 00000 n 
-0000024772 00000 n 
-0000025590 00000 n 
-0000056171 00000 n 
-0000057179 00000 n 
-0000057429 00000 n 
+0000008285 00000 n 
+0000008513 00000 n 
+0000016287 00000 n 
+0000016383 00000 n 
+0000016484 00000 n 
+0000016588 00000 n 
+0000017632 00000 n 
+0000018450 00000 n 
+0000019807 00000 n 
+0000020625 00000 n 
+0000022003 00000 n 
+0000022821 00000 n 
+0000023829 00000 n 
+0000024647 00000 n 
+0000026035 00000 n 
+0000026853 00000 n 
+0000057434 00000 n 
+0000058442 00000 n 
+0000058692 00000 n 
 trailer
 <<
 /Size 24
@@ -616,5 +631,5 @@ trailer
 /Info 22 0 R
 >>
 startxref
-57533
+58796
 %%EOF

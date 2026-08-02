@@ -11,14 +11,36 @@ export const searchableItems = [
   // ─── ESAMI ───────────────────────────────────────────
   {
     type: "exam",
-    name: { it: "Distributed System Programming", en: "Distributed System Programming" },
+    name: { it: "Cloud Programming and Operations", en: "Cloud Programming and Operations" },
     description: {
-      it: "Tecniche e tecnologie per la programmazione di sistemi distribuiti: REST, WebSocket, MQTT, gRPC, microservizi.",
-      en: "Techniques and technologies for distributed systems programming: REST, WebSocket, MQTT, gRPC, microservices."
+      it: "Applicazioni cloud-native: microservizi, Kubernetes, osservabilità e pipeline CI/CD con GitOps.",
+      en: "Cloud-native applications: microservices, Kubernetes, observability and CI/CD pipelines with GitOps."
     },
-    keywords: ["REST", "Swagger", "Socket", "WebSocket", "MQTT", "gRPC", "JSON Schemas", "Distributed Systems", "Microservices"],
-    tags: ["REST", "Swagger", "Socket", "WebSocket", "MQTT", "gRPC", "JSON Schemas"],
-    date: "2026-01-16"
+    keywords: ["Azure", "AWS", "Kubernetes", "Microservices", "CI/CD", "GitOps", "DevSecOps", "ArgoCD", "Prometheus", "Grafana", "Cloud", "Containers", "Observability"],
+    tags: ["Azure", "AWS", "Kubernetes", "Microservices", "CI/CD", "GitOps", "DevSecOps", "ArgoCD", "Prometheus", "Grafana"],
+    date: "2026-06-22"
+  },
+  {
+    type: "exam",
+    name: { it: "Mobile Application Development", en: "Mobile Application Development" },
+    description: {
+      it: "Sviluppo di app Android native in Kotlin con Jetpack Compose e integrazione con Firebase.",
+      en: "Native Android app development in Kotlin with Jetpack Compose and Firebase integration."
+    },
+    keywords: ["Kotlin", "Jetpack Compose", "Firebase", "Firestore", "Google Sign-in", "Coroutines", "MVVM & MVI-Lite", "UDF", "SoC", "CMP", "Mobile UI/UX", "Android", "Mobile"],
+    tags: ["Kotlin", "Jetpack Compose", "Firebase", "Firestore", "Google Sign-in", "Coroutines", "MVVM & MVI-Lite", "UDF", "SoC", "CMP", "Mobile UI/UX"],
+    date: "2026-06-16"
+  },
+  {
+    type: "exam",
+    name: { it: "Information Systems Security", en: "Information Systems Security" },
+    description: {
+      it: "Crittografia, autenticazione, autorizzazione e gestione delle vulnerabilità nei sistemi informativi.",
+      en: "Cryptography, authentication, authorization and vulnerability management in information systems."
+    },
+    keywords: ["Cryptography", "Authentication", "Authorization", "Vulnerability management", "Firewall", "IDS", "GDPR", "Data protection", "Security", "Cybersecurity"],
+    tags: ["Cryptography", "Authentication", "Authorization", "Vulnerability management", "Firewall", "IDS", "GDPR", "Data protection"],
+    date: "2026-01-26"
   },
   {
     type: "exam",
@@ -33,6 +55,17 @@ export const searchableItems = [
   },
   {
     type: "exam",
+    name: { it: "Distributed System Programming", en: "Distributed System Programming" },
+    description: {
+      it: "Tecniche e tecnologie per la programmazione di sistemi distribuiti: REST, WebSocket, MQTT, gRPC, microservizi.",
+      en: "Techniques and technologies for distributed systems programming: REST, WebSocket, MQTT, gRPC, microservices."
+    },
+    keywords: ["REST", "Swagger", "Socket", "WebSocket", "MQTT", "gRPC", "JSON Schemas", "Distributed Systems", "Microservices"],
+    tags: ["REST", "Swagger", "Socket", "WebSocket", "MQTT", "gRPC", "JSON Schemas"],
+    date: "2026-01-19"
+  },
+  {
+    type: "exam",
     name: { it: "Programmazione di Sistema", en: "Systems Programming" },
     description: {
       it: "Architettura dei sistemi operativi, programmazione concorrente in Rust, system call Unix/Linux.",
@@ -40,29 +73,7 @@ export const searchableItems = [
     },
     keywords: ["Rust", "OS internals", "Thread synchronization", "React", "API programming", "Concurrency", "Unix", "Linux"],
     tags: ["Rust", "OS internals", "Thread synchronization", "React", "API programming"],
-    date: "2025-07-01"
-  },
-  {
-    type: "exam",
-    name: { it: "Architetture dei Sistemi di Elaborazione", en: "Computer System Architectures" },
-    description: {
-      it: "Architetture a microprocessore, firmware in C e assembler, programmazione embedded su board ARM.",
-      en: "Microprocessor architectures, firmware in C and assembly, embedded programming on ARM boards."
-    },
-    keywords: ["C", "Assembler", "ARM", "LPC1768 programming", "Embedded", "RISC", "CISC", "Firmware"],
-    tags: ["C", "Assembler", "ARM", "LPC1768 programming"],
-    date: "2025-01-23"
-  },
-  {
-    type: "exam",
-    name: { it: "Tecnologie e Servizi di Rete", en: "Networking Technologies and Services" },
-    description: {
-      it: "Reti IPv4/IPv6, protocolli di routing, VPN, MPLS, QoS, reti cellulari.",
-      en: "IPv4/IPv6 networks, routing protocols, VPN, MPLS, QoS, cellular networks."
-    },
-    keywords: ["IPv4", "IPv6", "MPLS", "VPN", "LAN", "Networking", "QoS", "5G"],
-    tags: ["IPv4", "IPv6", "MPLS", "VPN", "LAN"],
-    date: "2025-01-23"
+    date: "2026-01-16"
   },
   {
     type: "exam",
@@ -73,7 +84,7 @@ export const searchableItems = [
     },
     keywords: ["Testing", "JavaScript", "TypeORM", "SwaggerAPI", "REST", "UML", "Agile"],
     tags: ["Testing", "JavaScript", "TypeORM", "SwaggerAPI", "REST"],
-    date: "2025-09-10"
+    date: "2025-09-05"
   },
   {
     type: "exam",
@@ -83,19 +94,8 @@ export const searchableItems = [
       en: "SPA development with React, REST API interaction, client-server architecture."
     },
     keywords: ["React", "SQLite", "Express", "JavaScript", "CSS", "HTML", "Web Development", "SPA", "Node.js"],
-    tags: ["React", "SQLite", "Express"],
-    date: "2025-07-26"
-  },
-  {
-    type: "exam",
-    name: { it: "Data Science e Tecnologie per le Basi di Dati", en: "Data Science and Database Technologies" },
-    description: {
-      it: "DBMS relazionali e NoSQL, data warehouse, OLAP, data mining e machine learning.",
-      en: "Relational and NoSQL DBMS, data warehouse, OLAP, data mining and machine learning."
-    },
-    keywords: ["DBMS", "Data Warehouse", "NoSQL", "OLAP", "Data Mining", "Machine Learning", "SQL"],
-    tags: ["DBMS", "Data Warehouse", "NoSQL", "OLAP"],
-    date: "2025-01-20"
+    tags: ["React", "SQLite", "Express", "JavaScript", "CSS", "HTML"],
+    date: "2025-06-20"
   },
   {
     type: "exam",
@@ -110,25 +110,36 @@ export const searchableItems = [
   },
   {
     type: "exam",
-    name: { it: "Basi di Dati", en: "Databases" },
+    name: { it: "Architetture dei Sistemi di Elaborazione", en: "Computer System Architectures" },
     description: {
-      it: "Progettazione concettuale e logica, modello E-R, SQL, transazioni e trigger.",
-      en: "Conceptual and logical design, E-R model, SQL, transactions and triggers."
+      it: "Architetture a microprocessore, firmware in C e assembler, programmazione embedded su board ARM.",
+      en: "Microprocessor architectures, firmware in C and assembly, embedded programming on ARM boards."
     },
-    keywords: ["DBMS", "SQLite", "UML", "E-R Models", "SQL", "Database"],
-    tags: ["DBMS", "SQLite", "UML", "E-R Models"],
-    date: "2023-06-26"
+    keywords: ["C", "Assembler", "ARM", "LPC1768 programming", "Embedded", "RISC", "CISC", "Firmware"],
+    tags: ["C", "Assembler", "ARM", "LPC1768 programming"],
+    date: "2025-01-28"
   },
   {
     type: "exam",
-    name: { it: "Sistemi Operativi", en: "Operating Systems" },
+    name: { it: "Tecnologie e Servizi di Rete", en: "Networking Technologies and Services" },
     description: {
-      it: "Principi dei sistemi operativi, programmazione concorrente, shell scripting, system call Unix/Linux.",
-      en: "OS fundamentals, concurrent programming, shell scripting, Unix/Linux system calls."
+      it: "Reti IPv4/IPv6, protocolli di routing, VPN, MPLS, QoS, reti cellulari.",
+      en: "IPv4/IPv6 networks, routing protocols, VPN, MPLS, QoS, cellular networks."
     },
-    keywords: ["OS", "Bash", "Linux", "Shell", "Unix", "Concurrency"],
-    tags: ["OS", "Bash", "Linux"],
-    date: "2024-02-27"
+    keywords: ["IPv4", "IPv6", "MPLS", "VPN", "LAN", "Networking", "QoS", "5G"],
+    tags: ["IPv4", "IPv6", "MPLS", "VPN", "LAN"],
+    date: "2025-01-24"
+  },
+  {
+    type: "exam",
+    name: { it: "Data Science e Tecnologie per le Basi di Dati", en: "Data Science and Database Technologies" },
+    description: {
+      it: "DBMS relazionali e NoSQL, data warehouse, OLAP, data mining e machine learning.",
+      en: "Relational and NoSQL DBMS, data warehouse, OLAP, data mining and machine learning."
+    },
+    keywords: ["DBMS", "Data Warehouse", "NoSQL", "OLAP", "Data Mining", "Machine Learning", "SQL"],
+    tags: ["DBMS", "Data Warehouse", "NoSQL", "OLAP"],
+    date: "2025-01-20"
   },
   {
     type: "exam",
@@ -143,6 +154,17 @@ export const searchableItems = [
   },
   {
     type: "exam",
+    name: { it: "Sistemi Operativi", en: "Operating Systems" },
+    description: {
+      it: "Principi dei sistemi operativi, programmazione concorrente, shell scripting, system call Unix/Linux.",
+      en: "OS fundamentals, concurrent programming, shell scripting, Unix/Linux system calls."
+    },
+    keywords: ["OS", "Bash", "Linux", "Shell", "Unix", "Concurrency"],
+    tags: ["OS", "Bash", "Linux"],
+    date: "2024-02-27"
+  },
+  {
+    type: "exam",
     name: { it: "Introduzione alle Applicazioni Web", en: "Introduction to Web Applications" },
     description: {
       it: "HTML5, CSS3, JavaScript, Flask per lo sviluppo di applicazioni web complete.",
@@ -151,6 +173,17 @@ export const searchableItems = [
     keywords: ["HTML", "CSS", "Flask", "JavaScript", "Bootstrap", "Python", "Web Development"],
     tags: ["HTML", "CSS", "Flask", "JavaScript", "Bootstrap"],
     date: "2024-02-09"
+  },
+  {
+    type: "exam",
+    name: { it: "Basi di Dati", en: "Databases" },
+    description: {
+      it: "Progettazione concettuale e logica, modello E-R, SQL, transazioni e trigger.",
+      en: "Conceptual and logical design, E-R model, SQL, transactions and triggers."
+    },
+    keywords: ["DBMS", "SQLite", "UML", "E-R Models", "SQL", "Database"],
+    tags: ["DBMS", "SQLite", "UML", "E-R Models"],
+    date: "2023-06-26"
   },
   {
     type: "exam",
@@ -163,7 +196,6 @@ export const searchableItems = [
     tags: ["Assembler", "OS"],
     date: "2023-06-23"
   },
-
   // ─── PROGETTI ────────────────────────────────────────
   {
     type: "project",

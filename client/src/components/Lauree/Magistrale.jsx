@@ -9,8 +9,8 @@ function Magistrale(props) {
     titolo: "Laurea Magistrale in",
     sottotitolo: "Software Engineering",
     anniRange: "2024 - ?",
-    valutazione: "29.16/30",
-    cfu: "60/120 CFU",
+    valutazione: "29.27/30",
+    cfu: "90/120 CFU",
     universita: "\"Politecnico di Torino\"",
   };
 
@@ -18,8 +18,8 @@ function Magistrale(props) {
     titolo: "Master’s Degree in",
     sottotitolo: "Software Engineering",
     anniRange: "2024 - ?",
-    valutazione: "29.16/30",
-    cfu: "60/120 ECTS",
+    valutazione: "29.27/30",
+    cfu: "90/120 ECTS",
     universita: "\"Politecnico di Torino\"",
   };
 

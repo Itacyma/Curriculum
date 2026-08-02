@@ -24,13 +24,6 @@
     display: none;
 }
 
-.exam-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 
-        0 0 30px #4CB96366,
-        0 10px 30px #17375333;
-    border-color: #B4D2E7;
-}
 
 .exam-card:hover::before {
     left: 100%;
@@ -218,13 +211,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.exam-tag:hover {
-    background: #4CB963;
-    color: #173753;
-    border: none;
-    transform: translateY(-2px);
-    box-shadow: 0 0 10px #4CB9634d;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {

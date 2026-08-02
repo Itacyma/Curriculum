@@ -7,7 +7,7 @@ export const skillGroups = {
       skills: [
         {
           name: "Rust Programming",
-          score: 8,
+          score: 7,
           detail: "Gestione memory safety, ownership, Cargo",
         },
         {
@@ -29,36 +29,41 @@ export const skillGroups = {
       skills: [
         {
           name: "IoT Protocols (MQTT, WebSockets)",
-          score: 9,
+          score: 8,
           detail: "Comunicazione asincrona e real-time",
         },
         {
-          name: "Network Technologies",
-          score: 7,
-          detail: "TCP/IP, Socket programming, Wireless/Bluetooth",
+          name: "Platform Engineering",
+          score: 9,
+          detail: "Kubernetes, Docker, CI/CD, DevOps",
         },
         {
           name: "API Design (REST, Swagger)",
-          score: 9,
+          score: 8,
           detail: "Progettazione di interfacce scalabili",
         },
       ],
     },
     {
       key: "data-management",
-      title: "Data Management & Analytics",
-      iconClass: "bi bi-database",
+      title: "Mobile Application Development",
+      iconClass: "bi bi-phone",
       skills: [
         {
-          name: "Databases (SQL & NoSQL)",
+          name: "Android Development",
           score: 9,
-          detail: "Oracle, SQLite, RustSQL, ottimizzazione query",
+          detail: "Java, Kotlin, Jetpack Compose",
         },
         {
-          name: "Data Science & Big Data",
+          name: "iOS Development",
           score: 7,
-          detail: "Data Warehouse, Data Mining, ETL",
+          detail: "Swift, SwiftUI, UIKit",
         },
+        {
+          name: "Cross-platform Development",
+          score: 8,
+          detail: "Flutter, React Native, CMP",
+        }
       ],
     },
     {
@@ -143,13 +148,13 @@ export const skillGroups = {
       skills: [
         {
           name: "IoT Protocols (MQTT, WebSockets)",
-          score: 9,
+          score: 8,
           detail: "Async and real-time communication",
         },
         {
-          name: "Network Technologies",
-          score: 7,
-          detail: "TCP/IP, socket programming, wireless/Bluetooth",
+          name: "Platform Engineering",
+          score: 9,
+          detail: "Kubernetes, Docker, CI/CD, DevOps",
         },
         {
           name: "API Design (REST, Swagger)",
@@ -160,19 +165,24 @@ export const skillGroups = {
     },
     {
       key: "data-management",
-      title: "Data Management & Analytics",
-      iconClass: "bi bi-database",
+      title: "Mobile Application Development",
+      iconClass: "bi bi-phone",
       skills: [
         {
-          name: "Databases (SQL & NoSQL)",
+          name: "Android Development",
           score: 9,
-          detail: "Oracle, SQLite, RustSQL, query optimization",
+          detail: "Java, Kotlin, Jetpack Compose",
         },
         {
-          name: "Data Science & Big Data",
+          name: "iOS Development",
           score: 7,
-          detail: "Data warehouse, data mining, ETL",
+          detail: "Swift, SwiftUI, UIKit",
         },
+        {
+          name: "Cross-platform Development",
+          score: 8,
+          detail: "Flutter, React Native, CMP",
+        }
       ],
     },
     {

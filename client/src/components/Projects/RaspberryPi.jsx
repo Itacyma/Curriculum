@@ -13,7 +13,8 @@ function RaspberryPi(props) {
     link: '',
     extra: '',
     subtitle: 'IoT web application',
-    iconClass: 'bi bi-cpu'
+    iconClass: 'bi bi-cpu',
+    images: ['/projects/raspberrypi/1.jpg', '/projects/raspberrypi/1.jpg']
   };
 
   const mockData_eng = {
