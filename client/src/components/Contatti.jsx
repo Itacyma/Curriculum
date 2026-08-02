@@ -1,62 +1,116 @@
-import React from 'react';
 import '../style/Contatti.css';
 
-function Contatti({ language }) {
-  const labels = {
-    it: {
-      email: 'Email',
-      linkedIn: 'LinkedIn',
-      github: 'GitHub'
-    },
-    en: {
-      email: 'Email',
-      linkedIn: 'LinkedIn',
-      github: 'GitHub'
-    }
-  };
+const TESTI = {
+  it: {
+    ruolo: 'Ingegnere Informatico',
+    ateneo: 'Politecnico di Torino · Laurea magistrale',
+    sezioni: 'Sezioni',
+    contatti: 'Contatti',
+    diritti: 'Tutti i diritti riservati',
+    voci: [
+      { href: '#percorso-formativo', label: 'Percorso formativo' },
+      { href: '#competenze-tecniche', label: 'Competenze tecniche' },
+      { href: '#esami', label: 'Esami di indirizzo' },
+      { href: '#progetti-web', label: 'Progetti' },
+    ],
+  },
+  en: {
+    ruolo: 'Computer Engineer',
+    ateneo: 'Politecnico di Torino · Master\u2019s degree',
+    sezioni: 'Sections',
+    contatti: 'Contacts',
+    diritti: 'All rights reserved',
+    voci: [
+      { href: '#percorso-formativo', label: 'Educational path' },
+      { href: '#competenze-tecniche', label: 'Technical skills' },
+      { href: '#esami', label: 'Major exams' },
+      { href: '#progetti-web', label: 'Projects' },
+    ],
+  },
+};
 
-  const l = labels[language] || labels.it;
+const CONTATTI = [
+  {
+    key: 'email',
+    label: 'Email',
+    valore: 'marclaudio03@gmail.com',
+    href: 'mailto:marclaudio03@gmail.com',
+    icona: 'bi-envelope-fill',
+  },
+  {
+    key: 'linkedin',
+    label: 'LinkedIn',
+    valore: 'Claudio Martini',
+    href: 'https://www.linkedin.com/in/claudio-martini-7593863a9/',
+    icona: 'bi-linkedin',
+    esterno: true,
+  },
+  {
+    key: 'github',
+    label: 'GitHub',
+    valore: 'Itacyma',
+    href: 'https://github.com/Itacyma',
+    icona: 'bi-github',
+    esterno: true,
+  },
+];
+
+function Contatti({ language }) {
+  const t = TESTI[language] || TESTI.it;
+  const anno = new Date().getFullYear();
 
   return (
-    <section id="contatti" className="contatti-full-center">
-      <div className="contatti-icon-row">
-        <div className="contatto-icon-col">
-          <a
-            className="contatto-icon contatto-icon-link"
-            href="mailto:marclaudio03@gmail.com"
-            aria-label={l.email}
-          >
-            <i className="bi bi-envelope-fill" aria-hidden="true"></i>
-          </a>
-          <div className="contatto-label">{l.email}</div>
-          <a className="contatto-link" href="mailto:marclaudio03@gmail.com">marclaudio03</a>
+    <footer id="contatti" className="site-footer">
+      <div className="footer-inner">
+        <div className="footer-identity">
+          <p className="footer-name">Claudio Martini</p>
+          <p className="footer-role">{t.ruolo}</p>
+          <p className="footer-meta">{t.ateneo}</p>
         </div>
-        <div className="contatto-icon-col">
-          <a
-            className="contatto-icon contatto-icon-link"
-            href="https://www.linkedin.com/in/claudio-martini-7593863a9/"
-            aria-label={l.linkedIn}
-          >
-            <i className="bi bi-linkedin" aria-hidden="true"></i>
-          </a>
-          <div className="contatto-label">{l.linkedIn}</div>
-          <a className="contatto-link" href="https://www.linkedin.com/in/claudio-martini-7593863a9/">Claudio Martini</a>        
-        </div>
-        <div className="contatto-icon-col">
-          <a
-            className="contatto-icon contatto-icon-link"
-            href="https://github.com/Itacyma"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={l.github}
-          >
-            <i className="bi bi-github" aria-hidden="true"></i>
-          </a>
-          <div className="contatto-label">{l.github}</div>
-          <a className="contatto-link" href="https://github.com/Itacyma" target="_blank" rel="noopener noreferrer">Itacyma</a>
+
+        <nav className="footer-nav" aria-label={t.sezioni}>
+          <p className="footer-heading">{t.sezioni}</p>
+          <ul className="footer-nav-list">
+            {t.voci.map((voce) => (
+              <li key={voce.href}>
+                <a className="footer-nav-link" href={voce.href}>
+                  {voce.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div className="footer-contacts">
+          <p className="footer-heading">{t.contatti}</p>
+          <ul className="footer-contact-list">
+            {CONTATTI.map((c) => (
+              <li key={c.key}>
+                <a
+                  className="footer-contact"
+                  href={c.href}
+                  {...(c.esterno ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                >
+                  <span className="footer-contact-icon" aria-hidden="true">
+                    <i className={`bi ${c.icona}`}></i>
+                  </span>
+                  <span className="footer-contact-text">
+                    <span className="footer-contact-label">{c.label}</span>
+                    <span className="footer-contact-value">{c.valore}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-    </section>
+
+      <div className="footer-bottom">
+        <span>&copy; {anno} Claudio Martini</span>
+        <span className="footer-bottom-sep" aria-hidden="true">·</span>
+        <span>{t.diritti}</span>
+      </div>
+    </footer>
   );
 }
 

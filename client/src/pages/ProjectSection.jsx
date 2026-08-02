@@ -39,7 +39,7 @@ function ProjectSection({ language }) {
   };
 
   return (
-    <section className="project-section" id="progetti-web">
+    <section className="project-section">
       {displayedProjects.map((project) => (
         <Fragment key={project.key}>
           {project.element}

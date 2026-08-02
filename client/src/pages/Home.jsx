@@ -136,7 +136,7 @@ function HomePageCV(props) {
         
               
         {/* Sezione Esami */}
-        <h2 className="section-main-title">
+        <h2 id="esami" className="section-main-title">
           <span className="separator-icon">
             <i className="bi bi-diamond-fill"></i>
           </span>
