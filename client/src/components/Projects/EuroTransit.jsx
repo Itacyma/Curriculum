@@ -10,23 +10,22 @@ function EuroTransit(props) {
     date: '2026',
     description: 'Applicazione di prenotazione di viaggi in treno, realizzata sopra un\'infrastruttura Kubernetes e con un backend in Kotlin. Il progetto applica gli standard moderni per i sistemi distribuiti, con un\'architettura a microservizi, bilanciamento del carico, scalabilità e ricovero automatico. L\'applicazione è stata testata sotto scenari di carico elevato, con un focus sulla resilienza e la tolleranza ai guasti.',
     tools: ['Kotlin', 'Gradle', 'Spring Boot', 'Kubernetes', 'GitOps', 'CI/CD', 'ArgoCD', 'Prometheus', 'Grafana', 'Kafka', 'PostgreSQL', 'Debezium', 'Coroutines', 'React'],
-    link: 'https://github.com/polito-mad-2026/project-assignment-final-even-g08',
+    links: ['https://github.com/polito-CPO-2026/eurotransit-application-g04', 'https://github.com/polito-CPO-2026/eurotransit-configuration-g04'],
     extra: '',
     subtitle: 'Kubernetes Web Application',
     iconClass: 'bi bi-pc-display-horizontal',
-    images: ['/projects/eurotransit/1.jpg', '/projects/eurotransit/2.jpg', '/projects/eurotransit/3.jpg', '/projects/eurotransit/4.jpg', '/projects/eurotransit/5.jpg']
+    images: ['/projects/eurotransit/1.jpg', '/projects/eurotransit/2.jpg', '/projects/eurotransit/3.jpg', '/projects/eurotransit/4.jpg', '/projects/eurotransit/5.jpg', '/projects/eurotransit/6.jpg']
   };
-
   const mockData_eng = {
     title: 'EuroTransit',
     date: '2026',
     description: 'Train travel booking application, built on a Kubernetes infrastructure with a Kotlin backend. The project applies modern standards for distributed systems, with a microservices architecture, load balancing, scalability, and automatic recovery. The application has been tested under high load scenarios, focusing on resilience and fault tolerance.',
     tools: ['Kotlin', 'Gradle', 'Spring Boot', 'Kubernetes', 'Docker Compose', 'GitOps', 'CI/CD', 'ArgoCD', 'Prometheus', 'Grafana', 'Kafka', 'PostgreSQL', 'Debezium', 'Coroutines', 'React'],
-    link: 'https://github.com/polito-mad-2026/project-assignment-final-even-g08',
+    links: ['https://github.com/polito-CPO-2026/eurotransit-application-g04', 'https://github.com/polito-CPO-2026/eurotransit-configuration-g04'],
     extra: '',
     subtitle: 'Kubernetes Web Application',
     iconClass: 'bi bi-pc-display-horizontal',
-    images: ['/projects/eurotransit/1.jpg', '/projects/eurotransit/2.jpg', '/projects/eurotransit/3.jpg', '/projects/eurotransit/4.jpg', '/projects/eurotransit/5.jpg']
+    images: ['/projects/eurotransit/1.jpg', '/projects/eurotransit/2.jpg', '/projects/eurotransit/3.jpg', '/projects/eurotransit/4.jpg', '/projects/eurotransit/5.jpg', '/projects/eurotransit/6.jpg']
   };
 
   const techSections_it = [

@@ -42,15 +42,47 @@ function highlightKeywords(text) {
   );
 }
 
+/* Accetta sia link: 'url' sia links: ['url', ...] oppure links: [{ href, label }] */
+function normalizzaLink(mockData) {
+  const grezzi = Array.isArray(mockData.links)
+    ? mockData.links
+    : [mockData.links, mockData.link];
+
+  return grezzi
+    .flat()
+    .filter(Boolean)
+    .map((v) => (typeof v === 'string' ? { href: v } : v))
+    .filter((v) => v.href)
+    .map((v) => ({ href: v.href, label: v.label || etichettaRepo(v.href, mockData.title) }));
+}
+
+/* Da .../eurotransit-configuration-g04 ricava "Configuration" */
+function etichettaRepo(url, titolo) {
+  try {
+    const segmento = new URL(url).pathname.split('/').filter(Boolean).pop() || '';
+    const nome = segmento
+      .replace(/-g\d+$/i, '')
+      .replace(new RegExp(`^${(titolo || '').toLowerCase()}[-_]?`, 'i'), '')
+      .replace(/[-_]+/g, ' ')
+      .trim();
+    return nome ? nome.charAt(0).toUpperCase() + nome.slice(1) : 'GitHub';
+  } catch {
+    return 'GitHub';
+  }
+}
+
 function ProjectCV({ mockData, techSections }) {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [showImageCarousel, setShowImageCarousel] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
 
+  /* Set: alcuni progetti ripetono lo stesso file più volte */
   const projectImages = Array.isArray(mockData.images)
-    ? mockData.images.filter(Boolean)
+    ? [...new Set(mockData.images.filter(Boolean))]
     : [];
   const hasImages = projectImages.length > 0;
+
+  const projectLinks = normalizzaLink(mockData);
+  const linkMultipli = projectLinks.length > 1;
 
 
 
@@ -66,14 +98,16 @@ function ProjectCV({ mockData, techSections }) {
     setCurrentImage((prev) => (prev + 1) % projectImages.length);
   };
 
-  const toggleImageCarousel = () => {
-    setShowImageCarousel((prev) => !prev);
-    if (!showImageCarousel) setCurrentImage(0);
+  const goPrevImage = () => {
+    if (!hasImages) return;
+    setCurrentImage((prev) => (prev - 1 + projectImages.length) % projectImages.length);
   };
 
   return (
-    <div className="project-card vertical">
+    <div className={`project-card vertical${hasImages ? ' has-media' : ''}`}>
       <div className="project-content">
+       <div className="project-body">
+        <div className="project-main">
 
         {/* ── Carousel container ── */}
         <div className="project-carousel">
@@ -125,85 +159,104 @@ function ProjectCV({ mockData, techSections }) {
 
         {/* ── Carousel controls ── */}
         <div className="project-carousel-controls">
-          <button
-            className="project-carousel-arrow"
-            onClick={goPrev}
-            disabled={currentSlide === 0}
-            aria-label="Previous slide"
-          >
-            <i className="bi bi-chevron-left"></i>
-          </button>
-
-          <div className="project-carousel-dots">
-            {Array.from({ length: totalSlides }, (_, i) => (
-              <button
-                key={i}
-                className={`project-carousel-dot ${i === currentSlide ? 'active' : ''}`}
-                onClick={() => goTo(i)}
-                aria-label={`Slide ${i + 1}`}
-              />
+          <div className="project-carousel-actions">
+            {projectLinks.map((l) => (
+              <a
+                key={l.href}
+                className={`project-carousel-github${linkMultipli ? ' with-label' : ''}`}
+                href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={l.label}
+                aria-label={linkMultipli ? `GitHub — ${l.label}` : 'GitHub'}
+              >
+                <i className="bi bi-github"></i>
+                {linkMultipli && <span className="project-carousel-github-label">{l.label}</span>}
+              </a>
             ))}
           </div>
 
-          <button
-            className="project-carousel-arrow"
-            onClick={goNext}
-            disabled={currentSlide === totalSlides - 1}
-            aria-label="Next slide"
-          >
-            <i className="bi bi-chevron-right"></i>
-          </button>
+          <div className="project-carousel-nav">
+            <button
+              className="project-carousel-arrow"
+              onClick={goPrev}
+              disabled={currentSlide === 0}
+              aria-label="Previous slide"
+            >
+              <i className="bi bi-chevron-left"></i>
+            </button>
 
-          <div className="project-carousel-right-actions">
-            {hasImages && (
-              <button
-                className="project-carousel-gallery"
-                onClick={toggleImageCarousel}
-                aria-label="Project images"
-                aria-pressed={showImageCarousel}
-              >
-                <i className="bi bi-images"></i>
-              </button>
-            )}
+            <div className="project-carousel-dots">
+              {Array.from({ length: totalSlides }, (_, i) => (
+                <button
+                  key={i}
+                  className={`project-carousel-dot ${i === currentSlide ? 'active' : ''}`}
+                  onClick={() => goTo(i)}
+                  aria-label={`Slide ${i + 1}`}
+                />
+              ))}
+            </div>
 
-            {mockData.link && (
-              <a
-                className="project-carousel-github"
-                href={mockData.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-              >
-                <i className="bi bi-github"></i>
-              </a>
-            )}
+            <button
+              className="project-carousel-arrow"
+              onClick={goNext}
+              disabled={currentSlide === totalSlides - 1}
+              aria-label="Next slide"
+            >
+              <i className="bi bi-chevron-right"></i>
+            </button>
           </div>
 
-          
+          <div className="project-carousel-controls-spacer" aria-hidden="true"></div>
         </div>
 
-        {showImageCarousel && hasImages && (
-          <div className="project-image-gallery">
-            <div className="project-image-stage">
+        </div>
+
+        {hasImages && (
+          <aside className="project-media">
+            <div className="project-media-stage">
               <img
                 src={projectImages[currentImage]}
                 alt={`${mockData.title} screenshot ${currentImage + 1}`}
-                className="project-image-item"
+                className="project-media-img"
                 loading="lazy"
               />
+            </div>
 
-              {projectImages.length > 1 && (
+            {projectImages.length > 1 && (
+              <div className="project-media-nav">
                 <button
-                  className="project-image-next"
+                  className="project-media-arrow"
+                  onClick={goPrevImage}
+                  aria-label="Immagine precedente"
+                >
+                  <i className="bi bi-chevron-left"></i>
+                </button>
+
+                <div className="project-media-dots">
+                  {projectImages.map((src, i) => (
+                    <button
+                      key={src}
+                      className={`project-media-dot ${i === currentImage ? 'active' : ''}`}
+                      onClick={() => setCurrentImage(i)}
+                      aria-label={`Immagine ${i + 1}`}
+                      aria-current={i === currentImage}
+                    />
+                  ))}
+                </div>
+
+                <button
+                  className="project-media-arrow"
                   onClick={goNextImage}
-                  aria-label="Next image"
+                  aria-label="Immagine successiva"
                 >
                   <i className="bi bi-chevron-right"></i>
                 </button>
-              )}
-            </div>
-          </div>
+              </div>
+            )}
+          </aside>
         )}
+       </div>
       </div>
     </div>
   );

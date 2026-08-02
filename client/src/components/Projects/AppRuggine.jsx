@@ -13,7 +13,8 @@ function AppRuggine(props) {
     link: 'https://github.com/PdS2425-C2/G46',
     extra: '',
     subtitle: 'Full-stack application',
-    iconClass: 'bi bi-pc-display-horizontal'
+    iconClass: 'bi bi-pc-display-horizontal',
+    images: ['/projects/appruggine/1.jpg', '/projects/appruggine/2.jpg', '/projects/appruggine/3.jpg', '/projects/appruggine/4.jpg', '/projects/appruggine/5.jpg']
   };
 
   const mockData_eng = {
@@ -24,7 +25,8 @@ function AppRuggine(props) {
     link: 'https://github.com/PdS2425-C2/G46',
     extra: '',
     subtitle: 'Full-stack application',
-    iconClass: 'bi bi-pc-display-horizontal'
+    iconClass: 'bi bi-pc-display-horizontal',
+    images: ['/projects/appruggine/1.jpg', '/projects/appruggine/2.jpg', '/projects/appruggine/3.jpg', '/projects/appruggine/4.jpg', '/projects/appruggine/5.jpg']
   };
 
   const techSections_it = [

@@ -16,7 +16,7 @@ function GiocoDellaSfortuna(props) {
     extra: '',
     subtitle: 'Full-stack application',
     iconClass: 'bi bi-pc-display-horizontal',
-    images: []
+    images: ['/projects/giocodellasfortuna/1.jpg', '/projects/giocodellasfortuna/2.jpg', '/projects/giocodellasfortuna/3.jpg', '/projects/giocodellasfortuna/4.jpg', '/projects/giocodellasfortuna/6.jpg']
   };
 
   const mockData_eng = {
@@ -30,7 +30,8 @@ function GiocoDellaSfortuna(props) {
     link: 'https://github.com/polito-aw1-2025-exams/esame1-gioco-sfortuna-Itacyma',
     extra: '',
     subtitle: 'Full-stack application',
-    iconClass: 'bi bi-pc-display-horizontal'
+    iconClass: 'bi bi-pc-display-horizontal',
+    images: ['/projects/giocodellasfortuna/1.jpg', '/projects/giocodellasfortuna/2.jpg', '/projects/giocodellasfortuna/3.jpg', '/projects/giocodellasfortuna/4.jpg', '/projects/giocodellasfortuna/6.jpg']
   };
 
   const techSections_it = [
