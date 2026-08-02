@@ -3,7 +3,7 @@ import '../style/Exam.css';
 import { NoTranslate } from './NoTranslate.jsx';
 
 function ExamCV({ exam, language }) {
-    const { name, date, grade, description, tags } = exam;
+    const { name, date, description, tags } = exam;
     const [isExpanded, setIsExpanded] = useState(false);
     
     // Estrae solo l'anno dalla data

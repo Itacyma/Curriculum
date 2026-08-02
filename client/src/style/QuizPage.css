@@ -25,7 +25,7 @@
   background: rgba(23, 55, 83, 0.85);
   border: 2px solid rgba(180, 210, 231, 0.25);
   border-radius: 16px;
-  color: #F8F8F8;
+  color: var(--c-off-white);
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
@@ -37,14 +37,14 @@
 }
 
 .quiz-select-card:hover {
-  border-color: #f71735;
+  border-color: var(--c-red);
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(247, 23, 53, 0.2);
 }
 
 .quiz-select-icon {
   font-size: 2rem;
-  color: #f71735;
+  color: var(--c-red);
   flex-shrink: 0;
 }
 
@@ -52,7 +52,7 @@
   font-size: 1.1rem;
   font-weight: 700;
   font-family: 'Orbitron', monospace;
-  color: #F8F8F8;
+  color: var(--c-off-white);
   display: block;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .quiz-select-card:hover .quiz-select-arrow {
-  color: #f71735;
+  color: var(--c-red);
   transform: translateX(4px);
 }
 

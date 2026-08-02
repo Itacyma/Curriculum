@@ -22,7 +22,7 @@
 }
 .language-switcher button.active,
 .language-switcher button:hover {
-  filter: brightness(0.8) drop-shadow(0 0 2px #4CB963);
+  filter: brightness(0.8) drop-shadow(0 0 2px var(--c-green));
   background: transparent;
   color: inherit;
 }

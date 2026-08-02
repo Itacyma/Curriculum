@@ -34,7 +34,7 @@
   background: rgba(23, 55, 83, 0.8);
   border: 2px solid rgba(180, 210, 231, 0.3);
   border-radius: 12px;
-  color: #B4D2E7;
+  color: var(--c-sky);
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   font-family: 'Roboto Mono', monospace;
@@ -44,8 +44,8 @@
 }
 
 .interactive-back-btn:hover {
-  border-color: #4CB963;
-  color: #4CB963;
+  border-color: var(--c-green);
+  color: var(--c-green);
   box-shadow: 0 0 15px rgba(75, 185, 99, 0.3);
 }
 
@@ -95,20 +95,20 @@
 .interactive-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #4CB963;
+  color: var(--c-green);
   font-family: 'Orbitron', monospace;
   margin: 0 0 0.5rem 0;
   text-shadow:
     0 0 20px rgba(75, 185, 99, 0.4),
-    -0.5px -0.5px 0 #000,
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000;
+    -0.5px -0.5px 0 var(--c-black),
+    0.5px -0.5px 0 var(--c-black),
+    -0.5px 0.5px 0 var(--c-black),
+    0.5px 0.5px 0 var(--c-black);
 }
 
 .interactive-subtitle {
   font-size: 0.88rem;
-  color: #4a4a4a;
+  color: var(--c-grey-dark);
   margin: 0 0 1.5rem 0;
   font-family: 'Roboto Mono', monospace;
   max-width: 500px;
@@ -125,14 +125,14 @@
 .interactive-no-results {
   text-align: center;
   padding: 2rem;
-  color: #f71735;
+  color: var(--c-red);
 }
 
 .interactive-no-results i {
   font-size: 2.5rem;
   display: block;
   margin-bottom: 1rem;
-  color: #f71735;
+  color: var(--c-red);
 }
 
 .interactive-no-results p {
@@ -142,7 +142,7 @@
 
 .interactive-results-count {
   font-size: 0.9rem;
-  color: #f71735;
+  color: var(--c-red);
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
   margin-bottom: 1rem;

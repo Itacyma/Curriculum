@@ -1,0 +1,19 @@
+# Normalizza i fine riga: nel repository sempre LF,
+# nella copia di lavoro quelli nativi del sistema operativo.
+* text=auto
+
+*.js    text eol=lf
+*.jsx   text eol=lf
+*.mjs   text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.sql   text eol=lf
+
+# File binari: mai toccare
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary

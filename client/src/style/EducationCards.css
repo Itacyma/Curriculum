@@ -13,8 +13,8 @@
 .diploma-card,
 .triennale-card,
 .magistrale-card {
-  background: #fff;
-  border: 2px solid #173753;
+  background: var(--c-white);
+  border: 2px solid var(--c-navy);
   border-radius: 16px;
   min-height: 340px;
   box-shadow:
@@ -37,8 +37,8 @@
 .diploma-header,
 .triennale-header,
 .magistrale-header {
-  background: #173753;
-  color: #F8F8F8;
+  background: var(--c-navy);
+  color: var(--c-off-white);
   border-bottom: none;
   padding: 1.05rem;
   padding-bottom: 3.2rem;
@@ -57,7 +57,7 @@
   font-weight: 500;
   margin: 0;
   font-family: 'Orbitron', monospace;
-  color: #B4D2E7;
+  color: var(--c-sky);
   letter-spacing: 0.5px;
   text-shadow: none;
   width: 100%;
@@ -72,7 +72,7 @@
 .magistrale-title-line {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #B4D2E7;
+  color: var(--c-sky);
   letter-spacing: 0.5px;
   line-height: 1.2;
   text-shadow: none;
@@ -84,7 +84,7 @@
   align-self: center;
   font-size: 1.75rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--c-white);
   letter-spacing: 1px;
   line-height: 1.2;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -97,9 +97,9 @@
   display: inline-block;
   font-size: 1.1rem;
   margin-top: 0;
-  color: #F9C22E;
+  color: var(--c-yellow);
   font-weight: 700;
-  border: 2.5px solid #F9C22E;
+  border: 2.5px solid var(--c-yellow);
   border-radius: 16px;
   padding: 0.12em 0.7em;
   background: transparent;
@@ -133,7 +133,7 @@
 .institute-name,
 .university-name {
   font-size: 1.05rem;
-  color: #173753;
+  color: var(--c-navy);
   font-weight: 600;
   margin: 0;
   font-family: 'Orbitron', monospace;
@@ -155,19 +155,19 @@
 .triennale-card .grade-container,
 .magistrale-card .grade-container {
   background: rgba(180, 210, 231, 0.3) !important;
-  border: 2px solid #B4D2E7 !important;
+  border: 2px solid var(--c-sky) !important;
 }
 
 
 .grade-label {
   font-size: 1rem;
-  color: #173753;
+  color: var(--c-navy);
   font-weight: 500;
 }
 
 .grade-value {
   font-size: 1.15rem;
-  color: #f71735;
+  color: var(--c-red);
   font-weight: 700;
   font-family: 'Orbitron', monospace;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -175,7 +175,7 @@
 
 .cfu-value {
   font-size: 0.95rem;
-  color: #A1A6B4;
+  color: var(--c-grey);
   font-weight: 500;
   margin-left: 0.5rem;
 }
@@ -189,13 +189,13 @@
 .degree-description {
   font-size: 1rem;
   line-height: 1.6;
-  color: #173753;
+  color: var(--c-navy);
   text-align: justify;
   margin: 0;
   padding: 1rem;
   background: rgba(180, 210, 231, 0.1);
   border-radius: 8px;
-  border-left: 4px solid #4CB963;
+  border-left: 4px solid var(--c-green);
 }
 
 /* Medium screens (e.g. half-page): make cards more compact */

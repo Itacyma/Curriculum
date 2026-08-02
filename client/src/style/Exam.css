@@ -1,19 +1,19 @@
 /* Exam Card Component */
 
 .exam-card {
-    background: #173753;
-    border: 2px solid #B4D2E7;
+    background: var(--c-navy);
+    border: 2px solid var(--c-sky);
     border-radius: 16px;
     padding: 1.25rem;
     margin: 1rem 0;
     box-shadow: 
-        0 0 20px #4CB9634d,
-        inset 0 2px 0 #B4D2E744;
+        0 0 20px var(--c-green-a30),
+        inset 0 2px 0 var(--c-sky-a27);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    color: #F8F8F8;
+    color: var(--c-off-white);
     display: flex;
     flex-direction: column;
     min-height: 250px;
@@ -45,10 +45,10 @@
 .exam-title {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4CB963;
+    color: var(--c-green);
     margin: 0;
     font-family: 'Orbitron', monospace;
-    text-shadow: 0 1px 0 #173753, 0 0 8px #B4D2E744;
+    text-shadow: 0 1px 0 var(--c-navy), 0 0 8px var(--c-sky-a27);
     text-align: left;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -61,9 +61,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #173753;
+    background: var(--c-navy);
     border: none;
-    box-shadow: 0 0 0 2px #F9C22E;
+    box-shadow: 0 0 0 2px var(--c-yellow);
     border-radius: 2px;
     padding: 0.8rem 1.2rem;
     min-width: 80px;
@@ -73,9 +73,9 @@
 .credits-value {
     font-size: 1.4rem;
     font-weight: 900;
-    color: #F9C22E;
+    color: var(--c-yellow);
     font-family: 'Orbitron', monospace;
-    text-shadow: 0 0 8px #B4D2E744;
+    text-shadow: 0 0 8px var(--c-sky-a27);
     text-align: center;
 }
 
@@ -83,9 +83,9 @@
 .exam-description {
     margin: 1rem 0;
     padding: 1rem;
-    background: #B4D2E744;
+    background: var(--c-sky-a27);
     border-radius: 8px;
-    border: 1px solid #B4D2E7;
+    border: 1px solid var(--c-sky);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -103,15 +103,15 @@
 .exam-description p {
     margin: 0;
     line-height: 1.6;
-    color: #F8F8F8;
+    color: var(--c-off-white);
     font-size: 0.85rem;
 }
 
 /* Expand Button */
 .expand-btn {
     background: transparent;
-    border: 1px solid #B4D2E7;
-    color: #B4D2E7;
+    border: 1px solid var(--c-sky);
+    color: var(--c-sky);
     padding: 0.3rem 0.8rem;
     border-radius: 6px;
     font-size: 0.8rem;
@@ -130,9 +130,9 @@
 }
 
 .expand-btn:hover {
-    background: #B4D2E7;
-    border-color: #B4D2E7;
-    color: #173753;
+    background: var(--c-sky);
+    border-color: var(--c-sky);
+    color: var(--c-navy);
     transform: translateY(-1px);
 }
 
@@ -200,8 +200,8 @@
 }
 
 .exam-tag {
-    background: #B4D2E7;
-    color: #173753;
+    background: var(--c-sky);
+    color: var(--c-navy);
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -227,7 +227,7 @@
  
     .exam-credits-display {
         align-self: flex-start;
-        box-shadow: 0 0 0 2px #F9C22E;
+        box-shadow: 0 0 0 2px var(--c-yellow);
         border-radius: 2px;
         padding: 0.6rem 0.8rem;
         min-width: 70px;

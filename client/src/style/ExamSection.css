@@ -36,8 +36,8 @@
 }
 
 .exams-section .show-more-btn {
-  background: linear-gradient(135deg, #4CB963 0%, #173753 100%);
-  color: #F8F8F8;
+  background: linear-gradient(135deg, var(--c-green) 0%, var(--c-navy) 100%);
+  color: var(--c-off-white);
   border-radius: 25px;
   padding: 0.8rem 2rem;
   font-size: 1rem;
@@ -54,8 +54,8 @@
 .exams-section .show-more-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(75, 185, 99, 0.4);
-  background: linear-gradient(135deg, #5fc976 0%, #1e4a61 100%);
-  border-color: #B4D2E7;
+  background: linear-gradient(135deg, var(--c-green-light) 0%, var(--c-navy-4) 100%);
+  border-color: var(--c-sky);
 }
 
 .exams-section .show-more-btn:active {

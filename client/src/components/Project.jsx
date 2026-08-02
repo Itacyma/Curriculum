@@ -42,7 +42,7 @@ function highlightKeywords(text) {
   );
 }
 
-function ProjectCV({ mockData, techSections, language }) {
+function ProjectCV({ mockData, techSections }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showImageCarousel, setShowImageCarousel] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);

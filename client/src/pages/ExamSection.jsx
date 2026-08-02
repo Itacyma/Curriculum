@@ -57,7 +57,6 @@ function ExamSection(props) {
   const otherExams = exams.filter(
     (exam) => !mainExamNameSet.has(normalizeExamName(exam.name))
   );
-  const otherExamsCount = otherExams.length;
 
   const displayedMainExams = isCompactViewport
     ? mainExamsFiltered.slice(0, compactMainExamsLimit)
@@ -102,7 +101,7 @@ function ExamSection(props) {
       {loading ? (
         <div className="text-center py-5">
           <Spinner animation="border" variant="success" size="lg" />
-          <p className="mt-3" style={{ color: '#4CB963' }}>
+          <p className="mt-3" style={{ color: 'var(--c-green)' }}>
             {language === "it" ? "Caricamento esami..." : "Loading exams..."}
           </p>
         </div>

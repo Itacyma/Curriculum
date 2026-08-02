@@ -1,0 +1,59 @@
+/* ============================================================
+   Palette del sito — unico punto in cui vivono i colori.
+   Per cambiare la grafica, modifica i valori qui: si propagano
+   a tutti i fogli di stile.
+   ============================================================ */
+
+:root {
+  /* ── Verde — colore primario: accenti, titoli di sezione, link ── */
+  --c-green        : #4cb963;  /* primario */
+  --c-green-light  : #5fc976;  /* hover / gradienti */
+  --c-green-dark   : #327857;  /* testo su fondo chiaro */
+  --c-green-a30    : #4cb9634d;  /* verde al 30% di opacità */
+
+  /* ── Blu navy — sfondi, card e superfici ── */
+  --c-navy         : #173753;  /* sfondo base del sito */
+  --c-navy-2       : #1a3b58;  /* gradiente di sfondo */
+  --c-navy-3       : #1d405c;  /* gradiente di sfondo */
+  --c-navy-4       : #1e4a61;  /* superfici sollevate */
+  --c-navy-5       : #1e4a6e;  /* tooltip */
+  --c-navy-6       : #2a4a5c;  /* bordi e separatori */
+  --c-navy-a13     : #17375322;  /* navy al 13% di opacità */
+
+  /* ── Azzurro — testo secondario, bordi, icone ── */
+  --c-sky          : #b4d2e7;  /* secondario */
+  --c-sky-a27      : #b4d2e744;  /* azzurro al 27% di opacità */
+  --c-sky-pale     : #f7fafd;  /* fondo molto chiaro */
+
+  /* ── Rosso — errori, stati negativi, evidenziazioni forti ── */
+  --c-red          : #f71735;
+  --c-red-dark     : #d41430;  /* hover */
+
+  /* ── Giallo e arancio — badge, punteggi, evidenziazioni ── */
+  --c-yellow       : #f9c22e;
+  --c-yellow-dark  : #e6a500;  /* hover */
+  --c-yellow-darker: #c89000;  /* attivo */
+  --c-amber        : #f59e0b;  /* gradiente */
+  --c-amber-dark   : #d97706;  /* gradiente */
+  --c-orange       : #eb8b25;
+
+  /* ── Neutri ── */
+  --c-black        : #000000;  /* ombre */
+  --c-white        : #ffffff;
+  --c-off-white    : #f8f8f8;  /* testo corrente su fondo scuro */
+  --c-grey         : #a1a6b4;  /* testo attenuato */
+  --c-grey-light   : #aaaaaa;  /* placeholder */
+  --c-grey-dark    : #4a4a4a;
+  --c-grey-darker  : #333333;
+
+  /* ── Terne RGB, per comporre trasparenze: rgba(var(--c-green-rgb), .4) ── */
+  --c-green-rgb    : 76, 185, 99;
+  --c-navy-rgb     : 23, 55, 83;
+  --c-sky-rgb      : 180, 210, 231;
+  --c-red-rgb      : 247, 23, 53;
+  --c-yellow-rgb   : 249, 194, 46;
+  --c-off-white-rgb: 248, 248, 248;
+  --c-grey-rgb     : 161, 166, 180;
+  --c-black-rgb    : 0, 0, 0;
+  --c-white-rgb    : 255, 255, 255;
+}

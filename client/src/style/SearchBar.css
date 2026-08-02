@@ -10,8 +10,8 @@
 .search-bar-container {
   display: flex;
   align-items: center;
-  background: #fff;
-  border: 2px solid #f71735;
+  background: var(--c-white);
+  border: 2px solid var(--c-red);
   border-radius: 16px;
   padding: 0.5rem 0.75rem;
   transition: all 0.3s ease;
@@ -19,14 +19,14 @@
 }
 
 .search-bar-container:focus-within {
-  border-color: #f71735;
+  border-color: var(--c-red);
   box-shadow:
     0 0 15px rgba(247, 23, 53, 0.15),
     0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .search-bar-icon {
-  color: #f71735;
+  color: var(--c-red);
   font-size: 1.1rem;
   margin-right: 0.6rem;
   flex-shrink: 0;
@@ -37,14 +37,14 @@
   background: transparent;
   border: none;
   outline: none;
-  color: #333;
+  color: var(--c-grey-darker);
   font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
   min-width: 0;
 }
 
 .search-bar-input::placeholder {
-  color: #aaa;
+  color: var(--c-grey-light);
   font-size: 0.9rem;
 }
 
@@ -52,7 +52,7 @@
 .search-bar-submit {
   background: none;
   border: none;
-  color: #f71735;
+  color: var(--c-red);
   font-size: 1.1rem;
   cursor: pointer;
   padding: 0.3rem 0.5rem;
@@ -64,12 +64,12 @@
 }
 
 .search-bar-clear:hover {
-  color: #d41430;
+  color: var(--c-red-dark);
   background: rgba(247, 23, 53, 0.08);
 }
 
 .search-bar-submit:hover {
-  color: #d41430;
+  color: var(--c-red-dark);
   background: rgba(247, 23, 53, 0.08);
 }
 
@@ -107,7 +107,7 @@
   gap: 0.6rem;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  color: #B4D2E7;
+  color: var(--c-sky);
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
   transition: all 0.15s ease;
@@ -116,7 +116,7 @@
 .search-bar-suggestion:hover,
 .search-bar-suggestion.active {
   background: rgba(75, 185, 99, 0.2);
-  color: #4CB963;
+  color: var(--c-green);
 }
 
 .suggestion-icon {

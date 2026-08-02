@@ -2,8 +2,8 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #173753, #2a4a5c);
-  border-top: 4px solid #4CB963;
+  background: linear-gradient(135deg, var(--c-navy), var(--c-navy-6));
+  border-top: 4px solid var(--c-green);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
 .contatto-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #173753, #4CB963);
+  background: linear-gradient(135deg, var(--c-navy), var(--c-green));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -60,17 +60,17 @@
 }
 .contatto-icon i {
   font-size: 1.6rem;
-  color: #F8F8F8;
+  color: var(--c-off-white);
 }
 .contatto-label {
-  color: #B4D2E7;
+  color: var(--c-sky);
   font-size: 1rem;
   font-family: 'Orbitron', monospace;
   font-weight: 600;
   white-space: nowrap;
 }
 .contatto-link {
-  color: #4CB963;
+  color: var(--c-green);
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;
   font-size: clamp(0.6rem, 2vw, 1.1rem);
@@ -85,7 +85,7 @@
 }
 
 .contatto-link:hover {
-  color: #B4D2E7;
+  color: var(--c-sky);
 }
 
 @media (max-width: 900px) {
@@ -106,8 +106,8 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #173753, #2a4a5c);
-    border-top: 4px solid #4CB963;
+    background: linear-gradient(135deg, var(--c-navy), var(--c-navy-6));
+    border-top: 4px solid var(--c-green);
     min-height: 35vh;
     display: flex;
     flex-direction: column;
@@ -140,18 +140,18 @@
 /* Titoli e testo */
 .contatti-section-title {
   font-size: 2.5rem;
-  color: #4CB963;
+  color: var(--c-green);
   text-align: center;
   padding-top: 3rem;
   font-family: 'Orbitron', monospace;
   font-weight: 700;
   text-shadow: 
     0 0 20px rgba(75, 185, 99, 0.5),
-    -0.5px -0.5px 0 #000,
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000;
-  -webkit-text-stroke: 0.5px #000;
+    -0.5px -0.5px 0 var(--c-black),
+    0.5px -0.5px 0 var(--c-black),
+    -0.5px 0.5px 0 var(--c-black),
+    0.5px 0.5px 0 var(--c-black);
+  -webkit-text-stroke: 0.5px var(--c-black);
 }
 
 /* Stili delle card di contatto */
@@ -224,7 +224,7 @@
 }
 
 .contatto-item:hover {
-  border-color: #4CB963;
+  border-color: var(--c-green);
   box-shadow: 0 4px 20px rgba(75, 185, 99, 0.3);
   transform: translateY(-3px);
   background: rgba(248, 248, 248, 0.15);
@@ -238,7 +238,7 @@
 .contatto-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #173753, #4CB963);
+  background: linear-gradient(135deg, var(--c-navy), var(--c-green));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -249,7 +249,7 @@
 
 .contatto-icon i {
   font-size: 1.8rem;
-  color: #F8F8F8;
+  color: var(--c-off-white);
 }
 
 /* Informazioni di contatto */
@@ -266,7 +266,7 @@
 
 .contatto-info h4 {
   font-size: clamp(1rem, 3vw, 1.2rem);
-  color: #F8F8F8;
+  color: var(--c-off-white);
   margin: 0 0 0.5rem 0;
   font-family: 'Orbitron', monospace;
   font-weight: 600;
@@ -274,7 +274,7 @@
 }
 
 .contatto-info a {
-  color: #4CB963;
+  color: var(--c-green);
   text-decoration: none;
   font-weight: 500;
   font-family: 'Roboto Mono', monospace;
@@ -288,12 +288,12 @@
 }
 
 .contatto-info a:hover {
-  color: #B4D2E7;
+  color: var(--c-sky);
   text-shadow: 0 0 10px rgba(75, 185, 99, 0.5);
 }
 
 .contatto-info span {
-  color: #B4D2E7;
+  color: var(--c-sky);
   font-weight: 500;
   font-family: 'Roboto Mono', monospace;
 }
@@ -304,13 +304,13 @@
   padding: 2rem;
   background: rgba(248, 248, 248, 0.05);
   border-radius: 15px;
-  border-left: 4px solid #4CB963;
+  border-left: 4px solid var(--c-green);
   backdrop-filter: blur(10px);
 }
 
 .messaggio-section h3 {
   font-size: 1.8rem;
-  color: #F8F8F8;
+  color: var(--c-off-white);
   margin: 0 0 1rem 0;
   font-family: 'Orbitron', monospace;
   font-weight: 700;
@@ -318,7 +318,7 @@
 
 .messaggio-section p {
   font-size: 1.1rem;
-  color: #B4D2E7;
+  color: var(--c-sky);
   margin: 0 0 2rem 0;
   line-height: 1.6;
 }
@@ -370,8 +370,8 @@
 }
 
 .contatti-btn.primary {
-  background: linear-gradient(135deg, #173753, #4CB963);
-  color: #F8F8F8;
+  background: linear-gradient(135deg, var(--c-navy), var(--c-green));
+  color: var(--c-off-white);
   border: 2px solid transparent;
   box-shadow: 0 4px 15px rgba(23, 55, 83, 0.3);
 }
@@ -379,13 +379,13 @@
 .contatti-btn.primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(23, 55, 83, 0.4);
-  color: #F8F8F8;
+  color: var(--c-off-white);
 }
 
 .contatti-btn.secondary {
   background: transparent;
-  color: #4CB963;
-  border: 2px solid #4CB963;
+  color: var(--c-green);
+  border: 2px solid var(--c-green);
   box-shadow: 0 4px 15px rgba(75, 185, 99, 0.15);
 }
 
@@ -393,7 +393,7 @@
   background: rgba(75, 185, 99, 0.1);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(75, 185, 99, 0.25);
-  color: #4CB963;
+  color: var(--c-green);
 }
 
 .contatti-btn i {
@@ -404,8 +404,8 @@
 .contatti-full-center {
   width: 100vw;
   min-height: 35vh;
-  background: linear-gradient(135deg, #173753, #2a4a5c);
-  border-top: 4px solid #4CB963;
+  background: linear-gradient(135deg, var(--c-navy), var(--c-navy-6));
+  border-top: 4px solid var(--c-green);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -441,18 +441,18 @@
 .contatto-icon {
   width: 70px;
   height: 70px;
-  background: linear-gradient(135deg, #173753, #4CB963);
+  background: linear-gradient(135deg, var(--c-navy), var(--c-green));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.3rem;
-  border: 3px solid #B4D2E7;
+  border: 3px solid var(--c-sky);
   box-sizing: border-box;
 }
 .contatto-icon i {
   font-size: 1.5rem;
-  color: #F8F8F8;
+  color: var(--c-off-white);
 }
 
 .contatto-label, .contatto-link {

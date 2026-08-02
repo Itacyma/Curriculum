@@ -23,16 +23,16 @@
   margin-bottom: 0;
   padding: 0.45rem 1.2rem;
   background: white;
-  border: 2px solid #f71735;
+  border: 2px solid var(--c-red);
   border-radius: 30px;
-  color: #f71735;
+  color: var(--c-red);
   font-size: clamp(0.8rem, 2vw, 1rem);
   font-family: 'Orbitron', monospace;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
   text-shadow: 0 0 10px rgba(247, 23, 53, 0.3);
-  -webkit-text-stroke: 0.3px #f71735;
+  -webkit-text-stroke: 0.3px var(--c-red);
   position: relative;
   overflow: hidden;
 }
@@ -52,7 +52,7 @@
   background: white;
   transform: scale(1.04);
   text-shadow: 0 0 18px rgba(247, 23, 53, 0.5);
-  border: 2px solid #f71735 !important;
+  border: 2px solid var(--c-red) !important;
 }
 
 .interactive-explore-btn:hover::before {
@@ -114,36 +114,36 @@
 
 .scroll-text {
   font-size: clamp(1.25rem, 3.2vw, 2rem);
-  color: #f71735;
+  color: var(--c-red);
   font-family: 'Orbitron', monospace;
   font-weight: 800;
   margin-bottom: 0;
   text-align: center;
   text-shadow: 0 0 10px rgba(247, 23, 53, 0.3);
-  -webkit-text-stroke: 0.5px #f71735;
+  -webkit-text-stroke: 0.5px var(--c-red);
 }
 
 .arrow-down {
   font-size: clamp(3.25rem, 8vw, 5rem);
-  color: #f71735;
+  color: var(--c-red);
   font-weight: 900;
   margin-top: -0.1rem;
   line-height: 1;
   text-shadow: 
     0 0 15px rgba(247, 23, 53, 0.5),
     0 0 30px rgba(247, 23, 53, 0.3);
-  -webkit-text-stroke: 1px #f71735;
+  -webkit-text-stroke: 1px var(--c-red);
   animation: pulse 1.5s ease-in-out infinite alternate;
 }
 
 .arrow-up {
   font-size: clamp(3.25rem, 8vw, 5rem);
-  color: #f71735;
+  color: var(--c-red);
   font-weight: 900;
   text-shadow:
     0 0 15px rgba(247, 23, 53, 0.5),
     0 0 30px rgba(247, 23, 53, 0.3);
-  -webkit-text-stroke: 1px #f71735;
+  -webkit-text-stroke: 1px var(--c-red);
   animation: pulse 1.5s ease-in-out infinite alternate;
 }
 
@@ -151,11 +151,13 @@
 .education-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 3rem;
   align-items: stretch;
   justify-items: center;
-  padding-left: 3vw;
-  padding-right: 3vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /* Aggiustamenti per i componenti affiancati */
@@ -173,7 +175,7 @@
 .education-grid .triennale-card,
 .education-grid .magistrale-card {
   width: 100%;
-  max-width: 400px;
+  max-width: 460px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -210,8 +212,8 @@
   .education-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
@@ -219,8 +221,8 @@
   .education-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   .education-grid .diploma-container,
@@ -339,18 +341,18 @@
 
 .current-course-title {
   font-size: 2.5rem;
-  color: #4CB963;
+  color: var(--c-green);
   text-align: center;
   margin-bottom: 2rem;
   font-family: 'Orbitron', monospace;
   font-weight: 700;
   text-shadow: 
     0 0 20px rgba(75, 185, 99, 0.5),
-    -0.5px -0.5px 0 #000,
-    0.5px -0.5px 0 #000,
-    -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000;
-  -webkit-text-stroke: 0.5px #000;
+    -0.5px -0.5px 0 var(--c-black),
+    0.5px -0.5px 0 var(--c-black),
+    -0.5px 0.5px 0 var(--c-black),
+    0.5px 0.5px 0 var(--c-black);
+  -webkit-text-stroke: 0.5px var(--c-black);
 }
 
 /* Responsive per Current Course Section */

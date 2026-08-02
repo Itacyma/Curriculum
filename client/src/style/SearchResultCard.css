@@ -21,11 +21,11 @@
 
 /* Type-specific accent */
 .search-result-card.result-exam {
-  border-left: 4px solid #4CB963;
+  border-left: 4px solid var(--c-green);
 }
 
 .search-result-card.result-project {
-  border-left: 4px solid #B4D2E7;
+  border-left: 4px solid var(--c-sky);
 }
 
 /* ─── Header ─────────────────────────────────────────── */
@@ -51,11 +51,11 @@
 
 .result-card-type i {
   font-size: 1.2rem;
-  color: #4CB963;
+  color: var(--c-green);
 }
 
 .result-project .result-card-type i {
-  color: #B4D2E7;
+  color: var(--c-sky);
 }
 
 .result-type-label {
@@ -71,14 +71,14 @@
   flex: 1;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #F8F8F8;
+  color: var(--c-off-white);
   margin: 0;
   font-family: 'Orbitron', monospace;
 }
 
 .result-card-date {
   font-size: 0.8rem;
-  color: #E6A500;
+  color: var(--c-yellow-dark);
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
   flex-shrink: 0;
@@ -87,7 +87,7 @@
 .result-card-toggle {
   background: none;
   border: none;
-  color: #B4D2E7;
+  color: var(--c-sky);
   font-size: 1rem;
   cursor: pointer;
   padding: 0.3rem;
@@ -97,7 +97,7 @@
 }
 
 .result-card-toggle:hover {
-  color: #4CB963;
+  color: var(--c-green);
   background: rgba(75, 185, 99, 0.15);
 }
 
@@ -134,8 +134,8 @@
 }
 
 .result-tag {
-  background: #B4D2E7;
-  color: #173753;
+  background: var(--c-sky);
+  color: var(--c-navy);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -146,8 +146,8 @@
 }
 
 .result-tag:hover {
-  background: #4CB963;
-  color: #173753;
+  background: var(--c-green);
+  color: var(--c-navy);
   transform: translateY(-2px);
   box-shadow: 0 0 10px rgba(75, 185, 99, 0.3);
 }

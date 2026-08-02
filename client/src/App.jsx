@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import { useEffect, useState } from 'react';
-import { Route, Routes, useNavigate } from 'react-router';
+import { Route, Routes } from 'react-router';
 
 import { HomePageCV } from './pages/Home.jsx';
 import { InteractiveSearchPage } from './pages/InteractiveSearch.jsx';
@@ -13,13 +13,7 @@ import { applyDocumentLanguage, getInitialLanguage, persistLanguage } from './ut
 
 
 function App() {
-
-  
-  const [loading, setLoading] = useState(false);
-  const [onError, setError] = useState(null);
   const [language, setLanguage] = useState(() => getInitialLanguage());
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     applyDocumentLanguage(language);

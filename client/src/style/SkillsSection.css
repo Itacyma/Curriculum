@@ -56,15 +56,15 @@
 }
 
 .skills-card {
-  background: #f7fafd;
+  background: var(--c-sky-pale);
   border: 1px solid rgba(180, 210, 231, 0.9);
   border-radius: 12px;
   overflow: hidden;
 }
 
 .skills-card-header {
-  background: #173753;
-  color: #ffffff;
+  background: var(--c-navy);
+  color: var(--c-white);
   padding: 0.9rem 1rem;
   display: flex;
   align-items: center;
@@ -96,7 +96,7 @@
 }
 
 .skills-info-btn:hover {
-  color: #B4D2E7;
+  color: var(--c-sky);
 }
 
 .skills-info-tooltip {
@@ -105,7 +105,7 @@
   right: 0;
   top: calc(100% + 8px);
   width: 280px;
-  background: #1e4a6e;
+  background: var(--c-navy-5);
   color: rgba(248, 248, 248, 0.9);
   font-family: 'Roboto Mono', monospace;
   font-size: 0.72rem;
@@ -154,7 +154,7 @@
 
 .skill-name {
   font-weight: 700;
-  color: #173753;
+  color: var(--c-navy);
   white-space: normal;
   overflow-wrap: anywhere;
 }
@@ -212,13 +212,13 @@
 
 .skill-meter-fill {
   height: 100%;
-  background: #4cb963;
+  background: var(--c-green);
   border-radius: 999px;
 }
 
 .skill-score {
   font-weight: 800;
-  color: #173753;
+  color: var(--c-navy);
   white-space: nowrap;
   text-align: right;
 }
