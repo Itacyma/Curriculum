@@ -13,16 +13,16 @@ function ProjectSection({ language }) {
   const showMoreButtonRef = useRef(null);
 
   const projects = [
-    { key: 'raspberry', element: <RaspberryPi language={language} /> },
+    { key: 'eurotransit', element: <EuroTransit language={language} /> },
+    { key: 'fridge', element: <Fridge language={language} /> },
+    { key: 'gioco-della-sfortuna', element: <GiocoDellaSfortuna language={language} /> },
     { key: 'appruggine', element: <AppRuggine language={language} /> },
-    { key: 'stuff-happens', element: <GiocoDellaSfortuna language={language} /> },
+    { key: 'raspberry', element: <RaspberryPi language={language} /> },
     { key: 'geocontrol', element: <GeoControl language={language} /> },
     { key: 'torent', element: <TORent language={language} /> },
-    { key: 'fridge', element: <Fridge language={language} /> },
-    { key: 'eurotransit', element: <EuroTransit language={language} /> },
   ];
 
-  const featuredProjectKeys = new Set(['eurotransit', 'raspberry', 'fridge']);
+  const featuredProjectKeys = new Set(['eurotransit', 'fridge', 'gioco-della-sfortuna']);
   const featuredProjects = projects.filter((p) => featuredProjectKeys.has(p.key));
   const displayedProjects = showAllProjects ? projects : featuredProjects;
   const otherProjectsCount = Math.max(0, projects.length - featuredProjects.length);

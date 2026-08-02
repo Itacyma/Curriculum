@@ -17,12 +17,12 @@ export const skillGroups = {
         },
         {
           name: "Observability & Monitoring",
-          score: 8.3,
+          score: 9.4,
           detail: "Metriche, log, tracce, autoscaling e ottimizzazione",
         },
         {
           name: "Resilience & Disaster Recovery",
-          score: 8.5,
+          score: 8.7,
           detail: "Circuit breaker, bulkhead, PDB, CAP/PACELC, RTO/RPO",
         },
         {
@@ -49,7 +49,7 @@ export const skillGroups = {
         },
         {
           name: "Mobile Architecture & DI",
-          score: 8.5,
+          score: 9.3,
           detail: "MVVM, data layer, Hilt/Dagger, Navigation, Firestore",
         },
         {
@@ -76,12 +76,12 @@ export const skillGroups = {
         },
         {
           name: "Rust Programming",
-          score: 8.4,
+          score: 7.8,
           detail: "Ownership, borrowing, tratti, lifetime, smart pointer",
         },
         {
           name: "Concorrenza & Multithreading",
-          score: 8.8,
+          score: 8.5,
           detail: "Mutex, RwLock, tipi atomici, channel, sincronizzazione",
         },
         {
@@ -91,7 +91,7 @@ export const skillGroups = {
         },
         {
           name: "Compilers & Formal Languages",
-          score: 8.1,
+          score: 8.5,
           detail: "Automi, parsing LR/LL, traduzione sintattica, type checking",
         },
       ],
@@ -145,17 +145,17 @@ export const skillGroups = {
         },
         {
           name: "Autenticazione & Identity Management",
-          score: 8.1,
+          score: 8.8,
           detail: "MFA, passwordless, challenge-response, SSO",
         },
         {
           name: "Threat Management & Difesa Perimetrale",
-          score: 8.3,
+          score: 8.5,
           detail: "Firewall, IDS/IPS, risk assessment, incident response, GDPR",
         },
         {
           name: "Application Security & DevSecOps",
-          score: 7.3,
+          score: 8.0,
           detail: "Zero-trust, supply chain, secrets, XSS, CSRF, CSP",
         },
       ],
@@ -182,7 +182,7 @@ export const skillGroups = {
         },
         {
           name: "Agile & Scrum",
-          score: 8.4,
+          score: 9.5,
           detail: "Scrum, Extreme Programming, modelli di processo iterativi",
         },
         {
@@ -265,12 +265,12 @@ export const skillGroups = {
         },
         {
           name: "Observability & Monitoring",
-          score: 8.3,
+          score: 9.4,
           detail: "Metrics, logs, traces, autoscaling and optimization",
         },
         {
           name: "Resilience & Disaster Recovery",
-          score: 8.5,
+          score: 8.7,
           detail: "Circuit breaker, bulkhead, PDB, CAP/PACELC, RTO/RPO",
         },
         {
@@ -297,7 +297,7 @@ export const skillGroups = {
         },
         {
           name: "Mobile Architecture & DI",
-          score: 8.5,
+          score: 9.3,
           detail: "MVVM, data layer, Hilt/Dagger, Navigation, Firestore",
         },
         {
@@ -324,12 +324,12 @@ export const skillGroups = {
         },
         {
           name: "Rust Programming",
-          score: 8.4,
+          score: 7.8,
           detail: "Ownership, borrowing, traits, lifetimes, smart pointers",
         },
         {
           name: "Concurrency & Multithreading",
-          score: 8.8,
+          score: 8.5,
           detail: "Mutex, RwLock, atomics, channels, synchronization",
         },
         {
@@ -339,7 +339,7 @@ export const skillGroups = {
         },
         {
           name: "Compilers & Formal Languages",
-          score: 8.1,
+          score: 8.5,
           detail: "Automata, LR/LL parsing, syntax-directed translation",
         },
       ],
@@ -393,17 +393,17 @@ export const skillGroups = {
         },
         {
           name: "Authentication & Identity Management",
-          score: 8.1,
+          score: 8.8,
           detail: "MFA, passwordless, challenge-response, SSO",
         },
         {
           name: "Threat Management & Perimeter Defense",
-          score: 8.3,
+          score: 8.5,
           detail: "Firewalls, IDS/IPS, risk assessment, incident response, GDPR",
         },
         {
           name: "Application Security & DevSecOps",
-          score: 7.3,
+          score: 8.0,
           detail: "Zero-trust, supply chain, secrets, XSS, CSRF, CSP",
         },
       ],
@@ -430,7 +430,7 @@ export const skillGroups = {
         },
         {
           name: "Agile & Scrum",
-          score: 8.4,
+          score: 9.5,
           detail: "Scrum, Extreme Programming, iterative process models",
         },
         {
