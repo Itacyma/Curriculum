@@ -196,15 +196,22 @@
 }
 
 /* Certifications Grid - Affiancate */
+/* Le card si affiancano e restano centrate qualunque sia il loro numero:
+   una sola sta al centro, due o più si dispongono in fila e vanno a capo
+   quando lo spazio finisce, sempre centrate. */
 .certifications-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
   gap: 3rem;
   padding: 0 clamp(1.5rem, 6vw, 3rem);
   margin: 0 auto;
-  max-width: 800px;
-  align-items: stretch;
-  justify-items: stretch;
+  max-width: 1200px;
+}
+
+.certifications-grid .cert-card-wrapper {
+  flex: 0 1 350px;
 }
 
 /* Responsive Design */

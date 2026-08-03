@@ -5,8 +5,7 @@ import { CircuitBackground } from "../components/CircuitBackground";
 import { Diploma } from "../components/Lauree/Diploma";
 import { Triennale } from "../components/Lauree/Triennale";
 import { Magistrale } from "../components/Lauree/Magistrale";
-import { CertificazioneInglese } from "../components/Certificati/CertificazioneInglese";
-import { CertificazioneTedesco } from "../components/Certificati/CertificazioneTedesco";
+import { Certificazioni } from "../components/Certificati/Certificazioni";
 import { Contatti } from "../components/Contatti";
 import { ExamSection } from "./ExamSection";
 import { SkillsSection } from "./SkillsSection";
@@ -119,10 +118,7 @@ function HomePageCV(props) {
           </span>
           {language === 'it' ? 'Certificazioni' : 'Certifications'}
         </h2>
-        <div className="certifications-grid">
-          <CertificazioneInglese language={language}/>
-          <CertificazioneTedesco language={language}/>
-        </div>
+        <Certificazioni language={language} />
 
         {/* Sezione Skills */}
         <h2 id="competenze-tecniche" className="section-main-title">

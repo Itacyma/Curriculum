@@ -1,2 +1,4 @@
 node_modules
 server/database.db
+*.sqlite
+*.sqlite-journal

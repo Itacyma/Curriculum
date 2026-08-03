@@ -50,7 +50,7 @@ export const skillGroups = {
         {
           name: "Mobile Architecture & DI",
           score: 9.3,
-          detail: "MVVM, data layer, Hilt/Dagger, Navigation, Firestore",
+          detail: "MVVM, data layer, Hilt, Navigation, Firestore",
         },
         {
           name: "Cross-platform & On-device AI",
@@ -59,8 +59,8 @@ export const skillGroups = {
         },
         {
           name: "Web Frontend (React, JavaScript)",
-          score: 7.1,
-          detail: "ES6, componenti, hooks, Context API, React Router",
+          score: 9.0,
+          detail: "Componenti, hooks, Context API, React Router",
         },
       ],
     },
@@ -298,7 +298,7 @@ export const skillGroups = {
         {
           name: "Mobile Architecture & DI",
           score: 9.3,
-          detail: "MVVM, data layer, Hilt/Dagger, Navigation, Firestore",
+          detail: "MVVM, data layer, Hilt, Navigation, Firestore",
         },
         {
           name: "Cross-platform & On-device AI",
@@ -307,8 +307,8 @@ export const skillGroups = {
         },
         {
           name: "Web Frontend (React, JavaScript)",
-          score: 7.1,
-          detail: "ES6, components, hooks, Context API, React Router",
+          score: 9.0,
+          detail: "Components, hooks, Context API, React Router",
         },
       ],
     },
